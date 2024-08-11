@@ -31,32 +31,6 @@ def read_img(img_path, img_label):
     return img, img_label.numpy()
 
 
-def read_img_dev(img_path, img_label):
-    """Develop features, embed data augmentation, based on the image path and label dataset,
-       do the augmentation for each batch during read image, and then return the augmented dataset"""
-    mcy_path = img_path.numpy().decode()
-    dic_path = mcy_path.replace('mcy', 'dic')
-    dic_img = skimage.io.imread(dic_path)
-    mcy_img = skimage.io.imread(mcy_path)
-    aug_dic = augment_in_train(dic_img, img_label.numpy())
-    aug_mcy = augment_in_train(mcy_img, img_label.numpy())
-    images = []
-    for i in range(len(aug_dic)):
-        img_stack = np.dstack([cv2.resize(aug_dic[i], (config.image_width, config.image_height)),
-                               cv2.resize(aug_mcy[i], (config.image_width, config.image_height))])
-        images.append(img_stack / 255)
-
-    images = np.array(images)
-    images = tf.convert_to_tensor(images, dtype=tf.float64)
-    labels = tf.repeat(img_label, images.shape[0]).numpy()
-
-    img = np.dstack([cv2.resize(dic_img, (config.image_width, config.image_height)),
-                     cv2.resize(mcy_img, (config.image_width, config.image_height))])
-    img = tf.convert_to_tensor(img / 255, dtype=tf.float64)
-    return img, img_label.numpy()
-    # return images, labels
-
-
 def wrap_function(mcy, y):
     """wrap function for tensor and numpy transform """
     x_img, y_label = tf.py_function(read_img, inp=[mcy, y], Tout=[tf.float64, tf.int32])

@@ -24,8 +24,8 @@ from tensorflow.python.framework.errors_impl import ResourceExhaustedError
 import numpy as np
 from csbdeep.utils import normalize
 from stardist.models import StarDist2D
-from CCDeep.train_classify import get_model
-from CCDeep import utils, config
+from train import  get_model
+import utils, config
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
@@ -46,19 +46,15 @@ class Predictor:
 
     def __init__(self, times=config.TIMES):
         self.model = get_model()
-        if times == 60:
-            self.model.load_weights(filepath=config.save_model_dir_60x)
-        elif times == 20:
-            self.model.load_weights(filepath=config.save_model_dir_20x_best)
-        else:
-            raise ValueError(f"Image magnification should be 20 or 60, got {config.TIMES} instead")
+        # self.model.load_weights(filepath=config.save_model_dir_20x_best)
+        self.model.load_weights(filepath=config.save_model_dir_20x)
 
     def predict(self, images):
         """
         :param images: 一个包含多张图片的数组或列表，其形状为[image_count, image_width, image_height, image_channels]
         :return: 每个细胞的预测周期组成的列表
         """
-        phaseMap = {0: 'G1/G2', 1: 'M', 2: 'S'}
+        phaseMap = {0: 'D', 1: 'N'}
         img = images
         # img = cv2.resize(img, (128, 128)) / 255.0
         tensor = tf.convert_to_tensor(img, dtype=tf.float64)
@@ -67,10 +63,10 @@ class Predictor:
         # print(prediction)
         phases = []
         for i in prediction:
-            # print(i)
+            logging.info(i)
             phase = np.argwhere(i == np.max(i))[0][0]
-            # print(phase)
-            # print(phaseMap[phase])
+            logging.info(phase)
+            logging.info(phaseMap[phase])
             phases.append(phaseMap.get(phase))
         return phases
 
@@ -409,8 +405,43 @@ def segment(pcna: os.PathLike | str, bf: os.PathLike | str, output: os.PathLike 
     return jsons
 
 
+def run(pcna, bf, output):
+    mcy_data = tifffile.imread(pcna)
+    dic_data = tifffile.imread(bf)
+    segmenter = Segmenter(segment_model=None)
+    predictor = Predictor()
+    mcy_img = mcy_data
+    dic_img = dic_data
+    imagename = 'mcy.tif'
+    # mcy_img = utils.divideImage(mcy_img, 4, 4)[0]
+    # dic_img = utils.divideImage(dic_img, 4, 4)[0]
+    start_time = time.time()
+    jsons = {}
+    seg = Segmentation(image_mcy=mcy_img,
+                       imagename=imagename,
+                       image_dic=dic_img,
+                       segmenter=segmenter,
+                       predictor=predictor)
+    value, predict_phase_info = seg.predict_result
+    jsons.update(value)
+    end_time = time.time()
+    logging.info(f'segment {os.path.basename(imagename)}; cost time: {end_time - start_time:.2f}s')
+    logging.info(predict_phase_info)
+    del seg
+    json_filename = os.path.basename(pcna).replace('.tif', '.json')
+    if output:
+        out = output
+    else:
+        out = json_filename
+    with open(out, 'w') as f:
+        json.dump(jsons, f)
+    return jsons
+
+
 if __name__ == '__main__':
-    pass
+    run(pcna=r'G:\硕士毕业论文\CellDeathClassify\DeathClassify\examples\mcy.tif',
+         bf=r'G:\硕士毕业论文\CellDeathClassify\DeathClassify\examples\dic.tif',
+         output=r'G:\硕士毕业论文\CellDeathClassify\DeathClassify\examples\demo.json')
     # utils.tif2png(r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\mcy\copy_of_01.tif',
     #               r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\png')
 

@@ -9,6 +9,8 @@ channels        = 2
 EPOCHS          = 1
 BATCH_SIZE      = 32
 LEARNING_RATE   = 1e-6
+TIMES           = 20  # Image magnification
+
 
 SEG_DEV = True  # 是否启用开发版本的segment model
 
