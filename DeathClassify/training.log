@@ -1,0 +1,1444 @@
+2024-08-09 20:14:48,836 - ERROR - test.py[:22] - error message
+2024-08-09 20:14:48,836 - CRITICAL - test.py[:23] - critical message
+2024-08-09 20:17:10,854 - INFO - test.py[:20] - info message
+2024-08-09 20:17:10,854 - WARNING - test.py[:21] - warning message
+2024-08-09 20:17:10,854 - ERROR - test.py[:22] - error message
+2024-08-09 20:17:10,855 - CRITICAL - test.py[:23] - critical message
+2024-08-10 11:02:47,645 - INFO - train.py[:124] - epoch: 1/100, step: 1/143, loss: 0.87415, accuracy: 0.46094
+2024-08-10 11:03:19,236 - INFO - train.py[:124] - epoch: 1/100, step: 2/143, loss: 0.89779, accuracy: 0.44531
+2024-08-10 11:03:51,389 - INFO - train.py[:124] - epoch: 1/100, step: 3/143, loss: 0.89190, accuracy: 0.46354
+2024-08-10 11:04:20,999 - INFO - train.py[:124] - epoch: 1/100, step: 4/143, loss: 0.90043, accuracy: 0.45508
+2024-08-10 11:04:54,119 - INFO - train.py[:124] - epoch: 1/100, step: 5/143, loss: 0.90260, accuracy: 0.45000
+2024-08-10 11:05:24,127 - INFO - train.py[:124] - epoch: 1/100, step: 6/143, loss: 0.90015, accuracy: 0.44010
+2024-08-10 11:05:53,541 - INFO - train.py[:124] - epoch: 1/100, step: 7/143, loss: 0.89335, accuracy: 0.43638
+2024-08-10 11:06:23,456 - INFO - train.py[:124] - epoch: 1/100, step: 8/143, loss: 0.88426, accuracy: 0.43359
+2024-08-10 11:06:52,719 - INFO - train.py[:124] - epoch: 1/100, step: 9/143, loss: 0.87616, accuracy: 0.43750
+2024-08-10 11:07:22,088 - INFO - train.py[:124] - epoch: 1/100, step: 10/143, loss: 0.87048, accuracy: 0.43906
+2024-08-10 11:07:51,661 - INFO - train.py[:124] - epoch: 1/100, step: 11/143, loss: 0.87193, accuracy: 0.42898
+2024-08-10 11:08:20,834 - INFO - train.py[:124] - epoch: 1/100, step: 12/143, loss: 0.87190, accuracy: 0.42448
+2024-08-10 11:08:50,323 - INFO - train.py[:124] - epoch: 1/100, step: 13/143, loss: 0.86853, accuracy: 0.42308
+2024-08-10 11:09:19,683 - INFO - train.py[:124] - epoch: 1/100, step: 14/143, loss: 0.86272, accuracy: 0.42801
+2024-08-10 11:09:49,054 - INFO - train.py[:124] - epoch: 1/100, step: 15/143, loss: 0.86114, accuracy: 0.42708
+2024-08-10 11:10:18,506 - INFO - train.py[:124] - epoch: 1/100, step: 16/143, loss: 0.85728, accuracy: 0.42676
+2024-08-10 11:10:49,193 - INFO - train.py[:124] - epoch: 1/100, step: 17/143, loss: 0.85327, accuracy: 0.42831
+2024-08-10 11:11:22,498 - INFO - train.py[:124] - epoch: 1/100, step: 18/143, loss: 0.85165, accuracy: 0.42708
+2024-08-10 11:11:56,291 - INFO - train.py[:124] - epoch: 1/100, step: 19/143, loss: 0.84885, accuracy: 0.42681
+2024-08-10 11:12:30,571 - INFO - train.py[:124] - epoch: 1/100, step: 20/143, loss: 0.84663, accuracy: 0.42461
+2024-08-10 11:13:03,671 - INFO - train.py[:124] - epoch: 1/100, step: 21/143, loss: 0.84347, accuracy: 0.42597
+2024-08-10 11:13:36,240 - INFO - train.py[:124] - epoch: 1/100, step: 22/143, loss: 0.83946, accuracy: 0.42791
+2024-08-10 11:14:08,384 - INFO - train.py[:124] - epoch: 1/100, step: 23/143, loss: 0.83830, accuracy: 0.42663
+2024-08-10 11:14:39,721 - INFO - train.py[:124] - epoch: 1/100, step: 24/143, loss: 0.83191, accuracy: 0.43197
+2024-08-10 11:15:10,446 - INFO - train.py[:124] - epoch: 1/100, step: 25/143, loss: 0.82735, accuracy: 0.43531
+2024-08-10 11:15:41,021 - INFO - train.py[:124] - epoch: 1/100, step: 26/143, loss: 0.82540, accuracy: 0.43510
+2024-08-10 11:16:15,276 - INFO - train.py[:124] - epoch: 1/100, step: 27/143, loss: 0.82304, accuracy: 0.43634
+2024-08-10 11:16:45,310 - INFO - train.py[:124] - epoch: 1/100, step: 28/143, loss: 0.82230, accuracy: 0.43583
+2024-08-10 11:17:15,752 - INFO - train.py[:124] - epoch: 1/100, step: 29/143, loss: 0.81976, accuracy: 0.43858
+2024-08-10 11:17:46,170 - INFO - train.py[:124] - epoch: 1/100, step: 30/143, loss: 0.81704, accuracy: 0.43984
+2024-08-10 11:18:16,783 - INFO - train.py[:124] - epoch: 1/100, step: 31/143, loss: 0.81531, accuracy: 0.44103
+2024-08-10 11:18:49,807 - INFO - train.py[:124] - epoch: 1/100, step: 32/143, loss: 0.81378, accuracy: 0.44067
+2024-08-10 11:19:20,932 - INFO - train.py[:124] - epoch: 1/100, step: 33/143, loss: 0.81265, accuracy: 0.44010
+2024-08-10 11:19:49,460 - INFO - train.py[:124] - epoch: 1/100, step: 34/143, loss: 0.81212, accuracy: 0.43911
+2024-08-10 11:20:19,482 - INFO - train.py[:124] - epoch: 1/100, step: 35/143, loss: 0.81043, accuracy: 0.43951
+2024-08-10 11:20:49,182 - INFO - train.py[:124] - epoch: 1/100, step: 36/143, loss: 0.80938, accuracy: 0.43945
+2024-08-10 11:21:18,130 - INFO - train.py[:124] - epoch: 1/100, step: 37/143, loss: 0.80853, accuracy: 0.43898
+2024-08-10 11:21:48,925 - INFO - train.py[:124] - epoch: 1/100, step: 38/143, loss: 0.80745, accuracy: 0.43997
+2024-08-10 11:22:19,473 - INFO - train.py[:124] - epoch: 1/100, step: 39/143, loss: 0.80532, accuracy: 0.44111
+2024-08-10 11:22:50,067 - INFO - train.py[:124] - epoch: 1/100, step: 40/143, loss: 0.80275, accuracy: 0.44277
+2024-08-10 11:23:22,458 - INFO - train.py[:124] - epoch: 1/100, step: 41/143, loss: 0.80094, accuracy: 0.44360
+2024-08-10 11:23:53,730 - INFO - train.py[:124] - epoch: 1/100, step: 42/143, loss: 0.79976, accuracy: 0.44401
+2024-08-10 11:24:26,088 - INFO - train.py[:124] - epoch: 1/100, step: 43/143, loss: 0.79764, accuracy: 0.44622
+2024-08-10 11:24:57,400 - INFO - train.py[:124] - epoch: 1/100, step: 44/143, loss: 0.79580, accuracy: 0.44709
+2024-08-10 11:25:27,723 - INFO - train.py[:124] - epoch: 1/100, step: 45/143, loss: 0.79382, accuracy: 0.44844
+2024-08-10 11:25:57,966 - INFO - train.py[:124] - epoch: 1/100, step: 46/143, loss: 0.79121, accuracy: 0.45092
+2024-08-10 11:26:27,402 - INFO - train.py[:124] - epoch: 1/100, step: 47/143, loss: 0.78992, accuracy: 0.45080
+2024-08-10 11:26:55,906 - INFO - train.py[:124] - epoch: 1/100, step: 48/143, loss: 0.78893, accuracy: 0.45133
+2024-08-10 11:32:34,627 - INFO - train.py[:124] - epoch: 1/1, step: 1/571, loss: 0.97434, accuracy: 0.43750
+2024-08-10 11:32:41,747 - INFO - train.py[:124] - epoch: 1/1, step: 2/571, loss: 0.97123, accuracy: 0.37500
+2024-08-10 11:32:49,214 - INFO - train.py[:124] - epoch: 1/1, step: 3/571, loss: 0.97411, accuracy: 0.34375
+2024-08-10 11:32:56,604 - INFO - train.py[:124] - epoch: 1/1, step: 4/571, loss: 0.98595, accuracy: 0.32812
+2024-08-10 11:33:04,001 - INFO - train.py[:124] - epoch: 1/1, step: 5/571, loss: 0.98117, accuracy: 0.33125
+2024-08-10 11:33:11,642 - INFO - train.py[:124] - epoch: 1/1, step: 6/571, loss: 0.96769, accuracy: 0.32812
+2024-08-10 11:33:18,980 - INFO - train.py[:124] - epoch: 1/1, step: 7/571, loss: 0.96326, accuracy: 0.33929
+2024-08-10 11:33:26,082 - INFO - train.py[:124] - epoch: 1/1, step: 8/571, loss: 0.95711, accuracy: 0.33203
+2024-08-10 11:33:33,074 - INFO - train.py[:124] - epoch: 1/1, step: 9/571, loss: 0.95793, accuracy: 0.32986
+2024-08-10 11:33:40,089 - INFO - train.py[:124] - epoch: 1/1, step: 10/571, loss: 0.96100, accuracy: 0.33125
+2024-08-10 11:33:47,110 - INFO - train.py[:124] - epoch: 1/1, step: 11/571, loss: 0.96935, accuracy: 0.32102
+2024-08-10 11:33:54,188 - INFO - train.py[:124] - epoch: 1/1, step: 12/571, loss: 0.97085, accuracy: 0.31510
+2024-08-10 11:34:01,214 - INFO - train.py[:124] - epoch: 1/1, step: 13/571, loss: 0.96111, accuracy: 0.31971
+2024-08-10 11:34:08,208 - INFO - train.py[:124] - epoch: 1/1, step: 14/571, loss: 0.95474, accuracy: 0.32589
+2024-08-10 11:34:15,324 - INFO - train.py[:124] - epoch: 1/1, step: 15/571, loss: 0.94435, accuracy: 0.33958
+2024-08-10 11:34:22,457 - INFO - train.py[:124] - epoch: 1/1, step: 16/571, loss: 0.93798, accuracy: 0.34570
+2024-08-10 11:34:29,572 - INFO - train.py[:124] - epoch: 1/1, step: 17/571, loss: 0.93485, accuracy: 0.34559
+2024-08-10 11:34:36,691 - INFO - train.py[:124] - epoch: 1/1, step: 18/571, loss: 0.93027, accuracy: 0.34896
+2024-08-10 11:34:43,903 - INFO - train.py[:124] - epoch: 1/1, step: 19/571, loss: 0.92460, accuracy: 0.35033
+2024-08-10 11:34:51,082 - INFO - train.py[:124] - epoch: 1/1, step: 20/571, loss: 0.92204, accuracy: 0.35313
+2024-08-10 11:34:58,310 - INFO - train.py[:124] - epoch: 1/1, step: 21/571, loss: 0.92214, accuracy: 0.35119
+2024-08-10 11:35:05,284 - INFO - train.py[:124] - epoch: 1/1, step: 22/571, loss: 0.91648, accuracy: 0.35653
+2024-08-10 11:35:11,983 - INFO - train.py[:124] - epoch: 1/1, step: 23/571, loss: 0.91191, accuracy: 0.36141
+2024-08-10 11:35:18,680 - INFO - train.py[:124] - epoch: 1/1, step: 24/571, loss: 0.90933, accuracy: 0.36328
+2024-08-10 11:35:25,856 - INFO - train.py[:124] - epoch: 1/1, step: 25/571, loss: 0.90723, accuracy: 0.36375
+2024-08-10 11:35:32,893 - INFO - train.py[:124] - epoch: 1/1, step: 26/571, loss: 0.90050, accuracy: 0.37019
+2024-08-10 11:35:39,584 - INFO - train.py[:124] - epoch: 1/1, step: 27/571, loss: 0.89229, accuracy: 0.37847
+2024-08-10 11:35:46,362 - INFO - train.py[:124] - epoch: 1/1, step: 28/571, loss: 0.88688, accuracy: 0.38281
+2024-08-10 11:35:53,264 - INFO - train.py[:124] - epoch: 1/1, step: 29/571, loss: 0.87868, accuracy: 0.39009
+2024-08-10 11:36:00,162 - INFO - train.py[:124] - epoch: 1/1, step: 30/571, loss: 0.87603, accuracy: 0.38958
+2024-08-10 11:36:07,112 - INFO - train.py[:124] - epoch: 1/1, step: 31/571, loss: 0.87564, accuracy: 0.38710
+2024-08-10 11:36:14,023 - INFO - train.py[:124] - epoch: 1/1, step: 32/571, loss: 0.87388, accuracy: 0.38867
+2024-08-10 11:36:20,977 - INFO - train.py[:124] - epoch: 1/1, step: 33/571, loss: 0.86881, accuracy: 0.39394
+2024-08-10 11:36:28,013 - INFO - train.py[:124] - epoch: 1/1, step: 34/571, loss: 0.86391, accuracy: 0.39890
+2024-08-10 11:36:34,917 - INFO - train.py[:124] - epoch: 1/1, step: 35/571, loss: 0.85937, accuracy: 0.40446
+2024-08-10 11:36:41,784 - INFO - train.py[:124] - epoch: 1/1, step: 36/571, loss: 0.85795, accuracy: 0.40625
+2024-08-10 11:36:48,786 - INFO - train.py[:124] - epoch: 1/1, step: 37/571, loss: 0.85488, accuracy: 0.41047
+2024-08-10 11:36:55,769 - INFO - train.py[:124] - epoch: 1/1, step: 38/571, loss: 0.85069, accuracy: 0.41365
+2024-08-10 11:37:02,683 - INFO - train.py[:124] - epoch: 1/1, step: 39/571, loss: 0.84734, accuracy: 0.41667
+2024-08-10 11:37:09,562 - INFO - train.py[:124] - epoch: 1/1, step: 40/571, loss: 0.84719, accuracy: 0.41797
+2024-08-10 11:37:16,492 - INFO - train.py[:124] - epoch: 1/1, step: 41/571, loss: 0.84457, accuracy: 0.41997
+2024-08-10 11:37:23,386 - INFO - train.py[:124] - epoch: 1/1, step: 42/571, loss: 0.84074, accuracy: 0.42336
+2024-08-10 11:37:30,227 - INFO - train.py[:124] - epoch: 1/1, step: 43/571, loss: 0.83767, accuracy: 0.42515
+2024-08-10 11:37:37,055 - INFO - train.py[:124] - epoch: 1/1, step: 44/571, loss: 0.83805, accuracy: 0.42259
+2024-08-10 11:37:44,568 - INFO - train.py[:124] - epoch: 1/1, step: 45/571, loss: 0.83505, accuracy: 0.42500
+2024-08-10 11:37:51,621 - INFO - train.py[:124] - epoch: 1/1, step: 46/571, loss: 0.83388, accuracy: 0.42459
+2024-08-10 11:37:58,503 - INFO - train.py[:124] - epoch: 1/1, step: 47/571, loss: 0.83353, accuracy: 0.42553
+2024-08-10 11:38:05,396 - INFO - train.py[:124] - epoch: 1/1, step: 48/571, loss: 0.83089, accuracy: 0.42773
+2024-08-10 11:38:12,371 - INFO - train.py[:124] - epoch: 1/1, step: 49/571, loss: 0.82928, accuracy: 0.42921
+2024-08-10 11:38:19,417 - INFO - train.py[:124] - epoch: 1/1, step: 50/571, loss: 0.82834, accuracy: 0.42937
+2024-08-10 11:38:26,362 - INFO - train.py[:124] - epoch: 1/1, step: 51/571, loss: 0.82583, accuracy: 0.43199
+2024-08-10 11:38:33,288 - INFO - train.py[:124] - epoch: 1/1, step: 52/571, loss: 0.82536, accuracy: 0.43149
+2024-08-10 11:38:40,272 - INFO - train.py[:124] - epoch: 1/1, step: 53/571, loss: 0.82515, accuracy: 0.43101
+2024-08-10 11:38:47,193 - INFO - train.py[:124] - epoch: 1/1, step: 54/571, loss: 0.82270, accuracy: 0.43287
+2024-08-10 11:38:54,105 - INFO - train.py[:124] - epoch: 1/1, step: 55/571, loss: 0.81926, accuracy: 0.43466
+2024-08-10 11:39:01,135 - INFO - train.py[:124] - epoch: 1/1, step: 56/571, loss: 0.81768, accuracy: 0.43583
+2024-08-10 11:39:08,087 - INFO - train.py[:124] - epoch: 1/1, step: 57/571, loss: 0.81772, accuracy: 0.43476
+2024-08-10 11:39:15,206 - INFO - train.py[:124] - epoch: 1/1, step: 58/571, loss: 0.81554, accuracy: 0.43588
+2024-08-10 11:39:22,266 - INFO - train.py[:124] - epoch: 1/1, step: 59/571, loss: 0.81270, accuracy: 0.43909
+2024-08-10 11:39:29,336 - INFO - train.py[:124] - epoch: 1/1, step: 60/571, loss: 0.81167, accuracy: 0.44010
+2024-08-10 11:39:36,464 - INFO - train.py[:124] - epoch: 1/1, step: 61/571, loss: 0.81007, accuracy: 0.44211
+2024-08-10 11:39:43,658 - INFO - train.py[:124] - epoch: 1/1, step: 62/571, loss: 0.80856, accuracy: 0.44355
+2024-08-10 11:39:50,946 - INFO - train.py[:124] - epoch: 1/1, step: 63/571, loss: 0.81007, accuracy: 0.44097
+2024-08-10 11:39:58,028 - INFO - train.py[:124] - epoch: 1/1, step: 64/571, loss: 0.80813, accuracy: 0.44238
+2024-08-10 11:40:04,921 - INFO - train.py[:124] - epoch: 1/1, step: 65/571, loss: 0.80693, accuracy: 0.44327
+2024-08-10 11:40:11,765 - INFO - train.py[:124] - epoch: 1/1, step: 66/571, loss: 0.80440, accuracy: 0.44508
+2024-08-10 11:40:18,662 - INFO - train.py[:124] - epoch: 1/1, step: 67/571, loss: 0.80467, accuracy: 0.44543
+2024-08-10 11:40:26,246 - INFO - train.py[:124] - epoch: 1/1, step: 68/571, loss: 0.80307, accuracy: 0.44853
+2024-08-10 11:40:33,482 - INFO - train.py[:124] - epoch: 1/1, step: 69/571, loss: 0.80141, accuracy: 0.44973
+2024-08-10 11:40:41,196 - INFO - train.py[:124] - epoch: 1/1, step: 70/571, loss: 0.80074, accuracy: 0.45000
+2024-08-10 11:40:48,233 - INFO - train.py[:124] - epoch: 1/1, step: 71/571, loss: 0.79893, accuracy: 0.45158
+2024-08-10 11:40:55,295 - INFO - train.py[:124] - epoch: 1/1, step: 72/571, loss: 0.79912, accuracy: 0.45095
+2024-08-10 11:41:02,266 - INFO - train.py[:124] - epoch: 1/1, step: 73/571, loss: 0.79740, accuracy: 0.45163
+2024-08-10 11:41:09,188 - INFO - train.py[:124] - epoch: 1/1, step: 74/571, loss: 0.79740, accuracy: 0.45059
+2024-08-10 11:41:16,592 - INFO - train.py[:124] - epoch: 1/1, step: 75/571, loss: 0.79822, accuracy: 0.44875
+2024-08-10 11:41:24,595 - INFO - train.py[:124] - epoch: 1/1, step: 76/571, loss: 0.79471, accuracy: 0.45271
+2024-08-10 11:41:32,431 - INFO - train.py[:124] - epoch: 1/1, step: 77/571, loss: 0.79352, accuracy: 0.45373
+2024-08-10 11:41:39,941 - INFO - train.py[:124] - epoch: 1/1, step: 78/571, loss: 0.79167, accuracy: 0.45673
+2024-08-10 11:41:47,323 - INFO - train.py[:124] - epoch: 1/1, step: 79/571, loss: 0.79119, accuracy: 0.45728
+2024-08-10 11:41:54,475 - INFO - train.py[:124] - epoch: 1/1, step: 80/571, loss: 0.78990, accuracy: 0.45898
+2024-08-10 11:42:01,673 - INFO - train.py[:124] - epoch: 1/1, step: 81/571, loss: 0.78800, accuracy: 0.46065
+2024-08-10 11:42:09,277 - INFO - train.py[:124] - epoch: 1/1, step: 82/571, loss: 0.78768, accuracy: 0.46113
+2024-08-10 11:42:16,627 - INFO - train.py[:124] - epoch: 1/1, step: 83/571, loss: 0.78648, accuracy: 0.46197
+2024-08-10 11:42:23,969 - INFO - train.py[:124] - epoch: 1/1, step: 84/571, loss: 0.78545, accuracy: 0.46205
+2024-08-10 11:42:31,257 - INFO - train.py[:124] - epoch: 1/1, step: 85/571, loss: 0.78443, accuracy: 0.46324
+2024-08-10 11:42:38,758 - INFO - train.py[:124] - epoch: 1/1, step: 86/571, loss: 0.78402, accuracy: 0.46294
+2024-08-10 11:42:46,033 - INFO - train.py[:124] - epoch: 1/1, step: 87/571, loss: 0.78313, accuracy: 0.46336
+2024-08-10 11:42:53,480 - INFO - train.py[:124] - epoch: 1/1, step: 88/571, loss: 0.78142, accuracy: 0.46484
+2024-08-10 11:43:00,803 - INFO - train.py[:124] - epoch: 1/1, step: 89/571, loss: 0.78078, accuracy: 0.46454
+2024-08-10 11:43:08,110 - INFO - train.py[:124] - epoch: 1/1, step: 90/571, loss: 0.77983, accuracy: 0.46528
+2024-08-10 11:43:15,505 - INFO - train.py[:124] - epoch: 1/1, step: 91/571, loss: 0.77939, accuracy: 0.46429
+2024-08-10 11:43:22,927 - INFO - train.py[:124] - epoch: 1/1, step: 92/571, loss: 0.77810, accuracy: 0.46603
+2024-08-10 11:43:30,262 - INFO - train.py[:124] - epoch: 1/1, step: 93/571, loss: 0.77630, accuracy: 0.46808
+2024-08-10 11:43:37,554 - INFO - train.py[:124] - epoch: 1/1, step: 94/571, loss: 0.77510, accuracy: 0.46941
+2024-08-10 11:43:44,921 - INFO - train.py[:124] - epoch: 1/1, step: 95/571, loss: 0.77383, accuracy: 0.47039
+2024-08-10 11:43:52,120 - INFO - train.py[:124] - epoch: 1/1, step: 96/571, loss: 0.77370, accuracy: 0.46973
+2024-08-10 11:43:59,410 - INFO - train.py[:124] - epoch: 1/1, step: 97/571, loss: 0.77354, accuracy: 0.47004
+2024-08-10 11:44:06,793 - INFO - train.py[:124] - epoch: 1/1, step: 98/571, loss: 0.77229, accuracy: 0.47130
+2024-08-10 11:44:14,163 - INFO - train.py[:124] - epoch: 1/1, step: 99/571, loss: 0.77236, accuracy: 0.47064
+2024-08-10 11:44:21,381 - INFO - train.py[:124] - epoch: 1/1, step: 100/571, loss: 0.77179, accuracy: 0.47031
+2024-08-10 11:44:28,664 - INFO - train.py[:124] - epoch: 1/1, step: 101/571, loss: 0.77075, accuracy: 0.47092
+2024-08-10 11:44:35,921 - INFO - train.py[:124] - epoch: 1/1, step: 102/571, loss: 0.76981, accuracy: 0.47059
+2024-08-10 11:44:43,081 - INFO - train.py[:124] - epoch: 1/1, step: 103/571, loss: 0.76840, accuracy: 0.47209
+2024-08-10 11:44:50,363 - INFO - train.py[:124] - epoch: 1/1, step: 104/571, loss: 0.76779, accuracy: 0.47236
+2024-08-10 11:44:57,483 - INFO - train.py[:124] - epoch: 1/1, step: 105/571, loss: 0.76675, accuracy: 0.47351
+2024-08-10 11:45:04,562 - INFO - train.py[:124] - epoch: 1/1, step: 106/571, loss: 0.76583, accuracy: 0.47406
+2024-08-10 11:45:11,625 - INFO - train.py[:124] - epoch: 1/1, step: 107/571, loss: 0.76558, accuracy: 0.47430
+2024-08-10 11:45:18,703 - INFO - train.py[:124] - epoch: 1/1, step: 108/571, loss: 0.76527, accuracy: 0.47396
+2024-08-10 11:45:25,768 - INFO - train.py[:124] - epoch: 1/1, step: 109/571, loss: 0.76372, accuracy: 0.47563
+2024-08-10 11:45:32,990 - INFO - train.py[:124] - epoch: 1/1, step: 110/571, loss: 0.76293, accuracy: 0.47528
+2024-08-10 11:45:40,584 - INFO - train.py[:124] - epoch: 1/1, step: 111/571, loss: 0.76212, accuracy: 0.47551
+2024-08-10 11:45:47,954 - INFO - train.py[:124] - epoch: 1/1, step: 112/571, loss: 0.76181, accuracy: 0.47545
+2024-08-10 11:45:55,272 - INFO - train.py[:124] - epoch: 1/1, step: 113/571, loss: 0.76068, accuracy: 0.47677
+2024-08-10 11:46:02,551 - INFO - train.py[:124] - epoch: 1/1, step: 114/571, loss: 0.76011, accuracy: 0.47670
+2024-08-10 11:46:10,107 - INFO - train.py[:124] - epoch: 1/1, step: 115/571, loss: 0.75922, accuracy: 0.47799
+2024-08-10 11:46:17,800 - INFO - train.py[:124] - epoch: 1/1, step: 116/571, loss: 0.75831, accuracy: 0.47872
+2024-08-10 11:46:24,950 - INFO - train.py[:124] - epoch: 1/1, step: 117/571, loss: 0.75772, accuracy: 0.47890
+2024-08-10 11:46:32,140 - INFO - train.py[:124] - epoch: 1/1, step: 118/571, loss: 0.75649, accuracy: 0.48120
+2024-08-10 11:46:39,399 - INFO - train.py[:124] - epoch: 1/1, step: 119/571, loss: 0.75652, accuracy: 0.48057
+2024-08-10 11:46:46,547 - INFO - train.py[:124] - epoch: 1/1, step: 120/571, loss: 0.75589, accuracy: 0.48073
+2024-08-10 11:46:53,811 - INFO - train.py[:124] - epoch: 1/1, step: 121/571, loss: 0.75480, accuracy: 0.48140
+2024-08-10 11:47:01,059 - INFO - train.py[:124] - epoch: 1/1, step: 122/571, loss: 0.75480, accuracy: 0.48156
+2024-08-10 11:47:08,311 - INFO - train.py[:124] - epoch: 1/1, step: 123/571, loss: 0.75366, accuracy: 0.48272
+2024-08-10 11:47:15,529 - INFO - train.py[:124] - epoch: 1/1, step: 124/571, loss: 0.75338, accuracy: 0.48337
+2024-08-10 11:47:22,703 - INFO - train.py[:124] - epoch: 1/1, step: 125/571, loss: 0.75240, accuracy: 0.48500
+2024-08-10 11:47:29,982 - INFO - train.py[:124] - epoch: 1/1, step: 126/571, loss: 0.75190, accuracy: 0.48537
+2024-08-10 11:47:37,499 - INFO - train.py[:124] - epoch: 1/1, step: 127/571, loss: 0.75068, accuracy: 0.48647
+2024-08-10 11:47:44,889 - INFO - train.py[:124] - epoch: 1/1, step: 128/571, loss: 0.75009, accuracy: 0.48682
+2024-08-10 11:47:52,315 - INFO - train.py[:124] - epoch: 1/1, step: 129/571, loss: 0.74881, accuracy: 0.48861
+2024-08-10 11:47:59,667 - INFO - train.py[:124] - epoch: 1/1, step: 130/571, loss: 0.74940, accuracy: 0.48798
+2024-08-10 11:48:07,375 - INFO - train.py[:124] - epoch: 1/1, step: 131/571, loss: 0.74815, accuracy: 0.48950
+2024-08-10 11:48:14,968 - INFO - train.py[:124] - epoch: 1/1, step: 132/571, loss: 0.74798, accuracy: 0.48935
+2024-08-10 11:48:22,832 - INFO - train.py[:124] - epoch: 1/1, step: 133/571, loss: 0.74745, accuracy: 0.48990
+2024-08-10 11:48:30,727 - INFO - train.py[:124] - epoch: 1/1, step: 134/571, loss: 0.74691, accuracy: 0.49044
+2024-08-10 11:48:38,349 - INFO - train.py[:124] - epoch: 1/1, step: 135/571, loss: 0.74694, accuracy: 0.48981
+2024-08-10 11:48:45,909 - INFO - train.py[:124] - epoch: 1/1, step: 136/571, loss: 0.74707, accuracy: 0.48874
+2024-08-10 11:48:53,665 - INFO - train.py[:124] - epoch: 1/1, step: 137/571, loss: 0.74644, accuracy: 0.48951
+2024-08-10 11:49:01,142 - INFO - train.py[:124] - epoch: 1/1, step: 138/571, loss: 0.74566, accuracy: 0.49026
+2024-08-10 11:49:08,738 - INFO - train.py[:124] - epoch: 1/1, step: 139/571, loss: 0.74481, accuracy: 0.49101
+2024-08-10 11:49:16,411 - INFO - train.py[:124] - epoch: 1/1, step: 140/571, loss: 0.74404, accuracy: 0.49196
+2024-08-10 11:49:24,387 - INFO - train.py[:124] - epoch: 1/1, step: 141/571, loss: 0.74457, accuracy: 0.49224
+2024-08-10 11:49:31,773 - INFO - train.py[:124] - epoch: 1/1, step: 142/571, loss: 0.74438, accuracy: 0.49208
+2024-08-10 11:49:38,716 - INFO - train.py[:124] - epoch: 1/1, step: 143/571, loss: 0.74406, accuracy: 0.49257
+2024-08-10 11:49:46,919 - INFO - train.py[:124] - epoch: 1/1, step: 144/571, loss: 0.74423, accuracy: 0.49240
+2024-08-10 11:49:54,176 - INFO - train.py[:124] - epoch: 1/1, step: 145/571, loss: 0.74348, accuracy: 0.49332
+2024-08-10 11:50:02,059 - INFO - train.py[:124] - epoch: 1/1, step: 146/571, loss: 0.74291, accuracy: 0.49422
+2024-08-10 11:50:09,201 - INFO - train.py[:124] - epoch: 1/1, step: 147/571, loss: 0.74222, accuracy: 0.49469
+2024-08-10 11:50:16,298 - INFO - train.py[:124] - epoch: 1/1, step: 148/571, loss: 0.74163, accuracy: 0.49557
+2024-08-10 11:50:23,645 - INFO - train.py[:124] - epoch: 1/1, step: 149/571, loss: 0.74114, accuracy: 0.49581
+2024-08-10 11:50:31,129 - INFO - train.py[:124] - epoch: 1/1, step: 150/571, loss: 0.74099, accuracy: 0.49604
+2024-08-10 11:50:38,162 - INFO - train.py[:124] - epoch: 1/1, step: 151/571, loss: 0.74076, accuracy: 0.49545
+2024-08-10 11:50:45,206 - INFO - train.py[:124] - epoch: 1/1, step: 152/571, loss: 0.74062, accuracy: 0.49527
+2024-08-10 11:50:52,210 - INFO - train.py[:124] - epoch: 1/1, step: 153/571, loss: 0.73991, accuracy: 0.49551
+2024-08-10 11:50:59,791 - INFO - train.py[:124] - epoch: 1/1, step: 154/571, loss: 0.73914, accuracy: 0.49614
+2024-08-10 11:51:07,184 - INFO - train.py[:124] - epoch: 1/1, step: 155/571, loss: 0.73856, accuracy: 0.49657
+2024-08-10 11:51:14,433 - INFO - train.py[:124] - epoch: 1/1, step: 156/571, loss: 0.73813, accuracy: 0.49700
+2024-08-10 11:51:23,476 - INFO - train.py[:124] - epoch: 1/1, step: 157/571, loss: 0.73749, accuracy: 0.49741
+2024-08-10 11:51:31,920 - INFO - train.py[:124] - epoch: 1/1, step: 158/571, loss: 0.73712, accuracy: 0.49763
+2024-08-10 11:51:39,964 - INFO - train.py[:124] - epoch: 1/1, step: 159/571, loss: 0.73646, accuracy: 0.49803
+2024-08-10 11:51:48,118 - INFO - train.py[:124] - epoch: 1/1, step: 160/571, loss: 0.73587, accuracy: 0.49844
+2024-08-10 11:51:55,997 - INFO - train.py[:124] - epoch: 1/1, step: 161/571, loss: 0.73549, accuracy: 0.49884
+2024-08-10 11:52:03,268 - INFO - train.py[:124] - epoch: 1/1, step: 162/571, loss: 0.73539, accuracy: 0.49788
+2024-08-10 11:52:10,311 - INFO - train.py[:124] - epoch: 1/1, step: 163/571, loss: 0.73478, accuracy: 0.49808
+2024-08-10 11:52:17,386 - INFO - train.py[:124] - epoch: 1/1, step: 164/571, loss: 0.73469, accuracy: 0.49771
+2024-08-10 11:52:24,434 - INFO - train.py[:124] - epoch: 1/1, step: 165/571, loss: 0.73357, accuracy: 0.49943
+2024-08-10 11:52:31,568 - INFO - train.py[:124] - epoch: 1/1, step: 166/571, loss: 0.73318, accuracy: 0.49981
+2024-08-10 11:52:38,691 - INFO - train.py[:124] - epoch: 1/1, step: 167/571, loss: 0.73236, accuracy: 0.50131
+2024-08-10 11:52:45,756 - INFO - train.py[:124] - epoch: 1/1, step: 168/571, loss: 0.73187, accuracy: 0.50205
+2024-08-10 11:52:53,306 - INFO - train.py[:124] - epoch: 1/1, step: 169/571, loss: 0.73183, accuracy: 0.50203
+2024-08-10 11:53:00,560 - INFO - train.py[:124] - epoch: 1/1, step: 170/571, loss: 0.73172, accuracy: 0.50147
+2024-08-10 11:53:07,920 - INFO - train.py[:124] - epoch: 1/1, step: 171/571, loss: 0.73151, accuracy: 0.50164
+2024-08-10 11:53:15,172 - INFO - train.py[:124] - epoch: 1/1, step: 172/571, loss: 0.73115, accuracy: 0.50182
+2024-08-10 11:53:22,409 - INFO - train.py[:124] - epoch: 1/1, step: 173/571, loss: 0.73064, accuracy: 0.50253
+2024-08-10 11:53:29,681 - INFO - train.py[:124] - epoch: 1/1, step: 174/571, loss: 0.73019, accuracy: 0.50287
+2024-08-10 11:53:37,061 - INFO - train.py[:124] - epoch: 1/1, step: 175/571, loss: 0.72959, accuracy: 0.50411
+2024-08-10 11:53:44,384 - INFO - train.py[:124] - epoch: 1/1, step: 176/571, loss: 0.72910, accuracy: 0.50444
+2024-08-10 11:53:51,761 - INFO - train.py[:124] - epoch: 1/1, step: 177/571, loss: 0.72862, accuracy: 0.50424
+2024-08-10 11:53:59,448 - INFO - train.py[:124] - epoch: 1/1, step: 178/571, loss: 0.72837, accuracy: 0.50439
+2024-08-10 11:54:06,784 - INFO - train.py[:124] - epoch: 1/1, step: 179/571, loss: 0.72797, accuracy: 0.50454
+2024-08-10 11:54:14,062 - INFO - train.py[:124] - epoch: 1/1, step: 180/571, loss: 0.72757, accuracy: 0.50469
+2024-08-10 11:54:21,322 - INFO - train.py[:124] - epoch: 1/1, step: 181/571, loss: 0.72727, accuracy: 0.50518
+2024-08-10 11:54:28,773 - INFO - train.py[:124] - epoch: 1/1, step: 182/571, loss: 0.72707, accuracy: 0.50515
+2024-08-10 11:54:36,163 - INFO - train.py[:124] - epoch: 1/1, step: 183/571, loss: 0.72645, accuracy: 0.50598
+2024-08-10 11:54:43,848 - INFO - train.py[:124] - epoch: 1/1, step: 184/571, loss: 0.72612, accuracy: 0.50577
+2024-08-10 11:54:51,196 - INFO - train.py[:124] - epoch: 1/1, step: 185/571, loss: 0.72579, accuracy: 0.50591
+2024-08-10 11:54:58,578 - INFO - train.py[:124] - epoch: 1/1, step: 186/571, loss: 0.72524, accuracy: 0.50638
+2024-08-10 11:55:06,351 - INFO - train.py[:124] - epoch: 1/1, step: 187/571, loss: 0.72477, accuracy: 0.50668
+2024-08-10 11:55:14,291 - INFO - train.py[:124] - epoch: 1/1, step: 188/571, loss: 0.72427, accuracy: 0.50731
+2024-08-10 11:55:22,359 - INFO - train.py[:124] - epoch: 1/1, step: 189/571, loss: 0.72408, accuracy: 0.50728
+2024-08-10 11:55:30,299 - INFO - train.py[:124] - epoch: 1/1, step: 190/571, loss: 0.72357, accuracy: 0.50773
+2024-08-10 11:55:37,609 - INFO - train.py[:124] - epoch: 1/1, step: 191/571, loss: 0.72296, accuracy: 0.50851
+2024-08-10 11:55:44,679 - INFO - train.py[:124] - epoch: 1/1, step: 192/571, loss: 0.72262, accuracy: 0.50863
+2024-08-10 11:55:52,069 - INFO - train.py[:124] - epoch: 1/1, step: 193/571, loss: 0.72254, accuracy: 0.50874
+2024-08-10 11:55:59,579 - INFO - train.py[:124] - epoch: 1/1, step: 194/571, loss: 0.72230, accuracy: 0.50886
+2024-08-10 11:56:06,791 - INFO - train.py[:124] - epoch: 1/1, step: 195/571, loss: 0.72203, accuracy: 0.50929
+2024-08-10 11:56:14,146 - INFO - train.py[:124] - epoch: 1/1, step: 196/571, loss: 0.72186, accuracy: 0.50973
+2024-08-10 11:56:21,384 - INFO - train.py[:124] - epoch: 1/1, step: 197/571, loss: 0.72139, accuracy: 0.51031
+2024-08-10 11:56:28,753 - INFO - train.py[:124] - epoch: 1/1, step: 198/571, loss: 0.72071, accuracy: 0.51136
+2024-08-10 11:56:36,125 - INFO - train.py[:124] - epoch: 1/1, step: 199/571, loss: 0.72073, accuracy: 0.51146
+2024-08-10 11:56:43,314 - INFO - train.py[:124] - epoch: 1/1, step: 200/571, loss: 0.72019, accuracy: 0.51203
+2024-08-10 11:56:50,606 - INFO - train.py[:124] - epoch: 1/1, step: 201/571, loss: 0.71993, accuracy: 0.51197
+2024-08-10 11:56:57,778 - INFO - train.py[:124] - epoch: 1/1, step: 202/571, loss: 0.71959, accuracy: 0.51222
+2024-08-10 11:57:04,994 - INFO - train.py[:124] - epoch: 1/1, step: 203/571, loss: 0.71930, accuracy: 0.51247
+2024-08-10 11:57:12,306 - INFO - train.py[:124] - epoch: 1/1, step: 204/571, loss: 0.71903, accuracy: 0.51225
+2024-08-10 11:57:19,813 - INFO - train.py[:124] - epoch: 1/1, step: 205/571, loss: 0.71886, accuracy: 0.51220
+2024-08-10 11:57:27,988 - INFO - train.py[:124] - epoch: 1/1, step: 206/571, loss: 0.71910, accuracy: 0.51198
+2024-08-10 11:57:36,483 - INFO - train.py[:124] - epoch: 1/1, step: 207/571, loss: 0.71889, accuracy: 0.51193
+2024-08-10 11:57:44,470 - INFO - train.py[:124] - epoch: 1/1, step: 208/571, loss: 0.71853, accuracy: 0.51232
+2024-08-10 11:57:52,683 - INFO - train.py[:124] - epoch: 1/1, step: 209/571, loss: 0.71818, accuracy: 0.51256
+2024-08-10 11:58:00,993 - INFO - train.py[:124] - epoch: 1/1, step: 210/571, loss: 0.71757, accuracy: 0.51399
+2024-08-10 11:58:08,514 - INFO - train.py[:124] - epoch: 1/1, step: 211/571, loss: 0.71706, accuracy: 0.51466
+2024-08-10 11:58:15,816 - INFO - train.py[:124] - epoch: 1/1, step: 212/571, loss: 0.71686, accuracy: 0.51430
+2024-08-10 11:58:23,289 - INFO - train.py[:124] - epoch: 1/1, step: 213/571, loss: 0.71645, accuracy: 0.51467
+2024-08-10 11:58:30,890 - INFO - train.py[:124] - epoch: 1/1, step: 214/571, loss: 0.71607, accuracy: 0.51577
+2024-08-10 11:58:38,300 - INFO - train.py[:124] - epoch: 1/1, step: 215/571, loss: 0.71560, accuracy: 0.51657
+2024-08-10 11:58:45,778 - INFO - train.py[:124] - epoch: 1/1, step: 216/571, loss: 0.71513, accuracy: 0.51722
+2024-08-10 11:58:53,286 - INFO - train.py[:124] - epoch: 1/1, step: 217/571, loss: 0.71471, accuracy: 0.51829
+2024-08-10 11:59:00,688 - INFO - train.py[:124] - epoch: 1/1, step: 218/571, loss: 0.71433, accuracy: 0.51821
+2024-08-10 11:59:07,929 - INFO - train.py[:124] - epoch: 1/1, step: 219/571, loss: 0.71388, accuracy: 0.51884
+2024-08-10 11:59:15,508 - INFO - train.py[:124] - epoch: 1/1, step: 220/571, loss: 0.71393, accuracy: 0.51903
+2024-08-10 11:59:22,845 - INFO - train.py[:124] - epoch: 1/1, step: 221/571, loss: 0.71377, accuracy: 0.51867
+2024-08-10 11:59:30,183 - INFO - train.py[:124] - epoch: 1/1, step: 222/571, loss: 0.71365, accuracy: 0.51858
+2024-08-10 11:59:37,470 - INFO - train.py[:124] - epoch: 1/1, step: 223/571, loss: 0.71341, accuracy: 0.51850
+2024-08-10 11:59:44,848 - INFO - train.py[:124] - epoch: 1/1, step: 224/571, loss: 0.71309, accuracy: 0.51883
+2024-08-10 11:59:52,119 - INFO - train.py[:124] - epoch: 1/1, step: 225/571, loss: 0.71252, accuracy: 0.51931
+2024-08-10 11:59:59,242 - INFO - train.py[:124] - epoch: 1/1, step: 226/571, loss: 0.71238, accuracy: 0.51936
+2024-08-10 12:00:06,497 - INFO - train.py[:124] - epoch: 1/1, step: 227/571, loss: 0.71226, accuracy: 0.51914
+2024-08-10 12:00:13,677 - INFO - train.py[:124] - epoch: 1/1, step: 228/571, loss: 0.71193, accuracy: 0.51960
+2024-08-10 12:00:20,833 - INFO - train.py[:124] - epoch: 1/1, step: 229/571, loss: 0.71155, accuracy: 0.51992
+2024-08-10 12:00:28,129 - INFO - train.py[:124] - epoch: 1/1, step: 230/571, loss: 0.71117, accuracy: 0.52052
+2024-08-10 12:00:35,350 - INFO - train.py[:124] - epoch: 1/1, step: 231/571, loss: 0.71070, accuracy: 0.52083
+2024-08-10 12:00:42,612 - INFO - train.py[:124] - epoch: 1/1, step: 232/571, loss: 0.71036, accuracy: 0.52074
+2024-08-10 12:00:49,820 - INFO - train.py[:124] - epoch: 1/1, step: 233/571, loss: 0.71007, accuracy: 0.52092
+2024-08-10 12:00:57,099 - INFO - train.py[:124] - epoch: 1/1, step: 234/571, loss: 0.70975, accuracy: 0.52083
+2024-08-10 12:01:04,393 - INFO - train.py[:124] - epoch: 1/1, step: 235/571, loss: 0.70935, accuracy: 0.52154
+2024-08-10 12:01:11,660 - INFO - train.py[:124] - epoch: 1/1, step: 236/571, loss: 0.70891, accuracy: 0.52198
+2024-08-10 12:01:18,968 - INFO - train.py[:124] - epoch: 1/1, step: 237/571, loss: 0.70863, accuracy: 0.52242
+2024-08-10 12:01:26,154 - INFO - train.py[:124] - epoch: 1/1, step: 238/571, loss: 0.70854, accuracy: 0.52232
+2024-08-10 12:01:33,404 - INFO - train.py[:124] - epoch: 1/1, step: 239/571, loss: 0.70827, accuracy: 0.52236
+2024-08-10 12:01:41,289 - INFO - train.py[:124] - epoch: 1/1, step: 240/571, loss: 0.70769, accuracy: 0.52331
+2024-08-10 12:01:48,826 - INFO - train.py[:124] - epoch: 1/1, step: 241/571, loss: 0.70763, accuracy: 0.52360
+2024-08-10 12:01:55,931 - INFO - train.py[:124] - epoch: 1/1, step: 242/571, loss: 0.70728, accuracy: 0.52389
+2024-08-10 12:02:02,910 - INFO - train.py[:124] - epoch: 1/1, step: 243/571, loss: 0.70713, accuracy: 0.52392
+2024-08-10 12:02:09,780 - INFO - train.py[:124] - epoch: 1/1, step: 244/571, loss: 0.70665, accuracy: 0.52421
+2024-08-10 12:02:16,623 - INFO - train.py[:124] - epoch: 1/1, step: 245/571, loss: 0.70617, accuracy: 0.52462
+2024-08-10 12:02:23,696 - INFO - train.py[:124] - epoch: 1/1, step: 246/571, loss: 0.70580, accuracy: 0.52503
+2024-08-10 12:02:30,754 - INFO - train.py[:124] - epoch: 1/1, step: 247/571, loss: 0.70549, accuracy: 0.52543
+2024-08-10 12:02:37,774 - INFO - train.py[:124] - epoch: 1/1, step: 248/571, loss: 0.70502, accuracy: 0.52596
+2024-08-10 12:02:44,758 - INFO - train.py[:124] - epoch: 1/1, step: 249/571, loss: 0.70481, accuracy: 0.52598
+2024-08-10 12:02:51,677 - INFO - train.py[:124] - epoch: 1/1, step: 250/571, loss: 0.70426, accuracy: 0.52688
+2024-08-10 12:02:58,664 - INFO - train.py[:124] - epoch: 1/1, step: 251/571, loss: 0.70387, accuracy: 0.52714
+2024-08-10 12:03:05,667 - INFO - train.py[:124] - epoch: 1/1, step: 252/571, loss: 0.70339, accuracy: 0.52753
+2024-08-10 12:03:12,686 - INFO - train.py[:124] - epoch: 1/1, step: 253/571, loss: 0.70334, accuracy: 0.52754
+2024-08-10 12:03:19,771 - INFO - train.py[:124] - epoch: 1/1, step: 254/571, loss: 0.70311, accuracy: 0.52805
+2024-08-10 12:03:26,828 - INFO - train.py[:124] - epoch: 1/1, step: 255/571, loss: 0.70276, accuracy: 0.52794
+2024-08-10 12:03:33,870 - INFO - train.py[:124] - epoch: 1/1, step: 256/571, loss: 0.70242, accuracy: 0.52832
+2024-08-10 12:03:40,990 - INFO - train.py[:124] - epoch: 1/1, step: 257/571, loss: 0.70216, accuracy: 0.52845
+2024-08-10 12:03:48,068 - INFO - train.py[:124] - epoch: 1/1, step: 258/571, loss: 0.70185, accuracy: 0.52859
+2024-08-10 12:03:55,172 - INFO - train.py[:124] - epoch: 1/1, step: 259/571, loss: 0.70139, accuracy: 0.52944
+2024-08-10 12:04:02,143 - INFO - train.py[:124] - epoch: 1/1, step: 260/571, loss: 0.70101, accuracy: 0.52933
+2024-08-10 12:04:09,349 - INFO - train.py[:124] - epoch: 1/1, step: 261/571, loss: 0.70086, accuracy: 0.52993
+2024-08-10 12:04:17,484 - INFO - train.py[:124] - epoch: 1/1, step: 262/571, loss: 0.70047, accuracy: 0.53053
+2024-08-10 12:04:25,413 - INFO - train.py[:124] - epoch: 1/1, step: 263/571, loss: 0.70039, accuracy: 0.53066
+2024-08-10 12:04:33,359 - INFO - train.py[:124] - epoch: 1/1, step: 264/571, loss: 0.69999, accuracy: 0.53125
+2024-08-10 12:04:41,779 - INFO - train.py[:124] - epoch: 1/1, step: 265/571, loss: 0.69962, accuracy: 0.53137
+2024-08-10 12:04:50,111 - INFO - train.py[:124] - epoch: 1/1, step: 266/571, loss: 0.69957, accuracy: 0.53148
+2024-08-10 12:04:58,188 - INFO - train.py[:124] - epoch: 1/1, step: 267/571, loss: 0.69919, accuracy: 0.53184
+2024-08-10 12:05:05,546 - INFO - train.py[:124] - epoch: 1/1, step: 268/571, loss: 0.69896, accuracy: 0.53195
+2024-08-10 12:05:12,861 - INFO - train.py[:124] - epoch: 1/1, step: 269/571, loss: 0.69882, accuracy: 0.53206
+2024-08-10 12:05:20,140 - INFO - train.py[:124] - epoch: 1/1, step: 270/571, loss: 0.69851, accuracy: 0.53241
+2024-08-10 12:05:27,233 - INFO - train.py[:124] - epoch: 1/1, step: 271/571, loss: 0.69829, accuracy: 0.53217
+2024-08-10 12:05:34,388 - INFO - train.py[:124] - epoch: 1/1, step: 272/571, loss: 0.69826, accuracy: 0.53159
+2024-08-10 12:05:41,560 - INFO - train.py[:124] - epoch: 1/1, step: 273/571, loss: 0.69823, accuracy: 0.53125
+2024-08-10 12:05:48,978 - INFO - train.py[:124] - epoch: 1/1, step: 274/571, loss: 0.69811, accuracy: 0.53125
+2024-08-10 12:05:56,238 - INFO - train.py[:124] - epoch: 1/1, step: 275/571, loss: 0.69803, accuracy: 0.53148
+2024-08-10 12:06:03,345 - INFO - train.py[:124] - epoch: 1/1, step: 276/571, loss: 0.69796, accuracy: 0.53136
+2024-08-10 12:06:10,402 - INFO - train.py[:124] - epoch: 1/1, step: 277/571, loss: 0.69770, accuracy: 0.53148
+2024-08-10 12:06:17,481 - INFO - train.py[:124] - epoch: 1/1, step: 278/571, loss: 0.69741, accuracy: 0.53170
+2024-08-10 12:06:24,570 - INFO - train.py[:124] - epoch: 1/1, step: 279/571, loss: 0.69733, accuracy: 0.53192
+2024-08-10 12:06:31,966 - INFO - train.py[:124] - epoch: 1/1, step: 280/571, loss: 0.69705, accuracy: 0.53203
+2024-08-10 12:06:39,350 - INFO - train.py[:124] - epoch: 1/1, step: 281/571, loss: 0.69665, accuracy: 0.53270
+2024-08-10 12:06:46,922 - INFO - train.py[:124] - epoch: 1/1, step: 282/571, loss: 0.69636, accuracy: 0.53313
+2024-08-10 12:06:54,394 - INFO - train.py[:124] - epoch: 1/1, step: 283/571, loss: 0.69599, accuracy: 0.53379
+2024-08-10 12:07:01,542 - INFO - train.py[:124] - epoch: 1/1, step: 284/571, loss: 0.69566, accuracy: 0.53400
+2024-08-10 12:07:08,637 - INFO - train.py[:124] - epoch: 1/1, step: 285/571, loss: 0.69529, accuracy: 0.53454
+2024-08-10 12:07:15,831 - INFO - train.py[:124] - epoch: 1/1, step: 286/571, loss: 0.69501, accuracy: 0.53464
+2024-08-10 12:07:23,012 - INFO - train.py[:124] - epoch: 1/1, step: 287/571, loss: 0.69515, accuracy: 0.53419
+2024-08-10 12:07:30,398 - INFO - train.py[:124] - epoch: 1/1, step: 288/571, loss: 0.69490, accuracy: 0.53407
+2024-08-10 12:07:37,829 - INFO - train.py[:124] - epoch: 1/1, step: 289/571, loss: 0.69460, accuracy: 0.53428
+2024-08-10 12:07:46,147 - INFO - train.py[:124] - epoch: 1/1, step: 290/571, loss: 0.69426, accuracy: 0.53491
+2024-08-10 12:07:53,996 - INFO - train.py[:124] - epoch: 1/1, step: 291/571, loss: 0.69408, accuracy: 0.53501
+2024-08-10 12:08:00,996 - INFO - train.py[:124] - epoch: 1/1, step: 292/571, loss: 0.69366, accuracy: 0.53542
+2024-08-10 12:08:07,829 - INFO - train.py[:124] - epoch: 1/1, step: 293/571, loss: 0.69347, accuracy: 0.53541
+2024-08-10 12:08:14,650 - INFO - train.py[:124] - epoch: 1/1, step: 294/571, loss: 0.69334, accuracy: 0.53571
+2024-08-10 12:08:21,721 - INFO - train.py[:124] - epoch: 1/1, step: 295/571, loss: 0.69295, accuracy: 0.53591
+2024-08-10 12:08:28,672 - INFO - train.py[:124] - epoch: 1/1, step: 296/571, loss: 0.69258, accuracy: 0.53642
+2024-08-10 12:08:35,543 - INFO - train.py[:124] - epoch: 1/1, step: 297/571, loss: 0.69236, accuracy: 0.53704
+2024-08-10 12:08:42,354 - INFO - train.py[:124] - epoch: 1/1, step: 298/571, loss: 0.69229, accuracy: 0.53723
+2024-08-10 12:08:49,287 - INFO - train.py[:124] - epoch: 1/1, step: 299/571, loss: 0.69197, accuracy: 0.53752
+2024-08-10 12:08:56,137 - INFO - train.py[:124] - epoch: 1/1, step: 300/571, loss: 0.69160, accuracy: 0.53833
+2024-08-10 12:09:02,943 - INFO - train.py[:124] - epoch: 1/1, step: 301/571, loss: 0.69134, accuracy: 0.53862
+2024-08-10 12:09:09,835 - INFO - train.py[:124] - epoch: 1/1, step: 302/571, loss: 0.69135, accuracy: 0.53891
+2024-08-10 12:09:16,714 - INFO - train.py[:124] - epoch: 1/1, step: 303/571, loss: 0.69136, accuracy: 0.53868
+2024-08-10 12:09:23,723 - INFO - train.py[:124] - epoch: 1/1, step: 304/571, loss: 0.69104, accuracy: 0.53865
+2024-08-10 12:09:31,982 - INFO - train.py[:124] - epoch: 1/1, step: 305/571, loss: 0.69074, accuracy: 0.53893
+2024-08-10 12:09:39,814 - INFO - train.py[:124] - epoch: 1/1, step: 306/571, loss: 0.69062, accuracy: 0.53911
+2024-08-10 12:09:47,368 - INFO - train.py[:124] - epoch: 1/1, step: 307/571, loss: 0.69036, accuracy: 0.53939
+2024-08-10 12:09:54,630 - INFO - train.py[:124] - epoch: 1/1, step: 308/571, loss: 0.69002, accuracy: 0.53987
+2024-08-10 12:10:01,577 - INFO - train.py[:124] - epoch: 1/1, step: 309/571, loss: 0.68977, accuracy: 0.53985
+2024-08-10 12:10:08,645 - INFO - train.py[:124] - epoch: 1/1, step: 310/571, loss: 0.68947, accuracy: 0.54002
+2024-08-10 12:10:15,681 - INFO - train.py[:124] - epoch: 1/1, step: 311/571, loss: 0.68942, accuracy: 0.54019
+2024-08-10 12:10:22,868 - INFO - train.py[:124] - epoch: 1/1, step: 312/571, loss: 0.68913, accuracy: 0.54077
+2024-08-10 12:10:29,754 - INFO - train.py[:124] - epoch: 1/1, step: 313/571, loss: 0.68884, accuracy: 0.54083
+2024-08-10 12:10:36,715 - INFO - train.py[:124] - epoch: 1/1, step: 314/571, loss: 0.68855, accuracy: 0.54120
+2024-08-10 12:10:43,692 - INFO - train.py[:124] - epoch: 1/1, step: 315/571, loss: 0.68829, accuracy: 0.54127
+2024-08-10 12:10:50,742 - INFO - train.py[:124] - epoch: 1/1, step: 316/571, loss: 0.68821, accuracy: 0.54134
+2024-08-10 12:10:58,198 - INFO - train.py[:124] - epoch: 1/1, step: 317/571, loss: 0.68828, accuracy: 0.54101
+2024-08-10 12:11:05,538 - INFO - train.py[:124] - epoch: 1/1, step: 318/571, loss: 0.68802, accuracy: 0.54147
+2024-08-10 12:11:12,829 - INFO - train.py[:124] - epoch: 1/1, step: 319/571, loss: 0.68803, accuracy: 0.54183
+2024-08-10 12:11:20,179 - INFO - train.py[:124] - epoch: 1/1, step: 320/571, loss: 0.68782, accuracy: 0.54209
+2024-08-10 12:11:27,408 - INFO - train.py[:124] - epoch: 1/1, step: 321/571, loss: 0.68807, accuracy: 0.54206
+2024-08-10 12:11:34,537 - INFO - train.py[:124] - epoch: 1/1, step: 322/571, loss: 0.68772, accuracy: 0.54251
+2024-08-10 12:11:41,687 - INFO - train.py[:124] - epoch: 1/1, step: 323/571, loss: 0.68766, accuracy: 0.54247
+2024-08-10 12:11:48,762 - INFO - train.py[:124] - epoch: 1/1, step: 324/571, loss: 0.68738, accuracy: 0.54263
+2024-08-10 12:11:56,225 - INFO - train.py[:124] - epoch: 1/1, step: 325/571, loss: 0.68719, accuracy: 0.54308
+2024-08-10 12:12:03,244 - INFO - train.py[:124] - epoch: 1/1, step: 326/571, loss: 0.68710, accuracy: 0.54333
+2024-08-10 12:12:10,473 - INFO - train.py[:124] - epoch: 1/1, step: 327/571, loss: 0.68676, accuracy: 0.54396
+2024-08-10 12:12:17,453 - INFO - train.py[:124] - epoch: 1/1, step: 328/571, loss: 0.68646, accuracy: 0.54459
+2024-08-10 12:12:24,374 - INFO - train.py[:124] - epoch: 1/1, step: 329/571, loss: 0.68625, accuracy: 0.54464
+2024-08-10 12:12:31,466 - INFO - train.py[:124] - epoch: 1/1, step: 330/571, loss: 0.68606, accuracy: 0.54479
+2024-08-10 12:12:38,583 - INFO - train.py[:124] - epoch: 1/1, step: 331/571, loss: 0.68583, accuracy: 0.54503
+2024-08-10 12:12:45,740 - INFO - train.py[:124] - epoch: 1/1, step: 332/571, loss: 0.68563, accuracy: 0.54490
+2024-08-10 12:12:53,043 - INFO - train.py[:124] - epoch: 1/1, step: 333/571, loss: 0.68576, accuracy: 0.54476
+2024-08-10 12:13:00,274 - INFO - train.py[:124] - epoch: 1/1, step: 334/571, loss: 0.68548, accuracy: 0.54510
+2024-08-10 12:13:07,587 - INFO - train.py[:124] - epoch: 1/1, step: 335/571, loss: 0.68528, accuracy: 0.54534
+2024-08-10 12:13:15,156 - INFO - train.py[:124] - epoch: 1/1, step: 336/571, loss: 0.68512, accuracy: 0.54520
+2024-08-10 12:13:22,645 - INFO - train.py[:124] - epoch: 1/1, step: 337/571, loss: 0.68485, accuracy: 0.54525
+2024-08-10 12:13:30,626 - INFO - train.py[:124] - epoch: 1/1, step: 338/571, loss: 0.68454, accuracy: 0.54558
+2024-08-10 12:13:38,230 - INFO - train.py[:124] - epoch: 1/1, step: 339/571, loss: 0.68437, accuracy: 0.54563
+2024-08-10 12:13:45,756 - INFO - train.py[:124] - epoch: 1/1, step: 340/571, loss: 0.68405, accuracy: 0.54632
+2024-08-10 12:13:53,781 - INFO - train.py[:124] - epoch: 1/1, step: 341/571, loss: 0.68393, accuracy: 0.54646
+2024-08-10 12:14:02,227 - INFO - train.py[:124] - epoch: 1/1, step: 342/571, loss: 0.68366, accuracy: 0.54697
+2024-08-10 12:14:09,269 - INFO - train.py[:124] - epoch: 1/1, step: 343/571, loss: 0.68334, accuracy: 0.54783
+2024-08-10 12:14:17,040 - INFO - train.py[:124] - epoch: 1/1, step: 344/571, loss: 0.68307, accuracy: 0.54815
+2024-08-10 12:14:24,423 - INFO - train.py[:124] - epoch: 1/1, step: 345/571, loss: 0.68281, accuracy: 0.54864
+2024-08-10 12:14:31,618 - INFO - train.py[:124] - epoch: 1/1, step: 346/571, loss: 0.68259, accuracy: 0.54886
+2024-08-10 12:14:38,651 - INFO - train.py[:124] - epoch: 1/1, step: 347/571, loss: 0.68233, accuracy: 0.54908
+2024-08-10 12:14:45,766 - INFO - train.py[:124] - epoch: 1/1, step: 348/571, loss: 0.68229, accuracy: 0.54885
+2024-08-10 12:14:53,015 - INFO - train.py[:124] - epoch: 1/1, step: 349/571, loss: 0.68211, accuracy: 0.54889
+2024-08-10 12:15:00,366 - INFO - train.py[:124] - epoch: 1/1, step: 350/571, loss: 0.68189, accuracy: 0.54902
+2024-08-10 12:15:07,553 - INFO - train.py[:124] - epoch: 1/1, step: 351/571, loss: 0.68167, accuracy: 0.54932
+2024-08-10 12:15:15,510 - INFO - train.py[:124] - epoch: 1/1, step: 352/571, loss: 0.68150, accuracy: 0.54936
+2024-08-10 12:15:22,854 - INFO - train.py[:124] - epoch: 1/1, step: 353/571, loss: 0.68117, accuracy: 0.54984
+2024-08-10 12:15:30,147 - INFO - train.py[:124] - epoch: 1/1, step: 354/571, loss: 0.68098, accuracy: 0.55005
+2024-08-10 12:15:37,132 - INFO - train.py[:124] - epoch: 1/1, step: 355/571, loss: 0.68078, accuracy: 0.55044
+2024-08-10 12:15:44,221 - INFO - train.py[:124] - epoch: 1/1, step: 356/571, loss: 0.68066, accuracy: 0.55065
+2024-08-10 12:15:51,118 - INFO - train.py[:124] - epoch: 1/1, step: 357/571, loss: 0.68039, accuracy: 0.55103
+2024-08-10 12:15:58,398 - INFO - train.py[:124] - epoch: 1/1, step: 358/571, loss: 0.68009, accuracy: 0.55141
+2024-08-10 12:16:05,649 - INFO - train.py[:124] - epoch: 1/1, step: 359/571, loss: 0.67996, accuracy: 0.55145
+2024-08-10 12:16:13,068 - INFO - train.py[:124] - epoch: 1/1, step: 360/571, loss: 0.67994, accuracy: 0.55174
+2024-08-10 12:16:20,512 - INFO - train.py[:124] - epoch: 1/1, step: 361/571, loss: 0.67969, accuracy: 0.55185
+2024-08-10 12:16:27,811 - INFO - train.py[:124] - epoch: 1/1, step: 362/571, loss: 0.67932, accuracy: 0.55223
+2024-08-10 12:16:35,069 - INFO - train.py[:124] - epoch: 1/1, step: 363/571, loss: 0.67919, accuracy: 0.55260
+2024-08-10 12:16:42,277 - INFO - train.py[:124] - epoch: 1/1, step: 364/571, loss: 0.67910, accuracy: 0.55263
+2024-08-10 12:16:49,557 - INFO - train.py[:124] - epoch: 1/1, step: 365/571, loss: 0.67884, accuracy: 0.55274
+2024-08-10 12:16:56,803 - INFO - train.py[:124] - epoch: 1/1, step: 366/571, loss: 0.67873, accuracy: 0.55268
+2024-08-10 12:17:03,892 - INFO - train.py[:124] - epoch: 1/1, step: 367/571, loss: 0.67850, accuracy: 0.55279
+2024-08-10 12:17:11,003 - INFO - train.py[:124] - epoch: 1/1, step: 368/571, loss: 0.67855, accuracy: 0.55273
+2024-08-10 12:17:18,247 - INFO - train.py[:124] - epoch: 1/1, step: 369/571, loss: 0.67842, accuracy: 0.55285
+2024-08-10 12:17:25,441 - INFO - train.py[:124] - epoch: 1/1, step: 370/571, loss: 0.67824, accuracy: 0.55287
+2024-08-10 12:17:32,674 - INFO - train.py[:124] - epoch: 1/1, step: 371/571, loss: 0.67799, accuracy: 0.55323
+2024-08-10 12:17:39,993 - INFO - train.py[:124] - epoch: 1/1, step: 372/571, loss: 0.67780, accuracy: 0.55351
+2024-08-10 12:17:47,247 - INFO - train.py[:124] - epoch: 1/1, step: 373/571, loss: 0.67747, accuracy: 0.55412
+2024-08-10 12:17:54,762 - INFO - train.py[:124] - epoch: 1/1, step: 374/571, loss: 0.67740, accuracy: 0.55431
+2024-08-10 12:18:01,925 - INFO - train.py[:124] - epoch: 1/1, step: 375/571, loss: 0.67715, accuracy: 0.55450
+2024-08-10 12:18:09,312 - INFO - train.py[:124] - epoch: 1/1, step: 376/571, loss: 0.67710, accuracy: 0.55436
+2024-08-10 12:18:16,556 - INFO - train.py[:124] - epoch: 1/1, step: 377/571, loss: 0.67696, accuracy: 0.55438
+2024-08-10 12:18:24,388 - INFO - train.py[:124] - epoch: 1/1, step: 378/571, loss: 0.67669, accuracy: 0.55473
+2024-08-10 12:18:32,215 - INFO - train.py[:124] - epoch: 1/1, step: 379/571, loss: 0.67679, accuracy: 0.55467
+2024-08-10 12:18:39,422 - INFO - train.py[:124] - epoch: 1/1, step: 380/571, loss: 0.67660, accuracy: 0.55502
+2024-08-10 12:18:46,579 - INFO - train.py[:124] - epoch: 1/1, step: 381/571, loss: 0.67652, accuracy: 0.55528
+2024-08-10 12:18:53,718 - INFO - train.py[:124] - epoch: 1/1, step: 382/571, loss: 0.67626, accuracy: 0.55546
+2024-08-10 12:19:00,914 - INFO - train.py[:124] - epoch: 1/1, step: 383/571, loss: 0.67610, accuracy: 0.55565
+2024-08-10 12:19:08,115 - INFO - train.py[:124] - epoch: 1/1, step: 384/571, loss: 0.67589, accuracy: 0.55615
+2024-08-10 12:19:15,236 - INFO - train.py[:124] - epoch: 1/1, step: 385/571, loss: 0.67586, accuracy: 0.55625
+2024-08-10 12:19:22,298 - INFO - train.py[:124] - epoch: 1/1, step: 386/571, loss: 0.67580, accuracy: 0.55602
+2024-08-10 12:19:29,519 - INFO - train.py[:124] - epoch: 1/1, step: 387/571, loss: 0.67558, accuracy: 0.55620
+2024-08-10 12:19:36,770 - INFO - train.py[:124] - epoch: 1/1, step: 388/571, loss: 0.67549, accuracy: 0.55630
+2024-08-10 12:19:44,098 - INFO - train.py[:124] - epoch: 1/1, step: 389/571, loss: 0.67550, accuracy: 0.55623
+2024-08-10 12:19:51,294 - INFO - train.py[:124] - epoch: 1/1, step: 390/571, loss: 0.67520, accuracy: 0.55649
+2024-08-10 12:19:58,463 - INFO - train.py[:124] - epoch: 1/1, step: 391/571, loss: 0.67496, accuracy: 0.55691
+2024-08-10 12:20:05,665 - INFO - train.py[:124] - epoch: 1/1, step: 392/571, loss: 0.67501, accuracy: 0.55692
+2024-08-10 12:20:12,863 - INFO - train.py[:124] - epoch: 1/1, step: 393/571, loss: 0.67484, accuracy: 0.55685
+2024-08-10 12:20:20,003 - INFO - train.py[:124] - epoch: 1/1, step: 394/571, loss: 0.67457, accuracy: 0.55727
+2024-08-10 12:20:27,107 - INFO - train.py[:124] - epoch: 1/1, step: 395/571, loss: 0.67429, accuracy: 0.55775
+2024-08-10 12:20:34,206 - INFO - train.py[:124] - epoch: 1/1, step: 396/571, loss: 0.67405, accuracy: 0.55777
+2024-08-10 12:20:41,334 - INFO - train.py[:124] - epoch: 1/1, step: 397/571, loss: 0.67378, accuracy: 0.55825
+2024-08-10 12:20:48,461 - INFO - train.py[:124] - epoch: 1/1, step: 398/571, loss: 0.67353, accuracy: 0.55857
+2024-08-10 12:20:55,662 - INFO - train.py[:124] - epoch: 1/1, step: 399/571, loss: 0.67371, accuracy: 0.55858
+2024-08-10 12:21:02,832 - INFO - train.py[:124] - epoch: 1/1, step: 400/571, loss: 0.67345, accuracy: 0.55898
+2024-08-10 12:21:09,980 - INFO - train.py[:124] - epoch: 1/1, step: 401/571, loss: 0.67315, accuracy: 0.55946
+2024-08-10 12:21:17,148 - INFO - train.py[:124] - epoch: 1/1, step: 402/571, loss: 0.67315, accuracy: 0.55962
+2024-08-10 12:21:24,300 - INFO - train.py[:124] - epoch: 1/1, step: 403/571, loss: 0.67287, accuracy: 0.56002
+2024-08-10 12:21:31,645 - INFO - train.py[:124] - epoch: 1/1, step: 404/571, loss: 0.67264, accuracy: 0.56057
+2024-08-10 12:21:39,022 - INFO - train.py[:124] - epoch: 1/1, step: 405/571, loss: 0.67255, accuracy: 0.56080
+2024-08-10 12:21:46,458 - INFO - train.py[:124] - epoch: 1/1, step: 406/571, loss: 0.67254, accuracy: 0.56096
+2024-08-10 12:21:53,550 - INFO - train.py[:124] - epoch: 1/1, step: 407/571, loss: 0.67228, accuracy: 0.56127
+2024-08-10 12:22:00,634 - INFO - train.py[:124] - epoch: 1/1, step: 408/571, loss: 0.67219, accuracy: 0.56127
+2024-08-10 12:22:07,711 - INFO - train.py[:124] - epoch: 1/1, step: 409/571, loss: 0.67204, accuracy: 0.56143
+2024-08-10 12:22:14,961 - INFO - train.py[:124] - epoch: 1/1, step: 410/571, loss: 0.67200, accuracy: 0.56143
+2024-08-10 12:22:22,130 - INFO - train.py[:124] - epoch: 1/1, step: 411/571, loss: 0.67182, accuracy: 0.56151
+2024-08-10 12:22:29,191 - INFO - train.py[:124] - epoch: 1/1, step: 412/571, loss: 0.67163, accuracy: 0.56182
+2024-08-10 12:22:36,236 - INFO - train.py[:124] - epoch: 1/1, step: 413/571, loss: 0.67143, accuracy: 0.56197
+2024-08-10 12:22:43,269 - INFO - train.py[:124] - epoch: 1/1, step: 414/571, loss: 0.67122, accuracy: 0.56220
+2024-08-10 12:22:50,329 - INFO - train.py[:124] - epoch: 1/1, step: 415/571, loss: 0.67105, accuracy: 0.56242
+2024-08-10 12:22:57,361 - INFO - train.py[:124] - epoch: 1/1, step: 416/571, loss: 0.67093, accuracy: 0.56250
+2024-08-10 12:23:04,451 - INFO - train.py[:124] - epoch: 1/1, step: 417/571, loss: 0.67077, accuracy: 0.56280
+2024-08-10 12:23:11,486 - INFO - train.py[:124] - epoch: 1/1, step: 418/571, loss: 0.67081, accuracy: 0.56265
+2024-08-10 12:23:18,600 - INFO - train.py[:124] - epoch: 1/1, step: 419/571, loss: 0.67121, accuracy: 0.56228
+2024-08-10 12:23:25,679 - INFO - train.py[:124] - epoch: 1/1, step: 420/571, loss: 0.67130, accuracy: 0.56183
+2024-08-10 12:23:32,717 - INFO - train.py[:124] - epoch: 1/1, step: 421/571, loss: 0.67145, accuracy: 0.56176
+2024-08-10 12:23:39,730 - INFO - train.py[:124] - epoch: 1/1, step: 422/571, loss: 0.67119, accuracy: 0.56213
+2024-08-10 12:23:46,692 - INFO - train.py[:124] - epoch: 1/1, step: 423/571, loss: 0.67096, accuracy: 0.56228
+2024-08-10 12:23:53,714 - INFO - train.py[:124] - epoch: 1/1, step: 424/571, loss: 0.67075, accuracy: 0.56265
+2024-08-10 12:24:00,766 - INFO - train.py[:124] - epoch: 1/1, step: 425/571, loss: 0.67065, accuracy: 0.56272
+2024-08-10 12:24:07,743 - INFO - train.py[:124] - epoch: 1/1, step: 426/571, loss: 0.67057, accuracy: 0.56257
+2024-08-10 12:24:14,770 - INFO - train.py[:124] - epoch: 1/1, step: 427/571, loss: 0.67039, accuracy: 0.56287
+2024-08-10 12:24:21,703 - INFO - train.py[:124] - epoch: 1/1, step: 428/571, loss: 0.67025, accuracy: 0.56294
+2024-08-10 12:24:28,616 - INFO - train.py[:124] - epoch: 1/1, step: 429/571, loss: 0.66995, accuracy: 0.56352
+2024-08-10 12:24:35,551 - INFO - train.py[:124] - epoch: 1/1, step: 430/571, loss: 0.66975, accuracy: 0.56381
+2024-08-10 12:24:42,409 - INFO - train.py[:124] - epoch: 1/1, step: 431/571, loss: 0.66969, accuracy: 0.56373
+2024-08-10 12:24:49,311 - INFO - train.py[:124] - epoch: 1/1, step: 432/571, loss: 0.66962, accuracy: 0.56373
+2024-08-10 12:24:56,177 - INFO - train.py[:124] - epoch: 1/1, step: 433/571, loss: 0.66953, accuracy: 0.56402
+2024-08-10 12:25:03,016 - INFO - train.py[:124] - epoch: 1/1, step: 434/571, loss: 0.66944, accuracy: 0.56408
+2024-08-10 12:25:09,867 - INFO - train.py[:124] - epoch: 1/1, step: 435/571, loss: 0.66941, accuracy: 0.56379
+2024-08-10 12:25:16,610 - INFO - train.py[:124] - epoch: 1/1, step: 436/571, loss: 0.66955, accuracy: 0.56365
+2024-08-10 12:25:23,419 - INFO - train.py[:124] - epoch: 1/1, step: 437/571, loss: 0.66958, accuracy: 0.56386
+2024-08-10 12:25:30,226 - INFO - train.py[:124] - epoch: 1/1, step: 438/571, loss: 0.66935, accuracy: 0.56407
+2024-08-10 12:25:37,211 - INFO - train.py[:124] - epoch: 1/1, step: 439/571, loss: 0.66944, accuracy: 0.56399
+2024-08-10 12:25:44,001 - INFO - train.py[:124] - epoch: 1/1, step: 440/571, loss: 0.66935, accuracy: 0.56428
+2024-08-10 12:25:50,759 - INFO - train.py[:124] - epoch: 1/1, step: 441/571, loss: 0.66920, accuracy: 0.56441
+2024-08-10 12:25:57,632 - INFO - train.py[:124] - epoch: 1/1, step: 442/571, loss: 0.66906, accuracy: 0.56469
+2024-08-10 12:26:04,474 - INFO - train.py[:124] - epoch: 1/1, step: 443/571, loss: 0.66890, accuracy: 0.56476
+2024-08-10 12:26:11,200 - INFO - train.py[:124] - epoch: 1/1, step: 444/571, loss: 0.66878, accuracy: 0.56482
+2024-08-10 12:26:18,094 - INFO - train.py[:124] - epoch: 1/1, step: 445/571, loss: 0.66855, accuracy: 0.56517
+2024-08-10 12:26:25,014 - INFO - train.py[:124] - epoch: 1/1, step: 446/571, loss: 0.66847, accuracy: 0.56530
+2024-08-10 12:26:31,908 - INFO - train.py[:124] - epoch: 1/1, step: 447/571, loss: 0.66842, accuracy: 0.56523
+2024-08-10 12:26:38,743 - INFO - train.py[:124] - epoch: 1/1, step: 448/571, loss: 0.66833, accuracy: 0.56515
+2024-08-10 12:26:45,662 - INFO - train.py[:124] - epoch: 1/1, step: 449/571, loss: 0.66806, accuracy: 0.56549
+2024-08-10 12:26:52,501 - INFO - train.py[:124] - epoch: 1/1, step: 450/571, loss: 0.66797, accuracy: 0.56563
+2024-08-10 12:26:59,399 - INFO - train.py[:124] - epoch: 1/1, step: 451/571, loss: 0.66845, accuracy: 0.56569
+2024-08-10 12:27:06,272 - INFO - train.py[:124] - epoch: 1/1, step: 452/571, loss: 0.66837, accuracy: 0.56568
+2024-08-10 12:27:13,045 - INFO - train.py[:124] - epoch: 1/1, step: 453/571, loss: 0.66844, accuracy: 0.56560
+2024-08-10 12:27:19,857 - INFO - train.py[:124] - epoch: 1/1, step: 454/571, loss: 0.66829, accuracy: 0.56580
+2024-08-10 12:27:26,785 - INFO - train.py[:124] - epoch: 1/1, step: 455/571, loss: 0.66813, accuracy: 0.56593
+2024-08-10 12:27:33,744 - INFO - train.py[:124] - epoch: 1/1, step: 456/571, loss: 0.66804, accuracy: 0.56600
+2024-08-10 12:27:40,605 - INFO - train.py[:124] - epoch: 1/1, step: 457/571, loss: 0.66788, accuracy: 0.56606
+2024-08-10 12:27:47,467 - INFO - train.py[:124] - epoch: 1/1, step: 458/571, loss: 0.66767, accuracy: 0.56632
+2024-08-10 12:27:54,272 - INFO - train.py[:124] - epoch: 1/1, step: 459/571, loss: 0.66750, accuracy: 0.56652
+2024-08-10 12:28:01,053 - INFO - train.py[:124] - epoch: 1/1, step: 460/571, loss: 0.66727, accuracy: 0.56692
+2024-08-10 12:28:07,781 - INFO - train.py[:124] - epoch: 1/1, step: 461/571, loss: 0.66722, accuracy: 0.56657
+2024-08-10 12:28:14,611 - INFO - train.py[:124] - epoch: 1/1, step: 462/571, loss: 0.66710, accuracy: 0.56656
+2024-08-10 12:28:21,534 - INFO - train.py[:124] - epoch: 1/1, step: 463/571, loss: 0.66706, accuracy: 0.56641
+2024-08-10 12:28:28,587 - INFO - train.py[:124] - epoch: 1/1, step: 464/571, loss: 0.66686, accuracy: 0.56654
+2024-08-10 12:28:35,476 - INFO - train.py[:124] - epoch: 1/1, step: 465/571, loss: 0.66665, accuracy: 0.56673
+2024-08-10 12:28:42,335 - INFO - train.py[:124] - epoch: 1/1, step: 466/571, loss: 0.66645, accuracy: 0.56679
+2024-08-10 12:28:49,159 - INFO - train.py[:124] - epoch: 1/1, step: 467/571, loss: 0.66627, accuracy: 0.56698
+2024-08-10 12:28:56,017 - INFO - train.py[:124] - epoch: 1/1, step: 468/571, loss: 0.66607, accuracy: 0.56691
+2024-08-10 12:29:02,853 - INFO - train.py[:124] - epoch: 1/1, step: 469/571, loss: 0.66596, accuracy: 0.56710
+2024-08-10 12:29:09,682 - INFO - train.py[:124] - epoch: 1/1, step: 470/571, loss: 0.66576, accuracy: 0.56749
+2024-08-10 12:29:16,702 - INFO - train.py[:124] - epoch: 1/1, step: 471/571, loss: 0.66573, accuracy: 0.56761
+2024-08-10 12:29:23,699 - INFO - train.py[:124] - epoch: 1/1, step: 472/571, loss: 0.66551, accuracy: 0.56766
+2024-08-10 12:29:30,729 - INFO - train.py[:124] - epoch: 1/1, step: 473/571, loss: 0.66534, accuracy: 0.56798
+2024-08-10 12:29:37,732 - INFO - train.py[:124] - epoch: 1/1, step: 474/571, loss: 0.66512, accuracy: 0.56830
+2024-08-10 12:29:44,732 - INFO - train.py[:124] - epoch: 1/1, step: 475/571, loss: 0.66495, accuracy: 0.56842
+2024-08-10 12:29:51,817 - INFO - train.py[:124] - epoch: 1/1, step: 476/571, loss: 0.66502, accuracy: 0.56834
+2024-08-10 12:29:58,847 - INFO - train.py[:124] - epoch: 1/1, step: 477/571, loss: 0.66486, accuracy: 0.56840
+2024-08-10 12:30:05,949 - INFO - train.py[:124] - epoch: 1/1, step: 478/571, loss: 0.66483, accuracy: 0.56838
+2024-08-10 12:30:13,021 - INFO - train.py[:124] - epoch: 1/1, step: 479/571, loss: 0.66479, accuracy: 0.56883
+2024-08-10 12:30:19,977 - INFO - train.py[:124] - epoch: 1/1, step: 480/571, loss: 0.66465, accuracy: 0.56875
+2024-08-10 12:30:26,879 - INFO - train.py[:124] - epoch: 1/1, step: 481/571, loss: 0.66450, accuracy: 0.56887
+2024-08-10 12:30:33,790 - INFO - train.py[:124] - epoch: 1/1, step: 482/571, loss: 0.66443, accuracy: 0.56898
+2024-08-10 12:30:40,691 - INFO - train.py[:124] - epoch: 1/1, step: 483/571, loss: 0.66444, accuracy: 0.56891
+2024-08-10 12:30:47,595 - INFO - train.py[:124] - epoch: 1/1, step: 484/571, loss: 0.66445, accuracy: 0.56883
+2024-08-10 12:30:54,531 - INFO - train.py[:124] - epoch: 1/1, step: 485/571, loss: 0.66437, accuracy: 0.56894
+2024-08-10 12:31:01,544 - INFO - train.py[:124] - epoch: 1/1, step: 486/571, loss: 0.66426, accuracy: 0.56906
+2024-08-10 12:31:08,489 - INFO - train.py[:124] - epoch: 1/1, step: 487/571, loss: 0.66406, accuracy: 0.56930
+2024-08-10 12:31:15,273 - INFO - train.py[:124] - epoch: 1/1, step: 488/571, loss: 0.66386, accuracy: 0.56967
+2024-08-10 12:31:22,207 - INFO - train.py[:124] - epoch: 1/1, step: 489/571, loss: 0.66363, accuracy: 0.57017
+2024-08-10 12:31:29,190 - INFO - train.py[:124] - epoch: 1/1, step: 490/571, loss: 0.66348, accuracy: 0.57041
+2024-08-10 12:31:36,121 - INFO - train.py[:124] - epoch: 1/1, step: 491/571, loss: 0.66348, accuracy: 0.57014
+2024-08-10 12:31:43,188 - INFO - train.py[:124] - epoch: 1/1, step: 492/571, loss: 0.66343, accuracy: 0.57012
+2024-08-10 12:31:50,281 - INFO - train.py[:124] - epoch: 1/1, step: 493/571, loss: 0.66339, accuracy: 0.57023
+2024-08-10 12:31:57,246 - INFO - train.py[:124] - epoch: 1/1, step: 494/571, loss: 0.66330, accuracy: 0.57022
+2024-08-10 12:32:04,222 - INFO - train.py[:124] - epoch: 1/1, step: 495/571, loss: 0.66316, accuracy: 0.57045
+2024-08-10 12:32:11,139 - INFO - train.py[:124] - epoch: 1/1, step: 496/571, loss: 0.66312, accuracy: 0.57082
+2024-08-10 12:32:18,140 - INFO - train.py[:124] - epoch: 1/1, step: 497/571, loss: 0.66293, accuracy: 0.57118
+2024-08-10 12:32:25,087 - INFO - train.py[:124] - epoch: 1/1, step: 498/571, loss: 0.66282, accuracy: 0.57147
+2024-08-10 12:32:31,987 - INFO - train.py[:124] - epoch: 1/1, step: 499/571, loss: 0.66259, accuracy: 0.57177
+2024-08-10 12:32:38,823 - INFO - train.py[:124] - epoch: 1/1, step: 500/571, loss: 0.66255, accuracy: 0.57181
+2024-08-10 12:32:45,601 - INFO - train.py[:124] - epoch: 1/1, step: 501/571, loss: 0.66258, accuracy: 0.57179
+2024-08-10 12:32:52,590 - INFO - train.py[:124] - epoch: 1/1, step: 502/571, loss: 0.66255, accuracy: 0.57184
+2024-08-10 12:32:59,483 - INFO - train.py[:124] - epoch: 1/1, step: 503/571, loss: 0.66226, accuracy: 0.57232
+2024-08-10 12:33:06,370 - INFO - train.py[:124] - epoch: 1/1, step: 504/571, loss: 0.66208, accuracy: 0.57236
+2024-08-10 12:33:13,343 - INFO - train.py[:124] - epoch: 1/1, step: 505/571, loss: 0.66194, accuracy: 0.57228
+2024-08-10 12:33:20,258 - INFO - train.py[:124] - epoch: 1/1, step: 506/571, loss: 0.66193, accuracy: 0.57226
+2024-08-10 12:33:27,120 - INFO - train.py[:124] - epoch: 1/1, step: 507/571, loss: 0.66195, accuracy: 0.57212
+2024-08-10 12:33:33,950 - INFO - train.py[:124] - epoch: 1/1, step: 508/571, loss: 0.66189, accuracy: 0.57228
+2024-08-10 12:33:40,836 - INFO - train.py[:124] - epoch: 1/1, step: 509/571, loss: 0.66186, accuracy: 0.57232
+2024-08-10 12:33:47,758 - INFO - train.py[:124] - epoch: 1/1, step: 510/571, loss: 0.66183, accuracy: 0.57224
+2024-08-10 12:33:54,941 - INFO - train.py[:124] - epoch: 1/1, step: 511/571, loss: 0.66187, accuracy: 0.57235
+2024-08-10 12:34:01,993 - INFO - train.py[:124] - epoch: 1/1, step: 512/571, loss: 0.66184, accuracy: 0.57257
+2024-08-10 12:34:09,094 - INFO - train.py[:124] - epoch: 1/1, step: 513/571, loss: 0.66182, accuracy: 0.57267
+2024-08-10 12:34:16,730 - INFO - train.py[:124] - epoch: 1/1, step: 514/571, loss: 0.66186, accuracy: 0.57277
+2024-08-10 12:34:23,411 - INFO - train.py[:124] - epoch: 1/1, step: 515/571, loss: 0.66198, accuracy: 0.57269
+2024-08-10 12:34:30,212 - INFO - train.py[:124] - epoch: 1/1, step: 516/571, loss: 0.66186, accuracy: 0.57286
+2024-08-10 12:34:36,957 - INFO - train.py[:124] - epoch: 1/1, step: 517/571, loss: 0.66166, accuracy: 0.57308
+2024-08-10 12:34:43,690 - INFO - train.py[:124] - epoch: 1/1, step: 518/571, loss: 0.66139, accuracy: 0.57324
+2024-08-10 12:34:50,439 - INFO - train.py[:124] - epoch: 1/1, step: 519/571, loss: 0.66143, accuracy: 0.57310
+2024-08-10 12:34:57,099 - INFO - train.py[:124] - epoch: 1/1, step: 520/571, loss: 0.66131, accuracy: 0.57296
+2024-08-10 12:35:03,899 - INFO - train.py[:124] - epoch: 1/1, step: 521/571, loss: 0.66119, accuracy: 0.57306
+2024-08-10 12:35:10,651 - INFO - train.py[:124] - epoch: 1/1, step: 522/571, loss: 0.66104, accuracy: 0.57322
+2024-08-10 12:35:17,417 - INFO - train.py[:124] - epoch: 1/1, step: 523/571, loss: 0.66082, accuracy: 0.57332
+2024-08-10 12:35:24,263 - INFO - train.py[:124] - epoch: 1/1, step: 524/571, loss: 0.66065, accuracy: 0.57347
+2024-08-10 12:35:30,989 - INFO - train.py[:124] - epoch: 1/1, step: 525/571, loss: 0.66052, accuracy: 0.57369
+2024-08-10 12:35:38,071 - INFO - train.py[:124] - epoch: 1/1, step: 526/571, loss: 0.66047, accuracy: 0.57367
+2024-08-10 12:35:45,375 - INFO - train.py[:124] - epoch: 1/1, step: 527/571, loss: 0.66045, accuracy: 0.57383
+2024-08-10 12:35:52,395 - INFO - train.py[:124] - epoch: 1/1, step: 528/571, loss: 0.66034, accuracy: 0.57375
+2024-08-10 12:35:59,324 - INFO - train.py[:124] - epoch: 1/1, step: 529/571, loss: 0.66017, accuracy: 0.57408
+2024-08-10 12:36:06,816 - INFO - train.py[:124] - epoch: 1/1, step: 530/571, loss: 0.66009, accuracy: 0.57429
+2024-08-10 12:36:14,901 - INFO - train.py[:124] - epoch: 1/1, step: 531/571, loss: 0.65994, accuracy: 0.57462
+2024-08-10 12:36:22,237 - INFO - train.py[:124] - epoch: 1/1, step: 532/571, loss: 0.65983, accuracy: 0.57472
+2024-08-10 12:36:29,504 - INFO - train.py[:124] - epoch: 1/1, step: 533/571, loss: 0.65966, accuracy: 0.57505
+2024-08-10 12:36:36,880 - INFO - train.py[:124] - epoch: 1/1, step: 534/571, loss: 0.65976, accuracy: 0.57491
+2024-08-10 12:36:44,135 - INFO - train.py[:124] - epoch: 1/1, step: 535/571, loss: 0.65970, accuracy: 0.57512
+2024-08-10 12:36:51,071 - INFO - train.py[:124] - epoch: 1/1, step: 536/571, loss: 0.65957, accuracy: 0.57515
+2024-08-10 12:36:57,986 - INFO - train.py[:124] - epoch: 1/1, step: 537/571, loss: 0.65951, accuracy: 0.57542
+2024-08-10 12:37:05,236 - INFO - train.py[:124] - epoch: 1/1, step: 538/571, loss: 0.65939, accuracy: 0.57551
+2024-08-10 12:37:12,224 - INFO - train.py[:124] - epoch: 1/1, step: 539/571, loss: 0.65927, accuracy: 0.57566
+2024-08-10 12:37:18,984 - INFO - train.py[:124] - epoch: 1/1, step: 540/571, loss: 0.65930, accuracy: 0.57552
+2024-08-10 12:37:25,791 - INFO - train.py[:124] - epoch: 1/1, step: 541/571, loss: 0.65924, accuracy: 0.57527
+2024-08-10 12:37:32,505 - INFO - train.py[:124] - epoch: 1/1, step: 542/571, loss: 0.65910, accuracy: 0.57547
+2024-08-10 12:37:39,333 - INFO - train.py[:124] - epoch: 1/1, step: 543/571, loss: 0.65904, accuracy: 0.57556
+2024-08-10 12:37:46,293 - INFO - train.py[:124] - epoch: 1/1, step: 544/571, loss: 0.65884, accuracy: 0.57594
+2024-08-10 12:37:53,574 - INFO - train.py[:124] - epoch: 1/1, step: 545/571, loss: 0.65866, accuracy: 0.57632
+2024-08-10 12:38:00,695 - INFO - train.py[:124] - epoch: 1/1, step: 546/571, loss: 0.65849, accuracy: 0.57664
+2024-08-10 12:38:07,495 - INFO - train.py[:124] - epoch: 1/1, step: 547/571, loss: 0.65839, accuracy: 0.57678
+2024-08-10 12:38:14,296 - INFO - train.py[:124] - epoch: 1/1, step: 548/571, loss: 0.65828, accuracy: 0.57687
+2024-08-10 12:38:21,339 - INFO - train.py[:124] - epoch: 1/1, step: 549/571, loss: 0.65824, accuracy: 0.57679
+2024-08-10 12:38:28,827 - INFO - train.py[:124] - epoch: 1/1, step: 550/571, loss: 0.65817, accuracy: 0.57665
+2024-08-10 12:38:36,004 - INFO - train.py[:124] - epoch: 1/1, step: 551/571, loss: 0.65838, accuracy: 0.57645
+2024-08-10 12:38:43,153 - INFO - train.py[:124] - epoch: 1/1, step: 552/571, loss: 0.65817, accuracy: 0.57671
+2024-08-10 12:38:50,047 - INFO - train.py[:124] - epoch: 1/1, step: 553/571, loss: 0.65817, accuracy: 0.57663
+2024-08-10 12:38:56,989 - INFO - train.py[:124] - epoch: 1/1, step: 554/571, loss: 0.65826, accuracy: 0.57626
+2024-08-10 12:39:03,797 - INFO - train.py[:124] - epoch: 1/1, step: 555/571, loss: 0.65815, accuracy: 0.57635
+2024-08-10 12:39:10,481 - INFO - train.py[:124] - epoch: 1/1, step: 556/571, loss: 0.65791, accuracy: 0.57661
+2024-08-10 12:39:17,251 - INFO - train.py[:124] - epoch: 1/1, step: 557/571, loss: 0.65777, accuracy: 0.57658
+2024-08-10 12:39:24,081 - INFO - train.py[:124] - epoch: 1/1, step: 558/571, loss: 0.65784, accuracy: 0.57644
+2024-08-10 12:39:31,625 - INFO - train.py[:124] - epoch: 1/1, step: 559/571, loss: 0.65769, accuracy: 0.57681
+2024-08-10 12:39:38,853 - INFO - train.py[:124] - epoch: 1/1, step: 560/571, loss: 0.65768, accuracy: 0.57684
+2024-08-10 12:39:46,650 - INFO - train.py[:124] - epoch: 1/1, step: 561/571, loss: 0.65748, accuracy: 0.57698
+2024-08-10 12:39:54,283 - INFO - train.py[:124] - epoch: 1/1, step: 562/571, loss: 0.65755, accuracy: 0.57724
+2024-08-10 12:40:01,651 - INFO - train.py[:124] - epoch: 1/1, step: 563/571, loss: 0.65746, accuracy: 0.57732
+2024-08-10 12:40:08,874 - INFO - train.py[:124] - epoch: 1/1, step: 564/571, loss: 0.65739, accuracy: 0.57735
+2024-08-10 12:40:15,920 - INFO - train.py[:124] - epoch: 1/1, step: 565/571, loss: 0.65726, accuracy: 0.57738
+2024-08-10 12:40:23,002 - INFO - train.py[:124] - epoch: 1/1, step: 566/571, loss: 0.65722, accuracy: 0.57735
+2024-08-10 12:40:30,007 - INFO - train.py[:124] - epoch: 1/1, step: 567/571, loss: 0.65730, accuracy: 0.57738
+2024-08-10 12:40:37,113 - INFO - train.py[:124] - epoch: 1/1, step: 568/571, loss: 0.65739, accuracy: 0.57730
+2024-08-10 12:40:44,827 - INFO - train.py[:124] - epoch: 1/1, step: 569/571, loss: 0.65731, accuracy: 0.57716
+2024-08-10 12:40:52,010 - INFO - train.py[:124] - epoch: 1/1, step: 570/571, loss: 0.65726, accuracy: 0.57730
+2024-08-10 12:41:08,592 - INFO - train.py[:124] - epoch: 1/1, step: 571/571, loss: 0.65722, accuracy: 0.57738
+2024-08-10 12:41:08,608 - INFO - train.py[:128] - ====================================================================================================
+2024-08-10 12:41:13,402 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.78346, valid accuracy: 0.25000
+2024-08-10 12:41:16,674 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.77309, valid accuracy: 0.25000
+2024-08-10 12:41:19,855 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.74058, valid accuracy: 0.31250
+2024-08-10 12:41:23,117 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.74536, valid accuracy: 0.31250
+2024-08-10 12:41:26,211 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.75575, valid accuracy: 0.28750
+2024-08-10 12:41:29,398 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.72963, valid accuracy: 0.30729
+2024-08-10 12:41:32,601 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.72600, valid accuracy: 0.32143
+2024-08-10 12:41:35,758 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.70801, valid accuracy: 0.34766
+2024-08-10 12:41:39,071 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.70734, valid accuracy: 0.34722
+2024-08-10 12:41:42,401 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.70564, valid accuracy: 0.35313
+2024-08-10 12:41:45,707 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69800, valid accuracy: 0.36080
+2024-08-10 12:41:48,988 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69603, valid accuracy: 0.35677
+2024-08-10 12:41:52,082 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69129, valid accuracy: 0.36058
+2024-08-10 12:41:55,333 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68915, valid accuracy: 0.36384
+2024-08-10 12:41:58,454 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68974, valid accuracy: 0.36875
+2024-08-10 12:42:01,630 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68931, valid accuracy: 0.36719
+2024-08-10 12:42:04,789 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69346, valid accuracy: 0.36397
+2024-08-10 12:42:08,148 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69639, valid accuracy: 0.36111
+2024-08-10 12:42:11,377 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69574, valid accuracy: 0.36020
+2024-08-10 12:42:14,592 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69452, valid accuracy: 0.36094
+2024-08-10 12:42:17,841 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69638, valid accuracy: 0.36012
+2024-08-10 12:42:21,027 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69218, valid accuracy: 0.36790
+2024-08-10 12:42:24,209 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69080, valid accuracy: 0.36821
+2024-08-10 12:42:27,344 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69020, valid accuracy: 0.37109
+2024-08-10 12:42:30,467 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69268, valid accuracy: 0.36625
+2024-08-10 12:42:33,596 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69334, valid accuracy: 0.36418
+2024-08-10 12:42:36,722 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69180, valid accuracy: 0.36690
+2024-08-10 12:42:39,865 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69426, valid accuracy: 0.36161
+2024-08-10 12:42:42,988 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69246, valid accuracy: 0.36638
+2024-08-10 12:42:46,126 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69297, valid accuracy: 0.36771
+2024-08-10 12:42:49,256 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69205, valid accuracy: 0.36996
+2024-08-10 12:42:52,371 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68959, valid accuracy: 0.37305
+2024-08-10 12:42:55,489 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68988, valid accuracy: 0.37216
+2024-08-10 12:42:58,620 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68760, valid accuracy: 0.37592
+2024-08-10 12:43:01,750 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68713, valid accuracy: 0.37679
+2024-08-10 12:43:04,878 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68763, valid accuracy: 0.37674
+2024-08-10 12:43:08,016 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68891, valid accuracy: 0.37584
+2024-08-10 12:43:11,143 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68727, valid accuracy: 0.37747
+2024-08-10 12:43:14,267 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68807, valid accuracy: 0.37660
+2024-08-10 12:43:17,392 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68560, valid accuracy: 0.38047
+2024-08-10 12:43:20,521 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68723, valid accuracy: 0.37652
+2024-08-10 12:43:23,634 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68675, valid accuracy: 0.37649
+2024-08-10 12:43:26,759 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68717, valid accuracy: 0.37500
+2024-08-10 12:43:29,866 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68804, valid accuracy: 0.37287
+2024-08-10 12:43:33,006 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68722, valid accuracy: 0.37292
+2024-08-10 12:43:36,151 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68502, valid accuracy: 0.37636
+2024-08-10 12:43:39,270 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68583, valid accuracy: 0.37566
+2024-08-10 12:43:42,396 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68546, valid accuracy: 0.37760
+2024-08-10 12:43:45,526 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68324, valid accuracy: 0.37946
+2024-08-10 12:43:48,660 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68507, valid accuracy: 0.37875
+2024-08-10 12:43:51,799 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68453, valid accuracy: 0.37929
+2024-08-10 12:43:54,913 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68402, valid accuracy: 0.38041
+2024-08-10 12:43:58,031 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68468, valid accuracy: 0.37972
+2024-08-10 12:44:01,153 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68604, valid accuracy: 0.37731
+2024-08-10 12:44:04,297 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68508, valid accuracy: 0.37898
+2024-08-10 12:44:07,422 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68542, valid accuracy: 0.37723
+2024-08-10 12:44:10,549 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68629, valid accuracy: 0.37555
+2024-08-10 12:44:13,662 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68630, valid accuracy: 0.37446
+2024-08-10 12:44:16,787 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68616, valid accuracy: 0.37447
+2024-08-10 12:44:19,903 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68681, valid accuracy: 0.37344
+2024-08-10 12:44:23,029 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68580, valid accuracy: 0.37602
+2024-08-10 12:44:26,154 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68669, valid accuracy: 0.37500
+2024-08-10 12:44:29,290 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68799, valid accuracy: 0.37450
+2024-08-10 12:44:32,431 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68969, valid accuracy: 0.37207
+2024-08-10 12:44:35,568 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68977, valid accuracy: 0.37067
+2024-08-10 12:44:38,712 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68932, valid accuracy: 0.37121
+2024-08-10 12:44:41,830 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68957, valid accuracy: 0.37174
+2024-08-10 12:44:44,952 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68991, valid accuracy: 0.37132
+2024-08-10 12:44:48,070 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.69047, valid accuracy: 0.37002
+2024-08-10 12:44:51,197 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68941, valid accuracy: 0.37187
+2024-08-10 12:44:54,331 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68904, valid accuracy: 0.37236
+2024-08-10 12:44:57,453 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68897, valid accuracy: 0.37240
+2024-08-10 12:45:00,564 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68790, valid accuracy: 0.37543
+2024-08-10 12:45:03,688 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68656, valid accuracy: 0.38218
+2024-08-10 12:45:06,857 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68542, valid accuracy: 0.38792
+2024-08-10 12:45:09,987 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68371, valid accuracy: 0.39474
+2024-08-10 12:45:13,094 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68270, valid accuracy: 0.39935
+2024-08-10 12:45:16,215 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68209, valid accuracy: 0.40465
+2024-08-10 12:45:19,337 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.68027, valid accuracy: 0.41060
+2024-08-10 12:45:22,457 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67869, valid accuracy: 0.41719
+2024-08-10 12:45:25,576 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67808, valid accuracy: 0.42245
+2024-08-10 12:45:28,697 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67685, valid accuracy: 0.42759
+2024-08-10 12:45:31,822 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67541, valid accuracy: 0.43223
+2024-08-10 12:45:34,941 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67502, valid accuracy: 0.43676
+2024-08-10 12:45:38,068 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67366, valid accuracy: 0.44228
+2024-08-10 12:45:41,204 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67304, valid accuracy: 0.44586
+2024-08-10 12:45:44,321 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67219, valid accuracy: 0.45043
+2024-08-10 12:45:47,434 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67050, valid accuracy: 0.45597
+2024-08-10 12:45:50,557 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.67015, valid accuracy: 0.45962
+2024-08-10 12:45:53,677 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66951, valid accuracy: 0.46319
+2024-08-10 12:45:56,785 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66769, valid accuracy: 0.46909
+2024-08-10 12:45:59,879 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66638, valid accuracy: 0.47385
+2024-08-10 12:46:02,992 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66584, valid accuracy: 0.47782
+2024-08-10 12:46:06,118 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66539, valid accuracy: 0.48205
+2024-08-10 12:46:09,240 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66477, valid accuracy: 0.48651
+2024-08-10 12:46:12,406 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66401, valid accuracy: 0.49056
+2024-08-10 12:46:15,521 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66334, valid accuracy: 0.49388
+2024-08-10 12:46:18,637 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66302, valid accuracy: 0.49745
+2024-08-10 12:46:21,789 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66239, valid accuracy: 0.50095
+2024-08-10 12:46:24,995 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66146, valid accuracy: 0.50500
+2024-08-10 12:46:28,207 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.66058, valid accuracy: 0.50835
+2024-08-10 12:46:31,498 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65984, valid accuracy: 0.51195
+2024-08-10 12:46:34,768 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65862, valid accuracy: 0.51608
+2024-08-10 12:46:38,110 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65739, valid accuracy: 0.51953
+2024-08-10 12:46:41,423 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65635, valid accuracy: 0.52351
+2024-08-10 12:46:44,836 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65620, valid accuracy: 0.52653
+2024-08-10 12:46:48,166 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65557, valid accuracy: 0.52862
+2024-08-10 12:46:51,543 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65516, valid accuracy: 0.53038
+2024-08-10 12:46:55,128 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65431, valid accuracy: 0.53412
+2024-08-10 12:46:58,688 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65377, valid accuracy: 0.53636
+2024-08-10 12:47:02,296 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65321, valid accuracy: 0.53857
+2024-08-10 12:47:05,873 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65210, valid accuracy: 0.54241
+2024-08-10 12:47:09,581 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65137, valid accuracy: 0.54508
+2024-08-10 12:47:13,096 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65054, valid accuracy: 0.54797
+2024-08-10 12:47:16,667 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.65022, valid accuracy: 0.55082
+2024-08-10 12:47:20,362 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64912, valid accuracy: 0.55442
+2024-08-10 12:47:23,993 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64807, valid accuracy: 0.55769
+2024-08-10 12:47:27,628 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64756, valid accuracy: 0.55985
+2024-08-10 12:47:31,085 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64684, valid accuracy: 0.56224
+2024-08-10 12:47:34,771 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64606, valid accuracy: 0.56484
+2024-08-10 12:47:38,387 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64642, valid accuracy: 0.56715
+2024-08-10 12:47:42,090 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64698, valid accuracy: 0.56916
+2024-08-10 12:47:44,630 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.65722, train accuracy: 0.57738, valid loss: 0.64581, valid accuracy: 0.57004
+2024-08-10 13:22:55,827 - INFO - train.py[:124] - epoch: 1/1, step: 1/571, loss: 1.03282, accuracy: 0.34375
+2024-08-10 13:23:02,649 - INFO - train.py[:124] - epoch: 1/1, step: 2/571, loss: 1.06665, accuracy: 0.39062
+2024-08-10 13:23:09,198 - INFO - train.py[:124] - epoch: 1/1, step: 3/571, loss: 1.07770, accuracy: 0.37500
+2024-08-10 13:23:15,589 - INFO - train.py[:124] - epoch: 1/1, step: 4/571, loss: 1.07575, accuracy: 0.38281
+2024-08-10 13:23:22,079 - INFO - train.py[:124] - epoch: 1/1, step: 5/571, loss: 1.05112, accuracy: 0.40625
+2024-08-10 13:23:28,894 - INFO - train.py[:124] - epoch: 1/1, step: 6/571, loss: 1.05380, accuracy: 0.40104
+2024-08-10 13:23:36,165 - INFO - train.py[:124] - epoch: 1/1, step: 7/571, loss: 1.02938, accuracy: 0.41964
+2024-08-10 13:23:43,146 - INFO - train.py[:124] - epoch: 1/1, step: 8/571, loss: 1.02970, accuracy: 0.41797
+2024-08-10 13:23:49,916 - INFO - train.py[:124] - epoch: 1/1, step: 9/571, loss: 1.02799, accuracy: 0.41319
+2024-08-10 13:23:56,796 - INFO - train.py[:124] - epoch: 1/1, step: 10/571, loss: 1.02960, accuracy: 0.40312
+2024-08-10 13:24:03,557 - INFO - train.py[:124] - epoch: 1/1, step: 11/571, loss: 1.01832, accuracy: 0.40909
+2024-08-10 13:24:10,062 - INFO - train.py[:124] - epoch: 1/1, step: 12/571, loss: 1.00898, accuracy: 0.41406
+2024-08-10 13:24:16,378 - INFO - train.py[:124] - epoch: 1/1, step: 13/571, loss: 0.99560, accuracy: 0.42067
+2024-08-10 13:24:23,275 - INFO - train.py[:124] - epoch: 1/1, step: 14/571, loss: 0.99140, accuracy: 0.41964
+2024-08-10 13:24:29,557 - INFO - train.py[:124] - epoch: 1/1, step: 15/571, loss: 0.98091, accuracy: 0.42708
+2024-08-10 13:24:36,023 - INFO - train.py[:124] - epoch: 1/1, step: 16/571, loss: 0.98525, accuracy: 0.41992
+2024-08-10 13:24:42,233 - INFO - train.py[:124] - epoch: 1/1, step: 17/571, loss: 0.98029, accuracy: 0.42096
+2024-08-10 13:24:48,467 - INFO - train.py[:124] - epoch: 1/1, step: 18/571, loss: 0.97661, accuracy: 0.42014
+2024-08-10 13:24:54,568 - INFO - train.py[:124] - epoch: 1/1, step: 19/571, loss: 0.97338, accuracy: 0.42105
+2024-08-10 13:25:00,922 - INFO - train.py[:124] - epoch: 1/1, step: 20/571, loss: 0.96484, accuracy: 0.42500
+2024-08-10 13:25:07,045 - INFO - train.py[:124] - epoch: 1/1, step: 21/571, loss: 0.96140, accuracy: 0.42560
+2024-08-10 13:25:13,748 - INFO - train.py[:124] - epoch: 1/1, step: 22/571, loss: 0.95477, accuracy: 0.42756
+2024-08-10 13:25:19,726 - INFO - train.py[:124] - epoch: 1/1, step: 23/571, loss: 0.94558, accuracy: 0.43342
+2024-08-10 13:25:25,657 - INFO - train.py[:124] - epoch: 1/1, step: 24/571, loss: 0.94672, accuracy: 0.42839
+2024-08-10 13:25:31,683 - INFO - train.py[:124] - epoch: 1/1, step: 25/571, loss: 0.95041, accuracy: 0.42625
+2024-08-10 13:25:37,641 - INFO - train.py[:124] - epoch: 1/1, step: 26/571, loss: 0.94670, accuracy: 0.42788
+2024-08-10 13:25:43,583 - INFO - train.py[:124] - epoch: 1/1, step: 27/571, loss: 0.94228, accuracy: 0.43056
+2024-08-10 13:25:49,563 - INFO - train.py[:124] - epoch: 1/1, step: 28/571, loss: 0.94107, accuracy: 0.42857
+2024-08-10 13:25:55,658 - INFO - train.py[:124] - epoch: 1/1, step: 29/571, loss: 0.93710, accuracy: 0.43103
+2024-08-10 13:26:01,760 - INFO - train.py[:124] - epoch: 1/1, step: 30/571, loss: 0.93453, accuracy: 0.43229
+2024-08-10 13:26:07,826 - INFO - train.py[:124] - epoch: 1/1, step: 31/571, loss: 0.93584, accuracy: 0.43044
+2024-08-10 13:26:13,916 - INFO - train.py[:124] - epoch: 1/1, step: 32/571, loss: 0.92853, accuracy: 0.43652
+2024-08-10 13:26:20,004 - INFO - train.py[:124] - epoch: 1/1, step: 33/571, loss: 0.92812, accuracy: 0.43561
+2024-08-10 13:26:26,152 - INFO - train.py[:124] - epoch: 1/1, step: 34/571, loss: 0.92705, accuracy: 0.43566
+2024-08-10 13:26:32,291 - INFO - train.py[:124] - epoch: 1/1, step: 35/571, loss: 0.92222, accuracy: 0.44018
+2024-08-10 13:26:38,455 - INFO - train.py[:124] - epoch: 1/1, step: 36/571, loss: 0.92087, accuracy: 0.43924
+2024-08-10 13:26:44,794 - INFO - train.py[:124] - epoch: 1/1, step: 37/571, loss: 0.91564, accuracy: 0.44257
+2024-08-10 13:26:51,123 - INFO - train.py[:124] - epoch: 1/1, step: 38/571, loss: 0.91155, accuracy: 0.44572
+2024-08-10 13:26:57,437 - INFO - train.py[:124] - epoch: 1/1, step: 39/571, loss: 0.90941, accuracy: 0.44631
+2024-08-10 13:27:03,591 - INFO - train.py[:124] - epoch: 1/1, step: 40/571, loss: 0.91296, accuracy: 0.44375
+2024-08-10 13:27:09,833 - INFO - train.py[:124] - epoch: 1/1, step: 41/571, loss: 0.91091, accuracy: 0.44512
+2024-08-10 13:27:16,013 - INFO - train.py[:124] - epoch: 1/1, step: 42/571, loss: 0.90859, accuracy: 0.44643
+2024-08-10 13:27:22,409 - INFO - train.py[:124] - epoch: 1/1, step: 43/571, loss: 0.90691, accuracy: 0.44622
+2024-08-10 13:27:28,724 - INFO - train.py[:124] - epoch: 1/1, step: 44/571, loss: 0.90595, accuracy: 0.44673
+2024-08-10 13:27:34,913 - INFO - train.py[:124] - epoch: 1/1, step: 45/571, loss: 0.90556, accuracy: 0.44514
+2024-08-10 13:27:41,055 - INFO - train.py[:124] - epoch: 1/1, step: 46/571, loss: 0.90622, accuracy: 0.44497
+2024-08-10 13:27:47,237 - INFO - train.py[:124] - epoch: 1/1, step: 47/571, loss: 0.90347, accuracy: 0.44548
+2024-08-10 13:27:53,528 - INFO - train.py[:124] - epoch: 1/1, step: 48/571, loss: 0.90305, accuracy: 0.44401
+2024-08-10 13:28:00,199 - INFO - train.py[:124] - epoch: 1/1, step: 49/571, loss: 0.90120, accuracy: 0.44515
+2024-08-10 13:28:06,711 - INFO - train.py[:124] - epoch: 1/1, step: 50/571, loss: 0.90125, accuracy: 0.44438
+2024-08-10 13:28:13,213 - INFO - train.py[:124] - epoch: 1/1, step: 51/571, loss: 0.90318, accuracy: 0.44179
+2024-08-10 13:28:19,577 - INFO - train.py[:124] - epoch: 1/1, step: 52/571, loss: 0.90098, accuracy: 0.44351
+2024-08-10 13:28:25,973 - INFO - train.py[:124] - epoch: 1/1, step: 53/571, loss: 0.90255, accuracy: 0.44222
+2024-08-10 13:28:32,115 - INFO - train.py[:124] - epoch: 1/1, step: 54/571, loss: 0.90407, accuracy: 0.44039
+2024-08-10 13:28:38,418 - INFO - train.py[:124] - epoch: 1/1, step: 55/571, loss: 0.90443, accuracy: 0.43807
+2024-08-10 13:28:44,660 - INFO - train.py[:124] - epoch: 1/1, step: 56/571, loss: 0.90341, accuracy: 0.43806
+2024-08-10 13:28:50,951 - INFO - train.py[:124] - epoch: 1/1, step: 57/571, loss: 0.90051, accuracy: 0.43969
+2024-08-10 13:28:57,133 - INFO - train.py[:124] - epoch: 1/1, step: 58/571, loss: 0.89686, accuracy: 0.44181
+2024-08-10 13:29:03,345 - INFO - train.py[:124] - epoch: 1/1, step: 59/571, loss: 0.89507, accuracy: 0.44174
+2024-08-10 13:29:09,600 - INFO - train.py[:124] - epoch: 1/1, step: 60/571, loss: 0.89343, accuracy: 0.44323
+2024-08-10 13:29:15,861 - INFO - train.py[:124] - epoch: 1/1, step: 61/571, loss: 0.89216, accuracy: 0.44365
+2024-08-10 13:29:21,969 - INFO - train.py[:124] - epoch: 1/1, step: 62/571, loss: 0.89087, accuracy: 0.44304
+2024-08-10 13:29:28,064 - INFO - train.py[:124] - epoch: 1/1, step: 63/571, loss: 0.89105, accuracy: 0.44147
+2024-08-10 13:29:34,115 - INFO - train.py[:124] - epoch: 1/1, step: 64/571, loss: 0.88914, accuracy: 0.44189
+2024-08-10 13:29:40,538 - INFO - train.py[:124] - epoch: 1/1, step: 65/571, loss: 0.88814, accuracy: 0.44087
+2024-08-10 13:29:47,282 - INFO - train.py[:124] - epoch: 1/1, step: 66/571, loss: 0.88575, accuracy: 0.44223
+2024-08-10 13:29:54,119 - INFO - train.py[:124] - epoch: 1/1, step: 67/571, loss: 0.88498, accuracy: 0.44216
+2024-08-10 13:30:00,548 - INFO - train.py[:124] - epoch: 1/1, step: 68/571, loss: 0.88336, accuracy: 0.44210
+2024-08-10 13:30:07,533 - INFO - train.py[:124] - epoch: 1/1, step: 69/571, loss: 0.88056, accuracy: 0.44475
+2024-08-10 13:30:14,277 - INFO - train.py[:124] - epoch: 1/1, step: 70/571, loss: 0.87975, accuracy: 0.44509
+2024-08-10 13:30:21,147 - INFO - train.py[:124] - epoch: 1/1, step: 71/571, loss: 0.87808, accuracy: 0.44542
+2024-08-10 13:30:27,604 - INFO - train.py[:124] - epoch: 1/1, step: 72/571, loss: 0.87756, accuracy: 0.44444
+2024-08-10 13:30:34,094 - INFO - train.py[:124] - epoch: 1/1, step: 73/571, loss: 0.87571, accuracy: 0.44563
+2024-08-10 13:30:40,590 - INFO - train.py[:124] - epoch: 1/1, step: 74/571, loss: 0.87543, accuracy: 0.44426
+2024-08-10 13:30:47,016 - INFO - train.py[:124] - epoch: 1/1, step: 75/571, loss: 0.87339, accuracy: 0.44583
+2024-08-10 13:30:53,365 - INFO - train.py[:124] - epoch: 1/1, step: 76/571, loss: 0.87304, accuracy: 0.44449
+2024-08-10 13:30:59,719 - INFO - train.py[:124] - epoch: 1/1, step: 77/571, loss: 0.87140, accuracy: 0.44562
+2024-08-10 13:31:06,094 - INFO - train.py[:124] - epoch: 1/1, step: 78/571, loss: 0.87179, accuracy: 0.44391
+2024-08-10 13:31:12,464 - INFO - train.py[:124] - epoch: 1/1, step: 79/571, loss: 0.87153, accuracy: 0.44264
+2024-08-10 13:31:19,138 - INFO - train.py[:124] - epoch: 1/1, step: 80/571, loss: 0.86977, accuracy: 0.44453
+2024-08-10 13:31:26,008 - INFO - train.py[:124] - epoch: 1/1, step: 81/571, loss: 0.86910, accuracy: 0.44522
+2024-08-10 13:31:32,465 - INFO - train.py[:124] - epoch: 1/1, step: 82/571, loss: 0.86840, accuracy: 0.44474
+2024-08-10 13:31:39,145 - INFO - train.py[:124] - epoch: 1/1, step: 83/571, loss: 0.86782, accuracy: 0.44465
+2024-08-10 13:31:45,774 - INFO - train.py[:124] - epoch: 1/1, step: 84/571, loss: 0.86524, accuracy: 0.44643
+2024-08-10 13:31:52,427 - INFO - train.py[:124] - epoch: 1/1, step: 85/571, loss: 0.86291, accuracy: 0.44816
+2024-08-10 13:31:58,973 - INFO - train.py[:124] - epoch: 1/1, step: 86/571, loss: 0.86225, accuracy: 0.44840
+2024-08-10 13:32:05,677 - INFO - train.py[:124] - epoch: 1/1, step: 87/571, loss: 0.86188, accuracy: 0.44828
+2024-08-10 13:32:12,246 - INFO - train.py[:124] - epoch: 1/1, step: 88/571, loss: 0.86099, accuracy: 0.44780
+2024-08-10 13:32:18,819 - INFO - train.py[:124] - epoch: 1/1, step: 89/571, loss: 0.85949, accuracy: 0.44874
+2024-08-10 13:32:25,447 - INFO - train.py[:124] - epoch: 1/1, step: 90/571, loss: 0.85826, accuracy: 0.44931
+2024-08-10 13:32:32,103 - INFO - train.py[:124] - epoch: 1/1, step: 91/571, loss: 0.85692, accuracy: 0.44918
+2024-08-10 13:32:38,933 - INFO - train.py[:124] - epoch: 1/1, step: 92/571, loss: 0.85639, accuracy: 0.44871
+2024-08-10 13:32:45,565 - INFO - train.py[:124] - epoch: 1/1, step: 93/571, loss: 0.85466, accuracy: 0.45027
+2024-08-10 13:32:52,196 - INFO - train.py[:124] - epoch: 1/1, step: 94/571, loss: 0.85342, accuracy: 0.45080
+2024-08-10 13:32:58,945 - INFO - train.py[:124] - epoch: 1/1, step: 95/571, loss: 0.85239, accuracy: 0.45132
+2024-08-10 13:33:06,099 - INFO - train.py[:124] - epoch: 1/1, step: 96/571, loss: 0.85277, accuracy: 0.45085
+2024-08-10 13:33:12,620 - INFO - train.py[:124] - epoch: 1/1, step: 97/571, loss: 0.85171, accuracy: 0.45103
+2024-08-10 13:33:19,424 - INFO - train.py[:124] - epoch: 1/1, step: 98/571, loss: 0.85036, accuracy: 0.45121
+2024-08-10 13:33:25,800 - INFO - train.py[:124] - epoch: 1/1, step: 99/571, loss: 0.85014, accuracy: 0.45139
+2024-08-10 13:33:32,358 - INFO - train.py[:124] - epoch: 1/1, step: 100/571, loss: 0.84910, accuracy: 0.45188
+2024-08-10 13:33:38,915 - INFO - train.py[:124] - epoch: 1/1, step: 101/571, loss: 0.84758, accuracy: 0.45297
+2024-08-10 13:33:45,741 - INFO - train.py[:124] - epoch: 1/1, step: 102/571, loss: 0.84611, accuracy: 0.45404
+2024-08-10 13:33:52,434 - INFO - train.py[:124] - epoch: 1/1, step: 103/571, loss: 0.84480, accuracy: 0.45510
+2024-08-10 13:33:59,637 - INFO - train.py[:124] - epoch: 1/1, step: 104/571, loss: 0.84413, accuracy: 0.45433
+2024-08-10 13:34:06,214 - INFO - train.py[:124] - epoch: 1/1, step: 105/571, loss: 0.84401, accuracy: 0.45268
+2024-08-10 13:34:13,886 - INFO - train.py[:124] - epoch: 1/1, step: 106/571, loss: 0.84228, accuracy: 0.45401
+2024-08-10 13:34:20,725 - INFO - train.py[:124] - epoch: 1/1, step: 107/571, loss: 0.84096, accuracy: 0.45473
+2024-08-10 13:34:27,394 - INFO - train.py[:124] - epoch: 1/1, step: 108/571, loss: 0.84015, accuracy: 0.45486
+2024-08-10 13:34:34,182 - INFO - train.py[:124] - epoch: 1/1, step: 109/571, loss: 0.83893, accuracy: 0.45528
+2024-08-10 13:34:40,999 - INFO - train.py[:124] - epoch: 1/1, step: 110/571, loss: 0.83801, accuracy: 0.45540
+2024-08-10 13:34:47,663 - INFO - train.py[:124] - epoch: 1/1, step: 111/571, loss: 0.83721, accuracy: 0.45524
+2024-08-10 13:34:54,340 - INFO - train.py[:124] - epoch: 1/1, step: 112/571, loss: 0.83600, accuracy: 0.45564
+2024-08-10 13:35:00,963 - INFO - train.py[:124] - epoch: 1/1, step: 113/571, loss: 0.83500, accuracy: 0.45548
+2024-08-10 13:35:07,656 - INFO - train.py[:124] - epoch: 1/1, step: 114/571, loss: 0.83480, accuracy: 0.45559
+2024-08-10 13:35:14,138 - INFO - train.py[:124] - epoch: 1/1, step: 115/571, loss: 0.83389, accuracy: 0.45598
+2024-08-10 13:35:20,606 - INFO - train.py[:124] - epoch: 1/1, step: 116/571, loss: 0.83288, accuracy: 0.45636
+2024-08-10 13:35:26,956 - INFO - train.py[:124] - epoch: 1/1, step: 117/571, loss: 0.83201, accuracy: 0.45593
+2024-08-10 13:35:33,325 - INFO - train.py[:124] - epoch: 1/1, step: 118/571, loss: 0.83135, accuracy: 0.45524
+2024-08-10 13:35:39,780 - INFO - train.py[:124] - epoch: 1/1, step: 119/571, loss: 0.83024, accuracy: 0.45562
+2024-08-10 13:35:46,165 - INFO - train.py[:124] - epoch: 1/1, step: 120/571, loss: 0.83000, accuracy: 0.45547
+2024-08-10 13:35:52,501 - INFO - train.py[:124] - epoch: 1/1, step: 121/571, loss: 0.82880, accuracy: 0.45635
+2024-08-10 13:35:58,780 - INFO - train.py[:124] - epoch: 1/1, step: 122/571, loss: 0.82861, accuracy: 0.45620
+2024-08-10 13:36:05,155 - INFO - train.py[:124] - epoch: 1/1, step: 123/571, loss: 0.82800, accuracy: 0.45605
+2024-08-10 13:36:11,627 - INFO - train.py[:124] - epoch: 1/1, step: 124/571, loss: 0.82754, accuracy: 0.45539
+2024-08-10 13:36:17,989 - INFO - train.py[:124] - epoch: 1/1, step: 125/571, loss: 0.82645, accuracy: 0.45600
+2024-08-10 13:36:24,300 - INFO - train.py[:124] - epoch: 1/1, step: 126/571, loss: 0.82545, accuracy: 0.45585
+2024-08-10 13:36:30,810 - INFO - train.py[:124] - epoch: 1/1, step: 127/571, loss: 0.82527, accuracy: 0.45522
+2024-08-10 13:36:37,314 - INFO - train.py[:124] - epoch: 1/1, step: 128/571, loss: 0.82454, accuracy: 0.45557
+2024-08-10 13:36:43,821 - INFO - train.py[:124] - epoch: 1/1, step: 129/571, loss: 0.82331, accuracy: 0.45567
+2024-08-10 13:36:50,309 - INFO - train.py[:124] - epoch: 1/1, step: 130/571, loss: 0.82257, accuracy: 0.45673
+2024-08-10 13:36:56,968 - INFO - train.py[:124] - epoch: 1/1, step: 131/571, loss: 0.82204, accuracy: 0.45682
+2024-08-10 13:37:03,583 - INFO - train.py[:124] - epoch: 1/1, step: 132/571, loss: 0.82098, accuracy: 0.45715
+2024-08-10 13:37:10,087 - INFO - train.py[:124] - epoch: 1/1, step: 133/571, loss: 0.81997, accuracy: 0.45818
+2024-08-10 13:37:16,449 - INFO - train.py[:124] - epoch: 1/1, step: 134/571, loss: 0.81961, accuracy: 0.45802
+2024-08-10 13:37:23,053 - INFO - train.py[:124] - epoch: 1/1, step: 135/571, loss: 0.81901, accuracy: 0.45787
+2024-08-10 13:37:29,536 - INFO - train.py[:124] - epoch: 1/1, step: 136/571, loss: 0.81750, accuracy: 0.45979
+2024-08-10 13:37:36,014 - INFO - train.py[:124] - epoch: 1/1, step: 137/571, loss: 0.81668, accuracy: 0.46008
+2024-08-10 13:37:42,538 - INFO - train.py[:124] - epoch: 1/1, step: 138/571, loss: 0.81587, accuracy: 0.46105
+2024-08-10 13:37:49,160 - INFO - train.py[:124] - epoch: 1/1, step: 139/571, loss: 0.81486, accuracy: 0.46133
+2024-08-10 13:37:55,820 - INFO - train.py[:124] - epoch: 1/1, step: 140/571, loss: 0.81384, accuracy: 0.46161
+2024-08-10 13:38:02,571 - INFO - train.py[:124] - epoch: 1/1, step: 141/571, loss: 0.81365, accuracy: 0.46166
+2024-08-10 13:38:09,136 - INFO - train.py[:124] - epoch: 1/1, step: 142/571, loss: 0.81259, accuracy: 0.46193
+2024-08-10 13:38:15,591 - INFO - train.py[:124] - epoch: 1/1, step: 143/571, loss: 0.81137, accuracy: 0.46307
+2024-08-10 13:38:22,056 - INFO - train.py[:124] - epoch: 1/1, step: 144/571, loss: 0.81107, accuracy: 0.46289
+2024-08-10 13:38:29,105 - INFO - train.py[:124] - epoch: 1/1, step: 145/571, loss: 0.81010, accuracy: 0.46379
+2024-08-10 13:38:35,831 - INFO - train.py[:124] - epoch: 1/1, step: 146/571, loss: 0.80948, accuracy: 0.46361
+2024-08-10 13:38:42,559 - INFO - train.py[:124] - epoch: 1/1, step: 147/571, loss: 0.80830, accuracy: 0.46471
+2024-08-10 13:38:49,820 - INFO - train.py[:124] - epoch: 1/1, step: 148/571, loss: 0.80767, accuracy: 0.46495
+2024-08-10 13:38:56,037 - INFO - train.py[:124] - epoch: 1/1, step: 149/571, loss: 0.80654, accuracy: 0.46581
+2024-08-10 13:39:02,243 - INFO - train.py[:124] - epoch: 1/1, step: 150/571, loss: 0.80598, accuracy: 0.46542
+2024-08-10 13:39:08,475 - INFO - train.py[:124] - epoch: 1/1, step: 151/571, loss: 0.80608, accuracy: 0.46565
+2024-08-10 13:39:14,649 - INFO - train.py[:124] - epoch: 1/1, step: 152/571, loss: 0.80507, accuracy: 0.46608
+2024-08-10 13:39:20,920 - INFO - train.py[:124] - epoch: 1/1, step: 153/571, loss: 0.80400, accuracy: 0.46752
+2024-08-10 13:39:27,099 - INFO - train.py[:124] - epoch: 1/1, step: 154/571, loss: 0.80376, accuracy: 0.46753
+2024-08-10 13:39:33,823 - INFO - train.py[:124] - epoch: 1/1, step: 155/571, loss: 0.80315, accuracy: 0.46714
+2024-08-10 13:39:40,742 - INFO - train.py[:124] - epoch: 1/1, step: 156/571, loss: 0.80195, accuracy: 0.46835
+2024-08-10 13:39:47,273 - INFO - train.py[:124] - epoch: 1/1, step: 157/571, loss: 0.80187, accuracy: 0.46815
+2024-08-10 13:39:53,887 - INFO - train.py[:124] - epoch: 1/1, step: 158/571, loss: 0.80139, accuracy: 0.46796
+2024-08-10 13:40:00,507 - INFO - train.py[:124] - epoch: 1/1, step: 159/571, loss: 0.80119, accuracy: 0.46777
+2024-08-10 13:40:07,096 - INFO - train.py[:124] - epoch: 1/1, step: 160/571, loss: 0.80052, accuracy: 0.46797
+2024-08-10 13:40:13,799 - INFO - train.py[:124] - epoch: 1/1, step: 161/571, loss: 0.79993, accuracy: 0.46817
+2024-08-10 13:40:20,655 - INFO - train.py[:124] - epoch: 1/1, step: 162/571, loss: 0.79938, accuracy: 0.46836
+2024-08-10 13:40:27,530 - INFO - train.py[:124] - epoch: 1/1, step: 163/571, loss: 0.79878, accuracy: 0.46798
+2024-08-10 13:40:34,143 - INFO - train.py[:124] - epoch: 1/1, step: 164/571, loss: 0.79820, accuracy: 0.46761
+2024-08-10 13:40:40,805 - INFO - train.py[:124] - epoch: 1/1, step: 165/571, loss: 0.79744, accuracy: 0.46856
+2024-08-10 13:40:47,504 - INFO - train.py[:124] - epoch: 1/1, step: 166/571, loss: 0.79715, accuracy: 0.46800
+2024-08-10 13:40:54,184 - INFO - train.py[:124] - epoch: 1/1, step: 167/571, loss: 0.79643, accuracy: 0.46856
+2024-08-10 13:41:00,658 - INFO - train.py[:124] - epoch: 1/1, step: 168/571, loss: 0.79603, accuracy: 0.46875
+2024-08-10 13:41:07,225 - INFO - train.py[:124] - epoch: 1/1, step: 169/571, loss: 0.79522, accuracy: 0.46930
+2024-08-10 13:41:13,935 - INFO - train.py[:124] - epoch: 1/1, step: 170/571, loss: 0.79428, accuracy: 0.47004
+2024-08-10 13:41:20,438 - INFO - train.py[:124] - epoch: 1/1, step: 171/571, loss: 0.79374, accuracy: 0.47039
+2024-08-10 13:41:26,882 - INFO - train.py[:124] - epoch: 1/1, step: 172/571, loss: 0.79307, accuracy: 0.47075
+2024-08-10 13:41:33,248 - INFO - train.py[:124] - epoch: 1/1, step: 173/571, loss: 0.79245, accuracy: 0.47128
+2024-08-10 13:41:39,607 - INFO - train.py[:124] - epoch: 1/1, step: 174/571, loss: 0.79191, accuracy: 0.47108
+2024-08-10 13:41:46,140 - INFO - train.py[:124] - epoch: 1/1, step: 175/571, loss: 0.79109, accuracy: 0.47179
+2024-08-10 13:41:52,516 - INFO - train.py[:124] - epoch: 1/1, step: 176/571, loss: 0.79032, accuracy: 0.47177
+2024-08-10 13:41:58,905 - INFO - train.py[:124] - epoch: 1/1, step: 177/571, loss: 0.78944, accuracy: 0.47263
+2024-08-10 13:42:05,264 - INFO - train.py[:124] - epoch: 1/1, step: 178/571, loss: 0.78875, accuracy: 0.47296
+2024-08-10 13:42:11,610 - INFO - train.py[:124] - epoch: 1/1, step: 179/571, loss: 0.78849, accuracy: 0.47311
+2024-08-10 13:42:17,896 - INFO - train.py[:124] - epoch: 1/1, step: 180/571, loss: 0.78762, accuracy: 0.47413
+2024-08-10 13:42:24,245 - INFO - train.py[:124] - epoch: 1/1, step: 181/571, loss: 0.78735, accuracy: 0.47445
+2024-08-10 13:42:30,460 - INFO - train.py[:124] - epoch: 1/1, step: 182/571, loss: 0.78667, accuracy: 0.47510
+2024-08-10 13:42:36,687 - INFO - train.py[:124] - epoch: 1/1, step: 183/571, loss: 0.78610, accuracy: 0.47507
+2024-08-10 13:42:43,198 - INFO - train.py[:124] - epoch: 1/1, step: 184/571, loss: 0.78561, accuracy: 0.47520
+2024-08-10 13:42:49,612 - INFO - train.py[:124] - epoch: 1/1, step: 185/571, loss: 0.78476, accuracy: 0.47568
+2024-08-10 13:42:56,260 - INFO - train.py[:124] - epoch: 1/1, step: 186/571, loss: 0.78441, accuracy: 0.47581
+2024-08-10 13:43:02,571 - INFO - train.py[:124] - epoch: 1/1, step: 187/571, loss: 0.78351, accuracy: 0.47644
+2024-08-10 13:43:08,977 - INFO - train.py[:124] - epoch: 1/1, step: 188/571, loss: 0.78278, accuracy: 0.47689
+2024-08-10 13:43:15,365 - INFO - train.py[:124] - epoch: 1/1, step: 189/571, loss: 0.78217, accuracy: 0.47685
+2024-08-10 13:43:21,943 - INFO - train.py[:124] - epoch: 1/1, step: 190/571, loss: 0.78126, accuracy: 0.47763
+2024-08-10 13:43:28,629 - INFO - train.py[:124] - epoch: 1/1, step: 191/571, loss: 0.78119, accuracy: 0.47726
+2024-08-10 13:43:35,083 - INFO - train.py[:124] - epoch: 1/1, step: 192/571, loss: 0.78070, accuracy: 0.47738
+2024-08-10 13:43:41,417 - INFO - train.py[:124] - epoch: 1/1, step: 193/571, loss: 0.78073, accuracy: 0.47733
+2024-08-10 13:43:47,750 - INFO - train.py[:124] - epoch: 1/1, step: 194/571, loss: 0.77988, accuracy: 0.47841
+2024-08-10 13:43:54,156 - INFO - train.py[:124] - epoch: 1/1, step: 195/571, loss: 0.77950, accuracy: 0.47788
+2024-08-10 13:44:00,514 - INFO - train.py[:124] - epoch: 1/1, step: 196/571, loss: 0.77899, accuracy: 0.47832
+2024-08-10 13:44:06,920 - INFO - train.py[:124] - epoch: 1/1, step: 197/571, loss: 0.77834, accuracy: 0.47874
+2024-08-10 13:44:13,394 - INFO - train.py[:124] - epoch: 1/1, step: 198/571, loss: 0.77758, accuracy: 0.47964
+2024-08-10 13:44:21,081 - INFO - train.py[:124] - epoch: 1/1, step: 199/571, loss: 0.77687, accuracy: 0.47990
+2024-08-10 13:44:27,959 - INFO - train.py[:124] - epoch: 1/1, step: 200/571, loss: 0.77620, accuracy: 0.48063
+2024-08-10 13:44:34,754 - INFO - train.py[:124] - epoch: 1/1, step: 201/571, loss: 0.77550, accuracy: 0.48119
+2024-08-10 13:44:41,574 - INFO - train.py[:124] - epoch: 1/1, step: 202/571, loss: 0.77479, accuracy: 0.48144
+2024-08-10 13:44:48,257 - INFO - train.py[:124] - epoch: 1/1, step: 203/571, loss: 0.77452, accuracy: 0.48122
+2024-08-10 13:44:54,836 - INFO - train.py[:124] - epoch: 1/1, step: 204/571, loss: 0.77399, accuracy: 0.48162
+2024-08-10 13:45:01,370 - INFO - train.py[:124] - epoch: 1/1, step: 205/571, loss: 0.77386, accuracy: 0.48125
+2024-08-10 13:45:07,954 - INFO - train.py[:124] - epoch: 1/1, step: 206/571, loss: 0.77306, accuracy: 0.48210
+2024-08-10 13:45:14,527 - INFO - train.py[:124] - epoch: 1/1, step: 207/571, loss: 0.77214, accuracy: 0.48309
+2024-08-10 13:45:21,107 - INFO - train.py[:124] - epoch: 1/1, step: 208/571, loss: 0.77183, accuracy: 0.48317
+2024-08-10 13:45:27,650 - INFO - train.py[:124] - epoch: 1/1, step: 209/571, loss: 0.77104, accuracy: 0.48385
+2024-08-10 13:45:34,076 - INFO - train.py[:124] - epoch: 1/1, step: 210/571, loss: 0.77061, accuracy: 0.48393
+2024-08-10 13:45:40,523 - INFO - train.py[:124] - epoch: 1/1, step: 211/571, loss: 0.77071, accuracy: 0.48341
+2024-08-10 13:45:46,944 - INFO - train.py[:124] - epoch: 1/1, step: 212/571, loss: 0.77012, accuracy: 0.48349
+2024-08-10 13:45:53,269 - INFO - train.py[:124] - epoch: 1/1, step: 213/571, loss: 0.76962, accuracy: 0.48371
+2024-08-10 13:45:59,610 - INFO - train.py[:124] - epoch: 1/1, step: 214/571, loss: 0.76897, accuracy: 0.48394
+2024-08-10 13:46:06,238 - INFO - train.py[:124] - epoch: 1/1, step: 215/571, loss: 0.76849, accuracy: 0.48416
+2024-08-10 13:46:12,571 - INFO - train.py[:124] - epoch: 1/1, step: 216/571, loss: 0.76780, accuracy: 0.48452
+2024-08-10 13:46:18,891 - INFO - train.py[:124] - epoch: 1/1, step: 217/571, loss: 0.76726, accuracy: 0.48502
+2024-08-10 13:46:25,281 - INFO - train.py[:124] - epoch: 1/1, step: 218/571, loss: 0.76653, accuracy: 0.48581
+2024-08-10 13:46:32,030 - INFO - train.py[:124] - epoch: 1/1, step: 219/571, loss: 0.76571, accuracy: 0.48659
+2024-08-10 13:46:39,052 - INFO - train.py[:124] - epoch: 1/1, step: 220/571, loss: 0.76512, accuracy: 0.48707
+2024-08-10 13:46:45,476 - INFO - train.py[:124] - epoch: 1/1, step: 221/571, loss: 0.76467, accuracy: 0.48699
+2024-08-10 13:46:51,782 - INFO - train.py[:124] - epoch: 1/1, step: 222/571, loss: 0.76408, accuracy: 0.48733
+2024-08-10 13:46:58,553 - INFO - train.py[:124] - epoch: 1/1, step: 223/571, loss: 0.76337, accuracy: 0.48851
+2024-08-10 13:47:05,136 - INFO - train.py[:124] - epoch: 1/1, step: 224/571, loss: 0.76292, accuracy: 0.48842
+2024-08-10 13:47:11,775 - INFO - train.py[:124] - epoch: 1/1, step: 225/571, loss: 0.76272, accuracy: 0.48889
+2024-08-10 13:47:18,420 - INFO - train.py[:124] - epoch: 1/1, step: 226/571, loss: 0.76213, accuracy: 0.48921
+2024-08-10 13:47:25,110 - INFO - train.py[:124] - epoch: 1/1, step: 227/571, loss: 0.76186, accuracy: 0.48871
+2024-08-10 13:47:32,270 - INFO - train.py[:124] - epoch: 1/1, step: 228/571, loss: 0.76138, accuracy: 0.48931
+2024-08-10 13:47:39,030 - INFO - train.py[:124] - epoch: 1/1, step: 229/571, loss: 0.76100, accuracy: 0.48922
+2024-08-10 13:47:45,504 - INFO - train.py[:124] - epoch: 1/1, step: 230/571, loss: 0.76049, accuracy: 0.48967
+2024-08-10 13:47:51,820 - INFO - train.py[:124] - epoch: 1/1, step: 231/571, loss: 0.75988, accuracy: 0.49012
+2024-08-10 13:47:58,162 - INFO - train.py[:124] - epoch: 1/1, step: 232/571, loss: 0.75917, accuracy: 0.49111
+2024-08-10 13:48:04,575 - INFO - train.py[:124] - epoch: 1/1, step: 233/571, loss: 0.75874, accuracy: 0.49101
+2024-08-10 13:48:10,948 - INFO - train.py[:124] - epoch: 1/1, step: 234/571, loss: 0.75840, accuracy: 0.49119
+2024-08-10 13:48:17,214 - INFO - train.py[:124] - epoch: 1/1, step: 235/571, loss: 0.75800, accuracy: 0.49136
+2024-08-10 13:48:23,761 - INFO - train.py[:124] - epoch: 1/1, step: 236/571, loss: 0.75743, accuracy: 0.49166
+2024-08-10 13:48:30,082 - INFO - train.py[:124] - epoch: 1/1, step: 237/571, loss: 0.75674, accuracy: 0.49235
+2024-08-10 13:48:36,390 - INFO - train.py[:124] - epoch: 1/1, step: 238/571, loss: 0.75628, accuracy: 0.49238
+2024-08-10 13:48:42,690 - INFO - train.py[:124] - epoch: 1/1, step: 239/571, loss: 0.75574, accuracy: 0.49268
+2024-08-10 13:48:49,062 - INFO - train.py[:124] - epoch: 1/1, step: 240/571, loss: 0.75527, accuracy: 0.49284
+2024-08-10 13:48:55,438 - INFO - train.py[:124] - epoch: 1/1, step: 241/571, loss: 0.75468, accuracy: 0.49352
+2024-08-10 13:49:01,908 - INFO - train.py[:124] - epoch: 1/1, step: 242/571, loss: 0.75426, accuracy: 0.49329
+2024-08-10 13:49:08,257 - INFO - train.py[:124] - epoch: 1/1, step: 243/571, loss: 0.75380, accuracy: 0.49357
+2024-08-10 13:49:14,634 - INFO - train.py[:124] - epoch: 1/1, step: 244/571, loss: 0.75324, accuracy: 0.49424
+2024-08-10 13:49:21,009 - INFO - train.py[:124] - epoch: 1/1, step: 245/571, loss: 0.75266, accuracy: 0.49464
+2024-08-10 13:49:27,406 - INFO - train.py[:124] - epoch: 1/1, step: 246/571, loss: 0.75236, accuracy: 0.49479
+2024-08-10 13:49:33,845 - INFO - train.py[:124] - epoch: 1/1, step: 247/571, loss: 0.75167, accuracy: 0.49570
+2024-08-10 13:49:40,177 - INFO - train.py[:124] - epoch: 1/1, step: 248/571, loss: 0.75111, accuracy: 0.49635
+2024-08-10 13:49:46,664 - INFO - train.py[:124] - epoch: 1/1, step: 249/571, loss: 0.75074, accuracy: 0.49649
+2024-08-10 13:49:53,087 - INFO - train.py[:124] - epoch: 1/1, step: 250/571, loss: 0.75021, accuracy: 0.49712
+2024-08-10 13:49:59,557 - INFO - train.py[:124] - epoch: 1/1, step: 251/571, loss: 0.74973, accuracy: 0.49739
+2024-08-10 13:50:05,958 - INFO - train.py[:124] - epoch: 1/1, step: 252/571, loss: 0.74926, accuracy: 0.49727
+2024-08-10 13:50:12,292 - INFO - train.py[:124] - epoch: 1/1, step: 253/571, loss: 0.74909, accuracy: 0.49778
+2024-08-10 13:50:18,824 - INFO - train.py[:124] - epoch: 1/1, step: 254/571, loss: 0.74884, accuracy: 0.49754
+2024-08-10 13:50:25,401 - INFO - train.py[:124] - epoch: 1/1, step: 255/571, loss: 0.74833, accuracy: 0.49804
+2024-08-10 13:50:31,842 - INFO - train.py[:124] - epoch: 1/1, step: 256/571, loss: 0.74795, accuracy: 0.49829
+2024-08-10 13:50:38,230 - INFO - train.py[:124] - epoch: 1/1, step: 257/571, loss: 0.74723, accuracy: 0.49951
+2024-08-10 13:50:44,645 - INFO - train.py[:124] - epoch: 1/1, step: 258/571, loss: 0.74698, accuracy: 0.49964
+2024-08-10 13:50:50,954 - INFO - train.py[:124] - epoch: 1/1, step: 259/571, loss: 0.74669, accuracy: 0.49964
+2024-08-10 13:50:57,507 - INFO - train.py[:124] - epoch: 1/1, step: 260/571, loss: 0.74636, accuracy: 0.49964
+2024-08-10 13:51:04,069 - INFO - train.py[:124] - epoch: 1/1, step: 261/571, loss: 0.74590, accuracy: 0.50000
+2024-08-10 13:51:10,596 - INFO - train.py[:124] - epoch: 1/1, step: 262/571, loss: 0.74609, accuracy: 0.50072
+2024-08-10 13:51:17,032 - INFO - train.py[:124] - epoch: 1/1, step: 263/571, loss: 0.74571, accuracy: 0.50107
+2024-08-10 13:51:23,375 - INFO - train.py[:124] - epoch: 1/1, step: 264/571, loss: 0.74515, accuracy: 0.50107
+2024-08-10 13:51:29,701 - INFO - train.py[:124] - epoch: 1/1, step: 265/571, loss: 0.74455, accuracy: 0.50200
+2024-08-10 13:51:36,029 - INFO - train.py[:124] - epoch: 1/1, step: 266/571, loss: 0.74407, accuracy: 0.50223
+2024-08-10 13:51:42,353 - INFO - train.py[:124] - epoch: 1/1, step: 267/571, loss: 0.74367, accuracy: 0.50246
+2024-08-10 13:51:48,697 - INFO - train.py[:124] - epoch: 1/1, step: 268/571, loss: 0.74318, accuracy: 0.50280
+2024-08-10 13:51:55,078 - INFO - train.py[:124] - epoch: 1/1, step: 269/571, loss: 0.74280, accuracy: 0.50314
+2024-08-10 13:52:01,876 - INFO - train.py[:124] - epoch: 1/1, step: 270/571, loss: 0.74248, accuracy: 0.50336
+2024-08-10 13:52:08,805 - INFO - train.py[:124] - epoch: 1/1, step: 271/571, loss: 0.74204, accuracy: 0.50415
+2024-08-10 13:52:15,682 - INFO - train.py[:124] - epoch: 1/1, step: 272/571, loss: 0.74150, accuracy: 0.50483
+2024-08-10 13:52:21,883 - INFO - train.py[:124] - epoch: 1/1, step: 273/571, loss: 0.74106, accuracy: 0.50549
+2024-08-10 13:52:28,463 - INFO - train.py[:124] - epoch: 1/1, step: 274/571, loss: 0.74055, accuracy: 0.50604
+2024-08-10 13:52:35,114 - INFO - train.py[:124] - epoch: 1/1, step: 275/571, loss: 0.74006, accuracy: 0.50705
+2024-08-10 13:52:41,723 - INFO - train.py[:124] - epoch: 1/1, step: 276/571, loss: 0.73957, accuracy: 0.50793
+2024-08-10 13:52:48,480 - INFO - train.py[:124] - epoch: 1/1, step: 277/571, loss: 0.73903, accuracy: 0.50801
+2024-08-10 13:52:55,108 - INFO - train.py[:124] - epoch: 1/1, step: 278/571, loss: 0.73883, accuracy: 0.50764
+2024-08-10 13:53:01,511 - INFO - train.py[:124] - epoch: 1/1, step: 279/571, loss: 0.73837, accuracy: 0.50818
+2024-08-10 13:53:07,871 - INFO - train.py[:124] - epoch: 1/1, step: 280/571, loss: 0.73789, accuracy: 0.50837
+2024-08-10 13:53:14,169 - INFO - train.py[:124] - epoch: 1/1, step: 281/571, loss: 0.73758, accuracy: 0.50856
+2024-08-10 13:53:20,261 - INFO - train.py[:124] - epoch: 1/1, step: 282/571, loss: 0.73723, accuracy: 0.50875
+2024-08-10 13:53:28,003 - INFO - train.py[:124] - epoch: 1/1, step: 283/571, loss: 0.73672, accuracy: 0.50939
+2024-08-10 13:53:35,729 - INFO - train.py[:124] - epoch: 1/1, step: 284/571, loss: 0.73613, accuracy: 0.51056
+2024-08-10 13:53:42,413 - INFO - train.py[:124] - epoch: 1/1, step: 285/571, loss: 0.73594, accuracy: 0.51064
+2024-08-10 13:53:49,252 - INFO - train.py[:124] - epoch: 1/1, step: 286/571, loss: 0.73547, accuracy: 0.51136
+2024-08-10 13:53:55,659 - INFO - train.py[:124] - epoch: 1/1, step: 287/571, loss: 0.73504, accuracy: 0.51187
+2024-08-10 13:54:02,311 - INFO - train.py[:124] - epoch: 1/1, step: 288/571, loss: 0.73471, accuracy: 0.51194
+2024-08-10 13:54:09,449 - INFO - train.py[:124] - epoch: 1/1, step: 289/571, loss: 0.73433, accuracy: 0.51222
+2024-08-10 13:54:16,019 - INFO - train.py[:124] - epoch: 1/1, step: 290/571, loss: 0.73399, accuracy: 0.51261
+2024-08-10 13:54:22,372 - INFO - train.py[:124] - epoch: 1/1, step: 291/571, loss: 0.73378, accuracy: 0.51256
+2024-08-10 13:54:28,791 - INFO - train.py[:124] - epoch: 1/1, step: 292/571, loss: 0.73337, accuracy: 0.51295
+2024-08-10 13:54:35,271 - INFO - train.py[:124] - epoch: 1/1, step: 293/571, loss: 0.73293, accuracy: 0.51355
+2024-08-10 13:54:41,810 - INFO - train.py[:124] - epoch: 1/1, step: 294/571, loss: 0.73268, accuracy: 0.51371
+2024-08-10 13:54:48,484 - INFO - train.py[:124] - epoch: 1/1, step: 295/571, loss: 0.73220, accuracy: 0.51419
+2024-08-10 13:54:55,508 - INFO - train.py[:124] - epoch: 1/1, step: 296/571, loss: 0.73193, accuracy: 0.51425
+2024-08-10 13:55:02,633 - INFO - train.py[:124] - epoch: 1/1, step: 297/571, loss: 0.73159, accuracy: 0.51473
+2024-08-10 13:55:09,385 - INFO - train.py[:124] - epoch: 1/1, step: 298/571, loss: 0.73123, accuracy: 0.51468
+2024-08-10 13:55:15,921 - INFO - train.py[:124] - epoch: 1/1, step: 299/571, loss: 0.73069, accuracy: 0.51526
+2024-08-10 13:55:22,573 - INFO - train.py[:124] - epoch: 1/1, step: 300/571, loss: 0.73039, accuracy: 0.51542
+2024-08-10 13:55:29,214 - INFO - train.py[:124] - epoch: 1/1, step: 301/571, loss: 0.72991, accuracy: 0.51620
+2024-08-10 13:55:35,674 - INFO - train.py[:124] - epoch: 1/1, step: 302/571, loss: 0.72968, accuracy: 0.51614
+2024-08-10 13:55:42,111 - INFO - train.py[:124] - epoch: 1/1, step: 303/571, loss: 0.72944, accuracy: 0.51630
+2024-08-10 13:55:48,633 - INFO - train.py[:124] - epoch: 1/1, step: 304/571, loss: 0.72896, accuracy: 0.51706
+2024-08-10 13:55:55,042 - INFO - train.py[:124] - epoch: 1/1, step: 305/571, loss: 0.72874, accuracy: 0.51721
+2024-08-10 13:56:01,691 - INFO - train.py[:124] - epoch: 1/1, step: 306/571, loss: 0.72851, accuracy: 0.51716
+2024-08-10 13:56:08,049 - INFO - train.py[:124] - epoch: 1/1, step: 307/571, loss: 0.72812, accuracy: 0.51761
+2024-08-10 13:56:14,663 - INFO - train.py[:124] - epoch: 1/1, step: 308/571, loss: 0.72826, accuracy: 0.51735
+2024-08-10 13:56:21,077 - INFO - train.py[:124] - epoch: 1/1, step: 309/571, loss: 0.72794, accuracy: 0.51770
+2024-08-10 13:56:27,625 - INFO - train.py[:124] - epoch: 1/1, step: 310/571, loss: 0.72764, accuracy: 0.51764
+2024-08-10 13:56:34,159 - INFO - train.py[:124] - epoch: 1/1, step: 311/571, loss: 0.72726, accuracy: 0.51829
+2024-08-10 13:56:40,618 - INFO - train.py[:124] - epoch: 1/1, step: 312/571, loss: 0.72708, accuracy: 0.51823
+2024-08-10 13:56:46,936 - INFO - train.py[:124] - epoch: 1/1, step: 313/571, loss: 0.72688, accuracy: 0.51797
+2024-08-10 13:56:53,250 - INFO - train.py[:124] - epoch: 1/1, step: 314/571, loss: 0.72650, accuracy: 0.51851
+2024-08-10 13:56:59,597 - INFO - train.py[:124] - epoch: 1/1, step: 315/571, loss: 0.72632, accuracy: 0.51875
+2024-08-10 13:57:06,315 - INFO - train.py[:124] - epoch: 1/1, step: 316/571, loss: 0.72595, accuracy: 0.51889
+2024-08-10 13:57:12,944 - INFO - train.py[:124] - epoch: 1/1, step: 317/571, loss: 0.72564, accuracy: 0.51922
+2024-08-10 13:57:19,281 - INFO - train.py[:124] - epoch: 1/1, step: 318/571, loss: 0.72533, accuracy: 0.51906
+2024-08-10 13:57:25,633 - INFO - train.py[:124] - epoch: 1/1, step: 319/571, loss: 0.72539, accuracy: 0.51881
+2024-08-10 13:57:32,128 - INFO - train.py[:124] - epoch: 1/1, step: 320/571, loss: 0.72501, accuracy: 0.51934
+2024-08-10 13:57:38,614 - INFO - train.py[:124] - epoch: 1/1, step: 321/571, loss: 0.72495, accuracy: 0.51918
+2024-08-10 13:57:44,937 - INFO - train.py[:124] - epoch: 1/1, step: 322/571, loss: 0.72490, accuracy: 0.51912
+2024-08-10 13:57:51,338 - INFO - train.py[:124] - epoch: 1/1, step: 323/571, loss: 0.72452, accuracy: 0.51983
+2024-08-10 13:57:57,592 - INFO - train.py[:124] - epoch: 1/1, step: 324/571, loss: 0.72413, accuracy: 0.52035
+2024-08-10 13:58:04,003 - INFO - train.py[:124] - epoch: 1/1, step: 325/571, loss: 0.72382, accuracy: 0.52096
+2024-08-10 13:58:10,614 - INFO - train.py[:124] - epoch: 1/1, step: 326/571, loss: 0.72352, accuracy: 0.52090
+2024-08-10 13:58:16,995 - INFO - train.py[:124] - epoch: 1/1, step: 327/571, loss: 0.72312, accuracy: 0.52141
+2024-08-10 13:58:23,382 - INFO - train.py[:124] - epoch: 1/1, step: 328/571, loss: 0.72285, accuracy: 0.52182
+2024-08-10 13:58:29,835 - INFO - train.py[:124] - epoch: 1/1, step: 329/571, loss: 0.72263, accuracy: 0.52185
+2024-08-10 13:58:36,185 - INFO - train.py[:124] - epoch: 1/1, step: 330/571, loss: 0.72251, accuracy: 0.52150
+2024-08-10 13:58:42,441 - INFO - train.py[:124] - epoch: 1/1, step: 331/571, loss: 0.72212, accuracy: 0.52209
+2024-08-10 13:58:48,718 - INFO - train.py[:124] - epoch: 1/1, step: 332/571, loss: 0.72189, accuracy: 0.52240
+2024-08-10 13:58:54,997 - INFO - train.py[:124] - epoch: 1/1, step: 333/571, loss: 0.72155, accuracy: 0.52252
+2024-08-10 13:59:01,214 - INFO - train.py[:124] - epoch: 1/1, step: 334/571, loss: 0.72133, accuracy: 0.52264
+2024-08-10 13:59:07,523 - INFO - train.py[:124] - epoch: 1/1, step: 335/571, loss: 0.72104, accuracy: 0.52276
+2024-08-10 13:59:13,824 - INFO - train.py[:124] - epoch: 1/1, step: 336/571, loss: 0.72077, accuracy: 0.52297
+2024-08-10 13:59:20,110 - INFO - train.py[:124] - epoch: 1/1, step: 337/571, loss: 0.72071, accuracy: 0.52290
+2024-08-10 13:59:26,373 - INFO - train.py[:124] - epoch: 1/1, step: 338/571, loss: 0.72059, accuracy: 0.52293
+2024-08-10 13:59:32,735 - INFO - train.py[:124] - epoch: 1/1, step: 339/571, loss: 0.72047, accuracy: 0.52277
+2024-08-10 13:59:38,949 - INFO - train.py[:124] - epoch: 1/1, step: 340/571, loss: 0.72005, accuracy: 0.52335
+2024-08-10 13:59:45,139 - INFO - train.py[:124] - epoch: 1/1, step: 341/571, loss: 0.71964, accuracy: 0.52364
+2024-08-10 13:59:51,353 - INFO - train.py[:124] - epoch: 1/1, step: 342/571, loss: 0.71961, accuracy: 0.52394
+2024-08-10 13:59:57,682 - INFO - train.py[:124] - epoch: 1/1, step: 343/571, loss: 0.71924, accuracy: 0.52442
+2024-08-10 14:00:04,097 - INFO - train.py[:124] - epoch: 1/1, step: 344/571, loss: 0.71896, accuracy: 0.52471
+2024-08-10 14:00:10,365 - INFO - train.py[:124] - epoch: 1/1, step: 345/571, loss: 0.71870, accuracy: 0.52482
+2024-08-10 14:00:16,567 - INFO - train.py[:124] - epoch: 1/1, step: 346/571, loss: 0.71842, accuracy: 0.52529
+2024-08-10 14:00:22,761 - INFO - train.py[:124] - epoch: 1/1, step: 347/571, loss: 0.71837, accuracy: 0.52504
+2024-08-10 14:00:28,921 - INFO - train.py[:124] - epoch: 1/1, step: 348/571, loss: 0.71823, accuracy: 0.52505
+2024-08-10 14:00:35,121 - INFO - train.py[:124] - epoch: 1/1, step: 349/571, loss: 0.71810, accuracy: 0.52507
+2024-08-10 14:00:41,451 - INFO - train.py[:124] - epoch: 1/1, step: 350/571, loss: 0.71778, accuracy: 0.52518
+2024-08-10 14:00:47,798 - INFO - train.py[:124] - epoch: 1/1, step: 351/571, loss: 0.71759, accuracy: 0.52511
+2024-08-10 14:00:54,078 - INFO - train.py[:124] - epoch: 1/1, step: 352/571, loss: 0.71726, accuracy: 0.52557
+2024-08-10 14:01:00,240 - INFO - train.py[:124] - epoch: 1/1, step: 353/571, loss: 0.71710, accuracy: 0.52576
+2024-08-10 14:01:06,501 - INFO - train.py[:124] - epoch: 1/1, step: 354/571, loss: 0.71679, accuracy: 0.52604
+2024-08-10 14:01:12,801 - INFO - train.py[:124] - epoch: 1/1, step: 355/571, loss: 0.71638, accuracy: 0.52650
+2024-08-10 14:01:19,057 - INFO - train.py[:124] - epoch: 1/1, step: 356/571, loss: 0.71618, accuracy: 0.52660
+2024-08-10 14:01:25,269 - INFO - train.py[:124] - epoch: 1/1, step: 357/571, loss: 0.71591, accuracy: 0.52696
+2024-08-10 14:01:31,404 - INFO - train.py[:124] - epoch: 1/1, step: 358/571, loss: 0.71564, accuracy: 0.52723
+2024-08-10 14:01:37,568 - INFO - train.py[:124] - epoch: 1/1, step: 359/571, loss: 0.71529, accuracy: 0.52742
+2024-08-10 14:01:43,851 - INFO - train.py[:124] - epoch: 1/1, step: 360/571, loss: 0.71511, accuracy: 0.52752
+2024-08-10 14:01:49,998 - INFO - train.py[:124] - epoch: 1/1, step: 361/571, loss: 0.71491, accuracy: 0.52735
+2024-08-10 14:01:56,940 - INFO - train.py[:124] - epoch: 1/1, step: 362/571, loss: 0.71461, accuracy: 0.52771
+2024-08-10 14:02:03,664 - INFO - train.py[:124] - epoch: 1/1, step: 363/571, loss: 0.71453, accuracy: 0.52746
+2024-08-10 14:02:10,307 - INFO - train.py[:124] - epoch: 1/1, step: 364/571, loss: 0.71433, accuracy: 0.52773
+2024-08-10 14:02:16,921 - INFO - train.py[:124] - epoch: 1/1, step: 365/571, loss: 0.71406, accuracy: 0.52791
+2024-08-10 14:02:23,406 - INFO - train.py[:124] - epoch: 1/1, step: 366/571, loss: 0.71383, accuracy: 0.52835
+2024-08-10 14:02:29,769 - INFO - train.py[:124] - epoch: 1/1, step: 367/571, loss: 0.71393, accuracy: 0.52835
+2024-08-10 14:02:36,013 - INFO - train.py[:124] - epoch: 1/1, step: 368/571, loss: 0.71378, accuracy: 0.52836
+2024-08-10 14:02:42,432 - INFO - train.py[:124] - epoch: 1/1, step: 369/571, loss: 0.71354, accuracy: 0.52854
+2024-08-10 14:02:48,680 - INFO - train.py[:124] - epoch: 1/1, step: 370/571, loss: 0.71328, accuracy: 0.52872
+2024-08-10 14:02:54,992 - INFO - train.py[:124] - epoch: 1/1, step: 371/571, loss: 0.71309, accuracy: 0.52864
+2024-08-10 14:03:01,262 - INFO - train.py[:124] - epoch: 1/1, step: 372/571, loss: 0.71288, accuracy: 0.52865
+2024-08-10 14:03:08,106 - INFO - train.py[:124] - epoch: 1/1, step: 373/571, loss: 0.71293, accuracy: 0.52865
+2024-08-10 14:03:14,558 - INFO - train.py[:124] - epoch: 1/1, step: 374/571, loss: 0.71292, accuracy: 0.52841
+2024-08-10 14:03:20,824 - INFO - train.py[:124] - epoch: 1/1, step: 375/571, loss: 0.71270, accuracy: 0.52867
+2024-08-10 14:03:27,130 - INFO - train.py[:124] - epoch: 1/1, step: 376/571, loss: 0.71243, accuracy: 0.52859
+2024-08-10 14:03:33,579 - INFO - train.py[:124] - epoch: 1/1, step: 377/571, loss: 0.71238, accuracy: 0.52851
+2024-08-10 14:03:39,813 - INFO - train.py[:124] - epoch: 1/1, step: 378/571, loss: 0.71213, accuracy: 0.52885
+2024-08-10 14:03:46,100 - INFO - train.py[:124] - epoch: 1/1, step: 379/571, loss: 0.71195, accuracy: 0.52911
+2024-08-10 14:03:52,286 - INFO - train.py[:124] - epoch: 1/1, step: 380/571, loss: 0.71189, accuracy: 0.52878
+2024-08-10 14:03:58,470 - INFO - train.py[:124] - epoch: 1/1, step: 381/571, loss: 0.71164, accuracy: 0.52904
+2024-08-10 14:04:04,632 - INFO - train.py[:124] - epoch: 1/1, step: 382/571, loss: 0.71146, accuracy: 0.52896
+2024-08-10 14:04:10,716 - INFO - train.py[:124] - epoch: 1/1, step: 383/571, loss: 0.71125, accuracy: 0.52929
+2024-08-10 14:04:17,043 - INFO - train.py[:124] - epoch: 1/1, step: 384/571, loss: 0.71107, accuracy: 0.52930
+2024-08-10 14:04:23,344 - INFO - train.py[:124] - epoch: 1/1, step: 385/571, loss: 0.71086, accuracy: 0.52963
+2024-08-10 14:04:29,622 - INFO - train.py[:124] - epoch: 1/1, step: 386/571, loss: 0.71064, accuracy: 0.52979
+2024-08-10 14:04:35,909 - INFO - train.py[:124] - epoch: 1/1, step: 387/571, loss: 0.71062, accuracy: 0.52947
+2024-08-10 14:04:42,204 - INFO - train.py[:124] - epoch: 1/1, step: 388/571, loss: 0.71048, accuracy: 0.52948
+2024-08-10 14:04:48,340 - INFO - train.py[:124] - epoch: 1/1, step: 389/571, loss: 0.71058, accuracy: 0.52940
+2024-08-10 14:04:54,245 - INFO - train.py[:124] - epoch: 1/1, step: 390/571, loss: 0.71047, accuracy: 0.52941
+2024-08-10 14:05:00,111 - INFO - train.py[:124] - epoch: 1/1, step: 391/571, loss: 0.71013, accuracy: 0.52957
+2024-08-10 14:05:06,046 - INFO - train.py[:124] - epoch: 1/1, step: 392/571, loss: 0.70995, accuracy: 0.52989
+2024-08-10 14:05:12,043 - INFO - train.py[:124] - epoch: 1/1, step: 393/571, loss: 0.70980, accuracy: 0.52990
+2024-08-10 14:05:18,045 - INFO - train.py[:124] - epoch: 1/1, step: 394/571, loss: 0.70955, accuracy: 0.53022
+2024-08-10 14:05:24,090 - INFO - train.py[:124] - epoch: 1/1, step: 395/571, loss: 0.70946, accuracy: 0.53038
+2024-08-10 14:05:30,187 - INFO - train.py[:124] - epoch: 1/1, step: 396/571, loss: 0.70928, accuracy: 0.53054
+2024-08-10 14:05:36,155 - INFO - train.py[:124] - epoch: 1/1, step: 397/571, loss: 0.70913, accuracy: 0.53054
+2024-08-10 14:05:42,172 - INFO - train.py[:124] - epoch: 1/1, step: 398/571, loss: 0.70886, accuracy: 0.53094
+2024-08-10 14:05:48,019 - INFO - train.py[:124] - epoch: 1/1, step: 399/571, loss: 0.70868, accuracy: 0.53125
+2024-08-10 14:05:53,961 - INFO - train.py[:124] - epoch: 1/1, step: 400/571, loss: 0.70848, accuracy: 0.53133
+2024-08-10 14:05:59,744 - INFO - train.py[:124] - epoch: 1/1, step: 401/571, loss: 0.70830, accuracy: 0.53148
+2024-08-10 14:06:05,621 - INFO - train.py[:124] - epoch: 1/1, step: 402/571, loss: 0.70795, accuracy: 0.53211
+2024-08-10 14:06:12,444 - INFO - train.py[:124] - epoch: 1/1, step: 403/571, loss: 0.70773, accuracy: 0.53226
+2024-08-10 14:06:18,839 - INFO - train.py[:124] - epoch: 1/1, step: 404/571, loss: 0.70742, accuracy: 0.53272
+2024-08-10 14:06:24,937 - INFO - train.py[:124] - epoch: 1/1, step: 405/571, loss: 0.70715, accuracy: 0.53272
+2024-08-10 14:06:31,257 - INFO - train.py[:124] - epoch: 1/1, step: 406/571, loss: 0.70686, accuracy: 0.53287
+2024-08-10 14:06:37,364 - INFO - train.py[:124] - epoch: 1/1, step: 407/571, loss: 0.70668, accuracy: 0.53286
+2024-08-10 14:06:43,701 - INFO - train.py[:124] - epoch: 1/1, step: 408/571, loss: 0.70651, accuracy: 0.53301
+2024-08-10 14:06:49,741 - INFO - train.py[:124] - epoch: 1/1, step: 409/571, loss: 0.70633, accuracy: 0.53324
+2024-08-10 14:06:55,787 - INFO - train.py[:124] - epoch: 1/1, step: 410/571, loss: 0.70613, accuracy: 0.53308
+2024-08-10 14:07:01,774 - INFO - train.py[:124] - epoch: 1/1, step: 411/571, loss: 0.70587, accuracy: 0.53323
+2024-08-10 14:07:08,096 - INFO - train.py[:124] - epoch: 1/1, step: 412/571, loss: 0.70554, accuracy: 0.53375
+2024-08-10 14:07:14,209 - INFO - train.py[:124] - epoch: 1/1, step: 413/571, loss: 0.70515, accuracy: 0.53420
+2024-08-10 14:07:20,391 - INFO - train.py[:124] - epoch: 1/1, step: 414/571, loss: 0.70490, accuracy: 0.53465
+2024-08-10 14:07:26,529 - INFO - train.py[:124] - epoch: 1/1, step: 415/571, loss: 0.70472, accuracy: 0.53494
+2024-08-10 14:07:32,966 - INFO - train.py[:124] - epoch: 1/1, step: 416/571, loss: 0.70446, accuracy: 0.53538
+2024-08-10 14:07:39,247 - INFO - train.py[:124] - epoch: 1/1, step: 417/571, loss: 0.70423, accuracy: 0.53567
+2024-08-10 14:07:45,312 - INFO - train.py[:124] - epoch: 1/1, step: 418/571, loss: 0.70408, accuracy: 0.53566
+2024-08-10 14:07:51,306 - INFO - train.py[:124] - epoch: 1/1, step: 419/571, loss: 0.70403, accuracy: 0.53587
+2024-08-10 14:07:57,238 - INFO - train.py[:124] - epoch: 1/1, step: 420/571, loss: 0.70398, accuracy: 0.53624
+2024-08-10 14:08:03,057 - INFO - train.py[:124] - epoch: 1/1, step: 421/571, loss: 0.70374, accuracy: 0.53630
+2024-08-10 14:08:09,014 - INFO - train.py[:124] - epoch: 1/1, step: 422/571, loss: 0.70374, accuracy: 0.53606
+2024-08-10 14:08:15,295 - INFO - train.py[:124] - epoch: 1/1, step: 423/571, loss: 0.70361, accuracy: 0.53613
+2024-08-10 14:08:21,209 - INFO - train.py[:124] - epoch: 1/1, step: 424/571, loss: 0.70340, accuracy: 0.53641
+2024-08-10 14:08:26,997 - INFO - train.py[:124] - epoch: 1/1, step: 425/571, loss: 0.70310, accuracy: 0.53669
+2024-08-10 14:08:32,854 - INFO - train.py[:124] - epoch: 1/1, step: 426/571, loss: 0.70287, accuracy: 0.53683
+2024-08-10 14:08:39,032 - INFO - train.py[:124] - epoch: 1/1, step: 427/571, loss: 0.70263, accuracy: 0.53689
+2024-08-10 14:08:45,245 - INFO - train.py[:124] - epoch: 1/1, step: 428/571, loss: 0.70244, accuracy: 0.53680
+2024-08-10 14:08:51,204 - INFO - train.py[:124] - epoch: 1/1, step: 429/571, loss: 0.70219, accuracy: 0.53700
+2024-08-10 14:08:57,138 - INFO - train.py[:124] - epoch: 1/1, step: 430/571, loss: 0.70202, accuracy: 0.53735
+2024-08-10 14:09:03,108 - INFO - train.py[:124] - epoch: 1/1, step: 431/571, loss: 0.70184, accuracy: 0.53763
+2024-08-10 14:09:09,296 - INFO - train.py[:124] - epoch: 1/1, step: 432/571, loss: 0.70173, accuracy: 0.53762
+2024-08-10 14:09:15,393 - INFO - train.py[:124] - epoch: 1/1, step: 433/571, loss: 0.70146, accuracy: 0.53789
+2024-08-10 14:09:21,627 - INFO - train.py[:124] - epoch: 1/1, step: 434/571, loss: 0.70131, accuracy: 0.53787
+2024-08-10 14:09:27,797 - INFO - train.py[:124] - epoch: 1/1, step: 435/571, loss: 0.70100, accuracy: 0.53815
+2024-08-10 14:09:33,861 - INFO - train.py[:124] - epoch: 1/1, step: 436/571, loss: 0.70089, accuracy: 0.53820
+2024-08-10 14:09:39,848 - INFO - train.py[:124] - epoch: 1/1, step: 437/571, loss: 0.70058, accuracy: 0.53854
+2024-08-10 14:09:46,000 - INFO - train.py[:124] - epoch: 1/1, step: 438/571, loss: 0.70046, accuracy: 0.53874
+2024-08-10 14:09:51,940 - INFO - train.py[:124] - epoch: 1/1, step: 439/571, loss: 0.70016, accuracy: 0.53922
+2024-08-10 14:09:57,996 - INFO - train.py[:124] - epoch: 1/1, step: 440/571, loss: 0.70004, accuracy: 0.53913
+2024-08-10 14:10:03,836 - INFO - train.py[:124] - epoch: 1/1, step: 441/571, loss: 0.69979, accuracy: 0.53912
+2024-08-10 14:10:09,788 - INFO - train.py[:124] - epoch: 1/1, step: 442/571, loss: 0.69960, accuracy: 0.53924
+2024-08-10 14:10:15,640 - INFO - train.py[:124] - epoch: 1/1, step: 443/571, loss: 0.69950, accuracy: 0.53915
+2024-08-10 14:10:21,600 - INFO - train.py[:124] - epoch: 1/1, step: 444/571, loss: 0.69922, accuracy: 0.53941
+2024-08-10 14:10:27,782 - INFO - train.py[:124] - epoch: 1/1, step: 445/571, loss: 0.69916, accuracy: 0.53919
+2024-08-10 14:10:34,256 - INFO - train.py[:124] - epoch: 1/1, step: 446/571, loss: 0.69911, accuracy: 0.53903
+2024-08-10 14:10:40,486 - INFO - train.py[:124] - epoch: 1/1, step: 447/571, loss: 0.69894, accuracy: 0.53929
+2024-08-10 14:10:46,975 - INFO - train.py[:124] - epoch: 1/1, step: 448/571, loss: 0.69884, accuracy: 0.53955
+2024-08-10 14:10:53,143 - INFO - train.py[:124] - epoch: 1/1, step: 449/571, loss: 0.69852, accuracy: 0.54023
+2024-08-10 14:10:59,207 - INFO - train.py[:124] - epoch: 1/1, step: 450/571, loss: 0.69865, accuracy: 0.54014
+2024-08-10 14:11:05,291 - INFO - train.py[:124] - epoch: 1/1, step: 451/571, loss: 0.69844, accuracy: 0.54033
+2024-08-10 14:11:11,418 - INFO - train.py[:124] - epoch: 1/1, step: 452/571, loss: 0.69829, accuracy: 0.54031
+2024-08-10 14:11:17,592 - INFO - train.py[:124] - epoch: 1/1, step: 453/571, loss: 0.69827, accuracy: 0.54049
+2024-08-10 14:11:23,597 - INFO - train.py[:124] - epoch: 1/1, step: 454/571, loss: 0.69800, accuracy: 0.54082
+2024-08-10 14:11:29,548 - INFO - train.py[:124] - epoch: 1/1, step: 455/571, loss: 0.69790, accuracy: 0.54093
+2024-08-10 14:11:35,987 - INFO - train.py[:124] - epoch: 1/1, step: 456/571, loss: 0.69776, accuracy: 0.54084
+2024-08-10 14:11:42,442 - INFO - train.py[:124] - epoch: 1/1, step: 457/571, loss: 0.69753, accuracy: 0.54110
+2024-08-10 14:11:48,747 - INFO - train.py[:124] - epoch: 1/1, step: 458/571, loss: 0.69736, accuracy: 0.54114
+2024-08-10 14:11:55,071 - INFO - train.py[:124] - epoch: 1/1, step: 459/571, loss: 0.69735, accuracy: 0.54099
+2024-08-10 14:12:01,155 - INFO - train.py[:124] - epoch: 1/1, step: 460/571, loss: 0.69727, accuracy: 0.54096
+2024-08-10 14:12:07,105 - INFO - train.py[:124] - epoch: 1/1, step: 461/571, loss: 0.69710, accuracy: 0.54115
+2024-08-10 14:12:12,876 - INFO - train.py[:124] - epoch: 1/1, step: 462/571, loss: 0.69693, accuracy: 0.54119
+2024-08-10 14:12:19,035 - INFO - train.py[:124] - epoch: 1/1, step: 463/571, loss: 0.69672, accuracy: 0.54131
+2024-08-10 14:12:25,154 - INFO - train.py[:124] - epoch: 1/1, step: 464/571, loss: 0.69681, accuracy: 0.54149
+2024-08-10 14:12:31,268 - INFO - train.py[:124] - epoch: 1/1, step: 465/571, loss: 0.69667, accuracy: 0.54167
+2024-08-10 14:12:37,305 - INFO - train.py[:124] - epoch: 1/1, step: 466/571, loss: 0.69649, accuracy: 0.54158
+2024-08-10 14:12:43,321 - INFO - train.py[:124] - epoch: 1/1, step: 467/571, loss: 0.69627, accuracy: 0.54182
+2024-08-10 14:12:49,285 - INFO - train.py[:124] - epoch: 1/1, step: 468/571, loss: 0.69597, accuracy: 0.54220
+2024-08-10 14:12:55,295 - INFO - train.py[:124] - epoch: 1/1, step: 469/571, loss: 0.69587, accuracy: 0.54244
+2024-08-10 14:13:01,483 - INFO - train.py[:124] - epoch: 1/1, step: 470/571, loss: 0.69573, accuracy: 0.54235
+2024-08-10 14:13:07,567 - INFO - train.py[:124] - epoch: 1/1, step: 471/571, loss: 0.69545, accuracy: 0.54273
+2024-08-10 14:13:13,687 - INFO - train.py[:124] - epoch: 1/1, step: 472/571, loss: 0.69519, accuracy: 0.54290
+2024-08-10 14:13:19,774 - INFO - train.py[:124] - epoch: 1/1, step: 473/571, loss: 0.69512, accuracy: 0.54301
+2024-08-10 14:13:25,684 - INFO - train.py[:124] - epoch: 1/1, step: 474/571, loss: 0.69498, accuracy: 0.54299
+2024-08-10 14:13:31,608 - INFO - train.py[:124] - epoch: 1/1, step: 475/571, loss: 0.69491, accuracy: 0.54309
+2024-08-10 14:13:37,408 - INFO - train.py[:124] - epoch: 1/1, step: 476/571, loss: 0.69475, accuracy: 0.54313
+2024-08-10 14:13:43,463 - INFO - train.py[:124] - epoch: 1/1, step: 477/571, loss: 0.69475, accuracy: 0.54330
+2024-08-10 14:13:49,334 - INFO - train.py[:124] - epoch: 1/1, step: 478/571, loss: 0.69457, accuracy: 0.54348
+2024-08-10 14:13:55,248 - INFO - train.py[:124] - epoch: 1/1, step: 479/571, loss: 0.69439, accuracy: 0.54384
+2024-08-10 14:14:01,058 - INFO - train.py[:124] - epoch: 1/1, step: 480/571, loss: 0.69408, accuracy: 0.54434
+2024-08-10 14:14:06,824 - INFO - train.py[:124] - epoch: 1/1, step: 481/571, loss: 0.69407, accuracy: 0.54450
+2024-08-10 14:14:13,130 - INFO - train.py[:124] - epoch: 1/1, step: 482/571, loss: 0.69385, accuracy: 0.54448
+2024-08-10 14:14:19,262 - INFO - train.py[:124] - epoch: 1/1, step: 483/571, loss: 0.69359, accuracy: 0.54484
+2024-08-10 14:14:25,364 - INFO - train.py[:124] - epoch: 1/1, step: 484/571, loss: 0.69342, accuracy: 0.54474
+2024-08-10 14:14:31,371 - INFO - train.py[:124] - epoch: 1/1, step: 485/571, loss: 0.69315, accuracy: 0.54504
+2024-08-10 14:14:37,352 - INFO - train.py[:124] - epoch: 1/1, step: 486/571, loss: 0.69297, accuracy: 0.54527
+2024-08-10 14:14:43,278 - INFO - train.py[:124] - epoch: 1/1, step: 487/571, loss: 0.69298, accuracy: 0.54550
+2024-08-10 14:14:49,425 - INFO - train.py[:124] - epoch: 1/1, step: 488/571, loss: 0.69305, accuracy: 0.54579
+2024-08-10 14:14:55,648 - INFO - train.py[:124] - epoch: 1/1, step: 489/571, loss: 0.69314, accuracy: 0.54550
+2024-08-10 14:15:01,781 - INFO - train.py[:124] - epoch: 1/1, step: 490/571, loss: 0.69307, accuracy: 0.54566
+2024-08-10 14:15:07,915 - INFO - train.py[:124] - epoch: 1/1, step: 491/571, loss: 0.69283, accuracy: 0.54576
+2024-08-10 14:15:14,026 - INFO - train.py[:124] - epoch: 1/1, step: 492/571, loss: 0.69284, accuracy: 0.54573
+2024-08-10 14:15:20,118 - INFO - train.py[:124] - epoch: 1/1, step: 493/571, loss: 0.69271, accuracy: 0.54583
+2024-08-10 14:15:26,317 - INFO - train.py[:124] - epoch: 1/1, step: 494/571, loss: 0.69240, accuracy: 0.54624
+2024-08-10 14:15:33,244 - INFO - train.py[:124] - epoch: 1/1, step: 495/571, loss: 0.69223, accuracy: 0.54640
+2024-08-10 14:15:39,682 - INFO - train.py[:124] - epoch: 1/1, step: 496/571, loss: 0.69229, accuracy: 0.54643
+2024-08-10 14:15:45,965 - INFO - train.py[:124] - epoch: 1/1, step: 497/571, loss: 0.69219, accuracy: 0.54634
+2024-08-10 14:15:52,103 - INFO - train.py[:124] - epoch: 1/1, step: 498/571, loss: 0.69194, accuracy: 0.54650
+2024-08-10 14:15:58,356 - INFO - train.py[:124] - epoch: 1/1, step: 499/571, loss: 0.69171, accuracy: 0.54678
+2024-08-10 14:16:04,626 - INFO - train.py[:124] - epoch: 1/1, step: 500/571, loss: 0.69159, accuracy: 0.54681
+2024-08-10 14:16:10,705 - INFO - train.py[:124] - epoch: 1/1, step: 501/571, loss: 0.69153, accuracy: 0.54672
+2024-08-10 14:16:16,720 - INFO - train.py[:124] - epoch: 1/1, step: 502/571, loss: 0.69143, accuracy: 0.54656
+2024-08-10 14:16:22,801 - INFO - train.py[:124] - epoch: 1/1, step: 503/571, loss: 0.69124, accuracy: 0.54666
+2024-08-10 14:16:28,905 - INFO - train.py[:124] - epoch: 1/1, step: 504/571, loss: 0.69115, accuracy: 0.54688
+2024-08-10 14:16:34,970 - INFO - train.py[:124] - epoch: 1/1, step: 505/571, loss: 0.69092, accuracy: 0.54709
+2024-08-10 14:16:41,045 - INFO - train.py[:124] - epoch: 1/1, step: 506/571, loss: 0.69080, accuracy: 0.54743
+2024-08-10 14:16:47,226 - INFO - train.py[:124] - epoch: 1/1, step: 507/571, loss: 0.69075, accuracy: 0.54752
+2024-08-10 14:16:53,292 - INFO - train.py[:124] - epoch: 1/1, step: 508/571, loss: 0.69082, accuracy: 0.54755
+2024-08-10 14:16:59,376 - INFO - train.py[:124] - epoch: 1/1, step: 509/571, loss: 0.69065, accuracy: 0.54783
+2024-08-10 14:17:05,368 - INFO - train.py[:124] - epoch: 1/1, step: 510/571, loss: 0.69046, accuracy: 0.54798
+2024-08-10 14:17:11,526 - INFO - train.py[:124] - epoch: 1/1, step: 511/571, loss: 0.69032, accuracy: 0.54776
+2024-08-10 14:17:17,526 - INFO - train.py[:124] - epoch: 1/1, step: 512/571, loss: 0.69022, accuracy: 0.54791
+2024-08-10 14:17:23,534 - INFO - train.py[:124] - epoch: 1/1, step: 513/571, loss: 0.69009, accuracy: 0.54794
+2024-08-10 14:17:29,579 - INFO - train.py[:124] - epoch: 1/1, step: 514/571, loss: 0.69000, accuracy: 0.54797
+2024-08-10 14:17:35,583 - INFO - train.py[:124] - epoch: 1/1, step: 515/571, loss: 0.68999, accuracy: 0.54769
+2024-08-10 14:17:41,724 - INFO - train.py[:124] - epoch: 1/1, step: 516/571, loss: 0.68983, accuracy: 0.54790
+2024-08-10 14:17:47,890 - INFO - train.py[:124] - epoch: 1/1, step: 517/571, loss: 0.68970, accuracy: 0.54793
+2024-08-10 14:17:53,883 - INFO - train.py[:124] - epoch: 1/1, step: 518/571, loss: 0.68953, accuracy: 0.54796
+2024-08-10 14:17:59,956 - INFO - train.py[:124] - epoch: 1/1, step: 519/571, loss: 0.68947, accuracy: 0.54805
+2024-08-10 14:18:06,070 - INFO - train.py[:124] - epoch: 1/1, step: 520/571, loss: 0.68928, accuracy: 0.54808
+2024-08-10 14:18:12,260 - INFO - train.py[:124] - epoch: 1/1, step: 521/571, loss: 0.68915, accuracy: 0.54810
+2024-08-10 14:18:18,472 - INFO - train.py[:124] - epoch: 1/1, step: 522/571, loss: 0.68899, accuracy: 0.54819
+2024-08-10 14:18:24,615 - INFO - train.py[:124] - epoch: 1/1, step: 523/571, loss: 0.68887, accuracy: 0.54822
+2024-08-10 14:18:30,565 - INFO - train.py[:124] - epoch: 1/1, step: 524/571, loss: 0.68887, accuracy: 0.54807
+2024-08-10 14:18:36,637 - INFO - train.py[:124] - epoch: 1/1, step: 525/571, loss: 0.68879, accuracy: 0.54810
+2024-08-10 14:18:42,698 - INFO - train.py[:124] - epoch: 1/1, step: 526/571, loss: 0.68862, accuracy: 0.54842
+2024-08-10 14:18:48,618 - INFO - train.py[:124] - epoch: 1/1, step: 527/571, loss: 0.68852, accuracy: 0.54851
+2024-08-10 14:18:54,720 - INFO - train.py[:124] - epoch: 1/1, step: 528/571, loss: 0.68836, accuracy: 0.54865
+2024-08-10 14:19:00,783 - INFO - train.py[:124] - epoch: 1/1, step: 529/571, loss: 0.68812, accuracy: 0.54897
+2024-08-10 14:19:06,865 - INFO - train.py[:124] - epoch: 1/1, step: 530/571, loss: 0.68787, accuracy: 0.54923
+2024-08-10 14:19:12,841 - INFO - train.py[:124] - epoch: 1/1, step: 531/571, loss: 0.68769, accuracy: 0.54949
+2024-08-10 14:19:18,831 - INFO - train.py[:124] - epoch: 1/1, step: 532/571, loss: 0.68774, accuracy: 0.54940
+2024-08-10 14:19:24,843 - INFO - train.py[:124] - epoch: 1/1, step: 533/571, loss: 0.68776, accuracy: 0.54937
+2024-08-10 14:19:30,969 - INFO - train.py[:124] - epoch: 1/1, step: 534/571, loss: 0.68754, accuracy: 0.54945
+2024-08-10 14:19:37,205 - INFO - train.py[:124] - epoch: 1/1, step: 535/571, loss: 0.68741, accuracy: 0.54947
+2024-08-10 14:19:43,383 - INFO - train.py[:124] - epoch: 1/1, step: 536/571, loss: 0.68740, accuracy: 0.54938
+2024-08-10 14:19:49,338 - INFO - train.py[:124] - epoch: 1/1, step: 537/571, loss: 0.68758, accuracy: 0.54946
+2024-08-10 14:19:55,170 - INFO - train.py[:124] - epoch: 1/1, step: 538/571, loss: 0.68756, accuracy: 0.54943
+2024-08-10 14:20:01,155 - INFO - train.py[:124] - epoch: 1/1, step: 539/571, loss: 0.68755, accuracy: 0.54928
+2024-08-10 14:20:07,148 - INFO - train.py[:124] - epoch: 1/1, step: 540/571, loss: 0.68770, accuracy: 0.54913
+2024-08-10 14:20:13,509 - INFO - train.py[:124] - epoch: 1/1, step: 541/571, loss: 0.68753, accuracy: 0.54933
+2024-08-10 14:20:19,933 - INFO - train.py[:124] - epoch: 1/1, step: 542/571, loss: 0.68744, accuracy: 0.54953
+2024-08-10 14:20:25,936 - INFO - train.py[:124] - epoch: 1/1, step: 543/571, loss: 0.68732, accuracy: 0.54967
+2024-08-10 14:20:31,824 - INFO - train.py[:124] - epoch: 1/1, step: 544/571, loss: 0.68719, accuracy: 0.54963
+2024-08-10 14:20:37,796 - INFO - train.py[:124] - epoch: 1/1, step: 545/571, loss: 0.68702, accuracy: 0.54960
+2024-08-10 14:20:44,525 - INFO - train.py[:124] - epoch: 1/1, step: 546/571, loss: 0.68699, accuracy: 0.54962
+2024-08-10 14:20:50,848 - INFO - train.py[:124] - epoch: 1/1, step: 547/571, loss: 0.68685, accuracy: 0.54982
+2024-08-10 14:20:56,974 - INFO - train.py[:124] - epoch: 1/1, step: 548/571, loss: 0.68667, accuracy: 0.54995
+2024-08-10 14:21:03,054 - INFO - train.py[:124] - epoch: 1/1, step: 549/571, loss: 0.68651, accuracy: 0.55009
+2024-08-10 14:21:08,983 - INFO - train.py[:124] - epoch: 1/1, step: 550/571, loss: 0.68639, accuracy: 0.55006
+2024-08-10 14:21:15,024 - INFO - train.py[:124] - epoch: 1/1, step: 551/571, loss: 0.68631, accuracy: 0.55014
+2024-08-10 14:21:21,052 - INFO - train.py[:124] - epoch: 1/1, step: 552/571, loss: 0.68617, accuracy: 0.55027
+2024-08-10 14:21:27,128 - INFO - train.py[:124] - epoch: 1/1, step: 553/571, loss: 0.68605, accuracy: 0.55046
+2024-08-10 14:21:33,340 - INFO - train.py[:124] - epoch: 1/1, step: 554/571, loss: 0.68577, accuracy: 0.55088
+2024-08-10 14:21:39,445 - INFO - train.py[:124] - epoch: 1/1, step: 555/571, loss: 0.68578, accuracy: 0.55068
+2024-08-10 14:21:45,489 - INFO - train.py[:124] - epoch: 1/1, step: 556/571, loss: 0.68578, accuracy: 0.55058
+2024-08-10 14:21:51,479 - INFO - train.py[:124] - epoch: 1/1, step: 557/571, loss: 0.68576, accuracy: 0.55061
+2024-08-10 14:21:57,463 - INFO - train.py[:124] - epoch: 1/1, step: 558/571, loss: 0.68571, accuracy: 0.55052
+2024-08-10 14:22:03,674 - INFO - train.py[:124] - epoch: 1/1, step: 559/571, loss: 0.68562, accuracy: 0.55076
+2024-08-10 14:22:09,706 - INFO - train.py[:124] - epoch: 1/1, step: 560/571, loss: 0.68550, accuracy: 0.55073
+2024-08-10 14:22:15,769 - INFO - train.py[:124] - epoch: 1/1, step: 561/571, loss: 0.68535, accuracy: 0.55075
+2024-08-10 14:22:21,918 - INFO - train.py[:124] - epoch: 1/1, step: 562/571, loss: 0.68519, accuracy: 0.55105
+2024-08-10 14:22:28,119 - INFO - train.py[:124] - epoch: 1/1, step: 563/571, loss: 0.68514, accuracy: 0.55095
+2024-08-10 14:22:34,547 - INFO - train.py[:124] - epoch: 1/1, step: 564/571, loss: 0.68512, accuracy: 0.55109
+2024-08-10 14:22:40,832 - INFO - train.py[:124] - epoch: 1/1, step: 565/571, loss: 0.68500, accuracy: 0.55127
+2024-08-10 14:22:47,210 - INFO - train.py[:124] - epoch: 1/1, step: 566/571, loss: 0.68497, accuracy: 0.55129
+2024-08-10 14:22:53,536 - INFO - train.py[:124] - epoch: 1/1, step: 567/571, loss: 0.68492, accuracy: 0.55104
+2024-08-10 14:23:00,079 - INFO - train.py[:124] - epoch: 1/1, step: 568/571, loss: 0.68493, accuracy: 0.55106
+2024-08-10 14:23:06,793 - INFO - train.py[:124] - epoch: 1/1, step: 569/571, loss: 0.68481, accuracy: 0.55108
+2024-08-10 14:23:13,489 - INFO - train.py[:124] - epoch: 1/1, step: 570/571, loss: 0.68474, accuracy: 0.55099
+2024-08-10 14:23:28,052 - INFO - train.py[:124] - epoch: 1/1, step: 571/571, loss: 0.68467, accuracy: 0.55096
+2024-08-10 14:23:28,063 - INFO - train.py[:128] - ====================================================================================================
+2024-08-10 14:23:32,386 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.75615, valid accuracy: 0.21875
+2024-08-10 14:23:35,396 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.73649, valid accuracy: 0.28125
+2024-08-10 14:23:38,390 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.71439, valid accuracy: 0.33333
+2024-08-10 14:23:41,433 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.72007, valid accuracy: 0.32031
+2024-08-10 14:23:44,601 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.72808, valid accuracy: 0.29375
+2024-08-10 14:23:47,549 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.69914, valid accuracy: 0.34896
+2024-08-10 14:23:50,628 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.70405, valid accuracy: 0.34375
+2024-08-10 14:23:53,556 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.68791, valid accuracy: 0.36328
+2024-08-10 14:23:56,582 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.69265, valid accuracy: 0.35764
+2024-08-10 14:23:59,678 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.68953, valid accuracy: 0.35313
+2024-08-10 14:24:02,845 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67896, valid accuracy: 0.37216
+2024-08-10 14:24:05,825 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67380, valid accuracy: 0.37240
+2024-08-10 14:24:08,937 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67488, valid accuracy: 0.37500
+2024-08-10 14:24:11,908 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67406, valid accuracy: 0.37500
+2024-08-10 14:24:14,915 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67504, valid accuracy: 0.37083
+2024-08-10 14:24:17,883 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67455, valid accuracy: 0.37500
+2024-08-10 14:24:20,817 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67941, valid accuracy: 0.36765
+2024-08-10 14:24:23,808 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.68085, valid accuracy: 0.36632
+2024-08-10 14:24:26,745 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67881, valid accuracy: 0.36349
+2024-08-10 14:24:29,681 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67895, valid accuracy: 0.36406
+2024-08-10 14:24:32,631 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67986, valid accuracy: 0.36607
+2024-08-10 14:24:35,566 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67654, valid accuracy: 0.37358
+2024-08-10 14:24:38,546 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67576, valid accuracy: 0.37364
+2024-08-10 14:24:41,549 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67585, valid accuracy: 0.37630
+2024-08-10 14:24:44,522 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67795, valid accuracy: 0.37375
+2024-08-10 14:24:47,481 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67812, valid accuracy: 0.37620
+2024-08-10 14:24:50,412 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67786, valid accuracy: 0.37616
+2024-08-10 14:24:53,337 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.68147, valid accuracy: 0.37277
+2024-08-10 14:24:56,276 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67946, valid accuracy: 0.37716
+2024-08-10 14:24:59,196 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.68036, valid accuracy: 0.37396
+2024-08-10 14:25:02,175 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67926, valid accuracy: 0.37198
+2024-08-10 14:25:05,137 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67589, valid accuracy: 0.37695
+2024-08-10 14:25:08,066 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67572, valid accuracy: 0.37500
+2024-08-10 14:25:11,117 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67538, valid accuracy: 0.37592
+2024-08-10 14:25:14,081 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67433, valid accuracy: 0.37679
+2024-08-10 14:25:17,045 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67422, valid accuracy: 0.38021
+2024-08-10 14:25:20,033 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67548, valid accuracy: 0.38007
+2024-08-10 14:25:22,988 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67597, valid accuracy: 0.37911
+2024-08-10 14:25:25,933 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67609, valid accuracy: 0.37740
+2024-08-10 14:25:28,879 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67436, valid accuracy: 0.38281
+2024-08-10 14:25:31,843 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67584, valid accuracy: 0.37957
+2024-08-10 14:25:34,802 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67574, valid accuracy: 0.37798
+2024-08-10 14:25:37,775 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67607, valid accuracy: 0.37500
+2024-08-10 14:25:40,778 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67725, valid accuracy: 0.37216
+2024-08-10 14:25:43,717 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67782, valid accuracy: 0.37153
+2024-08-10 14:25:46,729 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67625, valid accuracy: 0.37364
+2024-08-10 14:25:49,662 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67591, valid accuracy: 0.37234
+2024-08-10 14:25:52,646 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67575, valid accuracy: 0.37240
+2024-08-10 14:25:55,680 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67363, valid accuracy: 0.37564
+2024-08-10 14:25:58,614 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67411, valid accuracy: 0.37750
+2024-08-10 14:26:01,547 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67322, valid accuracy: 0.37868
+2024-08-10 14:26:04,457 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67263, valid accuracy: 0.37921
+2024-08-10 14:26:07,396 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67384, valid accuracy: 0.37795
+2024-08-10 14:26:10,383 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67439, valid accuracy: 0.37905
+2024-08-10 14:26:13,320 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67297, valid accuracy: 0.38068
+2024-08-10 14:26:16,251 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67357, valid accuracy: 0.37946
+2024-08-10 14:26:19,220 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67399, valid accuracy: 0.37939
+2024-08-10 14:26:22,146 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67417, valid accuracy: 0.37877
+2024-08-10 14:26:25,144 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67394, valid accuracy: 0.37765
+2024-08-10 14:26:28,106 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67484, valid accuracy: 0.37604
+2024-08-10 14:26:31,034 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67417, valid accuracy: 0.37654
+2024-08-10 14:26:33,990 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67438, valid accuracy: 0.37550
+2024-08-10 14:26:36,935 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67473, valid accuracy: 0.37649
+2024-08-10 14:26:39,897 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67608, valid accuracy: 0.37451
+2024-08-10 14:26:42,825 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67579, valid accuracy: 0.37500
+2024-08-10 14:26:45,737 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67540, valid accuracy: 0.37547
+2024-08-10 14:26:48,651 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67630, valid accuracy: 0.37500
+2024-08-10 14:26:51,569 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67679, valid accuracy: 0.37408
+2024-08-10 14:26:54,497 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67775, valid accuracy: 0.37409
+2024-08-10 14:26:57,414 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67713, valid accuracy: 0.37500
+2024-08-10 14:27:00,389 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67700, valid accuracy: 0.37456
+2024-08-10 14:27:03,410 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67659, valid accuracy: 0.37457
+2024-08-10 14:27:06,339 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67600, valid accuracy: 0.37757
+2024-08-10 14:27:09,269 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67551, valid accuracy: 0.38345
+2024-08-10 14:27:12,304 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67460, valid accuracy: 0.38875
+2024-08-10 14:27:15,242 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67342, valid accuracy: 0.39474
+2024-08-10 14:27:18,198 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67243, valid accuracy: 0.40057
+2024-08-10 14:27:21,081 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67262, valid accuracy: 0.40545
+2024-08-10 14:27:23,999 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67113, valid accuracy: 0.41297
+2024-08-10 14:27:26,911 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67052, valid accuracy: 0.41797
+2024-08-10 14:27:29,830 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.67013, valid accuracy: 0.42323
+2024-08-10 14:27:32,744 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66958, valid accuracy: 0.42797
+2024-08-10 14:27:35,686 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66860, valid accuracy: 0.43298
+2024-08-10 14:27:38,591 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66803, valid accuracy: 0.43862
+2024-08-10 14:27:41,478 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66735, valid accuracy: 0.44228
+2024-08-10 14:27:44,384 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66688, valid accuracy: 0.44695
+2024-08-10 14:27:47,283 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66675, valid accuracy: 0.45151
+2024-08-10 14:27:50,195 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66572, valid accuracy: 0.45561
+2024-08-10 14:27:53,099 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66583, valid accuracy: 0.45997
+2024-08-10 14:27:56,006 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66554, valid accuracy: 0.46389
+2024-08-10 14:27:58,906 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66434, valid accuracy: 0.46875
+2024-08-10 14:28:01,848 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66355, valid accuracy: 0.47351
+2024-08-10 14:28:04,732 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66320, valid accuracy: 0.47749
+2024-08-10 14:28:07,636 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66294, valid accuracy: 0.48072
+2024-08-10 14:28:10,545 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66227, valid accuracy: 0.48454
+2024-08-10 14:28:13,540 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66180, valid accuracy: 0.48763
+2024-08-10 14:28:16,468 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66128, valid accuracy: 0.49098
+2024-08-10 14:28:19,371 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66072, valid accuracy: 0.49458
+2024-08-10 14:28:22,259 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.66007, valid accuracy: 0.49747
+2024-08-10 14:28:25,178 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65962, valid accuracy: 0.50125
+2024-08-10 14:28:28,134 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65916, valid accuracy: 0.50371
+2024-08-10 14:28:31,064 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65850, valid accuracy: 0.50797
+2024-08-10 14:28:33,942 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65787, valid accuracy: 0.51123
+2024-08-10 14:28:36,901 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65707, valid accuracy: 0.51472
+2024-08-10 14:28:39,835 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65635, valid accuracy: 0.51845
+2024-08-10 14:28:42,724 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65657, valid accuracy: 0.52064
+2024-08-10 14:28:45,651 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65643, valid accuracy: 0.52336
+2024-08-10 14:28:48,532 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65577, valid accuracy: 0.52604
+2024-08-10 14:28:51,430 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65488, valid accuracy: 0.52953
+2024-08-10 14:28:54,328 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65447, valid accuracy: 0.53210
+2024-08-10 14:28:57,244 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65395, valid accuracy: 0.53491
+2024-08-10 14:29:00,155 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65337, valid accuracy: 0.53823
+2024-08-10 14:29:03,066 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65307, valid accuracy: 0.54038
+2024-08-10 14:29:06,013 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65254, valid accuracy: 0.54304
+2024-08-10 14:29:08,938 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65244, valid accuracy: 0.54565
+2024-08-10 14:29:11,836 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65183, valid accuracy: 0.54849
+2024-08-10 14:29:14,763 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65111, valid accuracy: 0.55155
+2024-08-10 14:29:17,674 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65117, valid accuracy: 0.55297
+2024-08-10 14:29:20,557 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65056, valid accuracy: 0.55593
+2024-08-10 14:29:23,439 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65009, valid accuracy: 0.55833
+2024-08-10 14:29:26,346 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65036, valid accuracy: 0.56069
+2024-08-10 14:29:29,276 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65096, valid accuracy: 0.56122
+2024-08-10 14:29:31,357 - INFO - train.py[:144] - Epoch: 1/1, train loss: 0.68467, train accuracy: 0.55096, valid loss: 0.65046, valid accuracy: 0.56186
