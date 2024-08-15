@@ -8,6 +8,7 @@
 用于评估和检验输出模型的预测能力
 """
 
+
 import os
 import numpy as np
 import tensorflow as tf
@@ -38,7 +39,7 @@ def evaluate():
 
     # load the model
     model = get_model()
-    model.load_weights(filepath=config.save_model_dir_20x)
+    model.load_weights(filepath=config.save_model_dir_20x_best)
 
     # Get the accuracy on the test set
     loss_object = tf.keras.metrics.SparseCategoricalCrossentropy()
@@ -80,7 +81,7 @@ def evaluate():
     for i in zip(dic_N, mcy_N):
         predict_img.append(read_img(i[0], i[1]))
         step += 1
-        if step > 150:
+        if step > 200:
             break
     dt = tf.convert_to_tensor(np.array(predict_img))
     print(dt.shape)

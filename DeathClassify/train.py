@@ -11,7 +11,7 @@ from prepare_dataset import generate_datasets_20x
 import config
 
 import logging
-import datetime
+import time
 import sys
 
 logger = logging.getLogger('mylogger')
@@ -21,7 +21,7 @@ rf_handler.setLevel(logging.DEBUG)
 # rf_handler = logging.handlers.TimedRotatingFileHandler('all.log', when='midnight', interval=1, backupCount=7, atTime=datetime.time(0, 0, 0, 0))
 rf_handler.setFormatter(logging.Formatter("%(asctime)s - %(name)s - %(message)s"))
 
-f_handler = logging.FileHandler('training.log')
+f_handler = logging.FileHandler(f'{time.strftime("%Y-%m-%d_%H-%M-%S")}-training.log')
 f_handler.setLevel(logging.INFO)
 f_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(message)s"))
 
@@ -57,6 +57,7 @@ def train():
 
     # create model
     model = get_model()
+    model.load_weights(config.save_model_dir_20x_best)
 
     # define loss and optimizer
     loss_object = tf.keras.losses.SparseCategoricalCrossentropy()
