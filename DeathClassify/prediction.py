@@ -46,8 +46,8 @@ class Predictor:
 
     def __init__(self, times=config.TIMES):
         self.model = get_model()
-        # self.model.load_weights(filepath=config.save_model_dir_20x_best)
-        self.model.load_weights(filepath=config.save_model_dir_20x)
+        self.model.load_weights(filepath=config.save_model_dir_20x_best)
+        # self.model.load_weights(filepath=config.save_model_dir_20x)
 
     def predict(self, images):
         """
@@ -145,6 +145,22 @@ class Prediction:
             x1 = math.ceil(np.max(i[0]))
             y0 = int(np.min(i[1]))
             y1 = math.ceil(np.max(i[1]))
+            w = x1 - x0
+            h = y1 - y0
+            # 计算增加的尺寸
+            w_increase = w * 0.30
+            h_increase = h * 0.30
+            # 计算新的坐标点
+            new_x0 = x0 - math.floor(w_increase)
+            new_x1 = x1 + math.ceil(w_increase)
+            new_y0 = y0 - math.floor(h_increase)
+            new_y1 = y1 + math.ceil(h_increase)
+
+            x0 = new_x0
+            x1 = new_x1
+            y0 = new_y0
+            y1 = new_y1
+
             if x0 < 0:
                 x0 = 0
             if y0 < 0:
@@ -320,26 +336,26 @@ class Segmentation(object):
                 },
             "region_attributes":
                 {
-                    "phase": None
+                    "phase": None,
                 }
         }
 
         predictor = Prediction(mcy=self.img_mcy, dic=self.img_dic, rois=rois,
                                predictor=self.predictor)
 
-        phases, rois_after_filter = predictor.predict()
-        assert len(rois_after_filter) == len(phases)
-        for i in zip(rois, phases):
+        death, rois_after_filter = predictor.predict()
+        assert len(rois_after_filter) == len(death)
+        for i in zip(rois, death):
             all_x = []
             all_y = []
             for j in range(i[0].shape[1]):
                 all_x.append(float(i[0][:, j][1]))
                 all_y.append(float(i[0][:, j][0]))
-            phase = i[1]
+            death = i[1]
             t = deepcopy(regions_tmp)
             t["shape_attributes"]["all_points_x"] = all_x
             t["shape_attributes"]["all_points_y"] = all_y
-            t["region_attributes"]["phase"] = phase
+            t["region_attributes"]["phase"] = death
             regions.append(t)
         tmp = {
             self.imageName: {
@@ -349,8 +365,8 @@ class Segmentation(object):
                 "file_attributes": {}
             }
         }
-        pl = list(phases)
-        info = (f"predicted num: {len(pl)};  G1/G2: {pl.count('G1/G2')}  S: {pl.count('S')}  M: {pl.count('M')}\n")
+        pl = list(death)
+        info = (f"predicted num: {len(pl)};  Death: {pl.count('D')}  Normal: {pl.count('N')}\n")
         return tmp, info
 
     @property

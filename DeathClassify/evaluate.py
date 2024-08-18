@@ -38,7 +38,7 @@ def evaluate():
 
     # load the model
     model = get_model()
-    model.load_weights(filepath=config.save_model_dir_20x)
+    model.load_weights(filepath=config.save_model_dir_20x_best)
 
     # Get the accuracy on the test set
     loss_object = tf.keras.metrics.SparseCategoricalCrossentropy()
