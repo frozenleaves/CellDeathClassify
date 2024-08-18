@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 
 class SplitDataset(object):
-    def __init__(self, dataset_dir, saved_dataset_dir, train_ratio=0.7, test_ratio=0.15, show_progress=False):
+    def __init__(self, dataset_dir, saved_dataset_dir, train_ratio=0.6, test_ratio=0.15, show_progress=False):
         self.dataset_dir = dataset_dir
         self.saved_dataset_dir = saved_dataset_dir
         self.saved_train_dir = os.path.join(saved_dataset_dir, "train")
@@ -130,7 +130,7 @@ def split(dataset_mcy_path, save_mcy_path):
 
 
 if __name__ == '__main__':
-    split_dataset = SplitDataset(dataset_dir=r'C:\Users\wjq\Desktop\json-文件和图象\04\train_classification_dataset\mcy',
-                                 saved_dataset_dir=r'G:\DeathDataset\train\train_mcy',
+    split_dataset = SplitDataset(dataset_dir=r'G:\paper\evaluate_data\copy_of_1_xy10\train_classification_dataset\mcy',
+                                 saved_dataset_dir=r'G:\paper\evaluate_data\copy_of_1_xy10\train\train_mcy',
                                  show_progress=False)
     split_dataset.start_splitting()
