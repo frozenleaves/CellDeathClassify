@@ -3,6 +3,7 @@
 """
 from __future__ import print_function, unicode_literals, absolute_import, division, annotations
 
+import csv
 import json
 import logging
 import math
@@ -10,6 +11,7 @@ import os
 from copy import deepcopy
 from typing import Tuple, List
 
+import matplotlib.pyplot as plt
 import tifffile
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -57,17 +59,22 @@ class Predictor:
         phaseMap = {0: 'D', 1: 'N'}
         img = images
         # img = cv2.resize(img, (128, 128)) / 255.0
-        tensor = tf.convert_to_tensor(img, dtype=tf.float64)
+        tensor = tf.convert_to_tensor(np.array(img))
+        # tensor = tf.convert_to_tensor(img, dtype=tf.float64)
 
         prediction = self.model(tensor, training=False)
         # print(prediction)
         phases = []
+        raw = []
         for i in prediction:
-            logging.info(i)
+            # logging.info(i)
             phase = np.argwhere(i == np.max(i))[0][0]
-            logging.info(phase)
-            logging.info(phaseMap[phase])
+            # logging.info(phase)
+            # logging.info(phaseMap[phase])
             phases.append(phaseMap.get(phase))
+            raw.append(phase)
+        logging.info(f"raw: {raw}")
+        logging.info(f"Normal: {phases.count('N')}  Death: {phases.count('D')}")
         return phases
 
 
@@ -140,6 +147,7 @@ class Prediction:
         同时会过滤掉过于小的实例，一并返回过滤后的roi信息"""
         image_data = []
         rois_after_filter = []
+        index = 0
         for i in self.rois:
             x0 = int(np.min(i[0]))
             x1 = math.ceil(np.max(i[0]))
@@ -167,17 +175,20 @@ class Prediction:
                 y0 = 0
             __mcy = self.imgMcy[x0:x1, y0:y1]
             __dic = self.imgDic[x0:x1, y0:y1]
+            fname = f"G:\DeathDataset\debug\img-{index}.png"
 
             # if 0 in __mcy.shape or np.max(__mcy.shape) < 30 or np.min(__mcy.shape)<20:
             #     # print("filter instance: ", __mcy.shape)
             #     continue
             rois_after_filter.append(i)
-            mcy = self.__convert_dtype(__mcy)
-            dic = self.__convert_dtype(__dic)
+            # mcy = self.__convert_dtype(__mcy)
+            # dic = self.__convert_dtype(__dic)
+            # plt.imsave(fname, mcy, cmap='gray')
+            index += 1
             instance_id = hashlib.md5(str(i).encode()).hexdigest()
             data = utils.Data()
-            data.image_dic = cv2.resize(dic, (config.image_width, config.image_height)) / 255
-            data.image_mcy = cv2.resize(mcy, (config.image_width, config.image_height)) / 255
+            data.image_dic = cv2.resize(__dic, (config.image_width, config.image_height)) / 255
+            data.image_mcy = cv2.resize(__mcy, (config.image_width, config.image_height)) / 255
             data.image_id = instance_id
             image_data.append(data)
         return image_data, rois_after_filter
@@ -343,9 +354,9 @@ class Segmentation(object):
         predictor = Prediction(mcy=self.img_mcy, dic=self.img_dic, rois=rois,
                                predictor=self.predictor)
 
-        death, rois_after_filter = predictor.predict()
-        assert len(rois_after_filter) == len(death)
-        for i in zip(rois, death):
+        phases, rois_after_filter = predictor.predict()
+        assert len(rois_after_filter) == len(phases)
+        for i in zip(rois, phases):
             all_x = []
             all_y = []
             for j in range(i[0].shape[1]):
@@ -365,8 +376,8 @@ class Segmentation(object):
                 "file_attributes": {}
             }
         }
-        pl = list(death)
-        info = (f"predicted num: {len(pl)};  Death: {pl.count('D')}  Normal: {pl.count('N')}\n")
+        pl = list(phases)
+        info = (len(pl),  pl.count('D'), pl.count('N'))
         return tmp, info
 
     @property
@@ -386,6 +397,7 @@ def segment(pcna: os.PathLike | str, bf: os.PathLike | str, output: os.PathLike 
     segmenter = Segmenter(segment_model=segment_model)
     predictor = Predictor()
     _xrange = xrange
+    record_info = []
     while True:
         try:
             # mcy_img, imagename = next(mcy_data)
@@ -404,6 +416,7 @@ def segment(pcna: os.PathLike | str, bf: os.PathLike | str, output: os.PathLike 
             end_time = time.time()
             logging.info(f'segment {os.path.basename(imagename)}; cost time: {end_time - start_time:.2f}s')
             logging.info(predict_phase_info)
+            record_info.append((os.path.basename(imagename), *predict_phase_info))
             del seg
             if _xrange is not None:
                 _xrange -= 1
@@ -411,6 +424,11 @@ def segment(pcna: os.PathLike | str, bf: os.PathLike | str, output: os.PathLike 
                     break
         except StopIteration:
             break
+    statistic_filename = os.path.basename(pcna).replace('.tif', 'csv')
+    with open(statistic_filename, 'w', newline='') as fc:
+        writer = csv.writer(fc)
+        writer.writerow(['frame_name', 'all_count', 'death_count', 'normal_count'])
+        writer.writerows(record_info)
     json_filename = os.path.basename(pcna).replace('.tif', '.json')
     if output:
         out = output
@@ -418,12 +436,15 @@ def segment(pcna: os.PathLike | str, bf: os.PathLike | str, output: os.PathLike 
         out = json_filename
     with open(out, 'w') as f:
         json.dump(jsons, f)
+
+
     return jsons
 
 
 def run(pcna, bf, output):
-    mcy_data = tifffile.imread(pcna)
-    dic_data = tifffile.imread(bf)
+    segment(pcna, bf, output)
+    mcy_data = tifffile.imread(pcna)[0,:,:]
+    dic_data = tifffile.imread(bf)[0,:,:]
     segmenter = Segmenter(segment_model=None)
     predictor = Predictor()
     mcy_img = mcy_data
@@ -455,31 +476,10 @@ def run(pcna, bf, output):
 
 
 if __name__ == '__main__':
-    run(pcna=r'G:\硕士毕业论文\CellDeathClassify\DeathClassify\examples\mcy.tif',
-         bf=r'G:\硕士毕业论文\CellDeathClassify\DeathClassify\examples\dic.tif',
-         output=r'G:\硕士毕业论文\CellDeathClassify\DeathClassify\examples\demo.json')
-    # utils.tif2png(r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\mcy\copy_of_01.tif',
-    #               r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\png')
+    run(bf=r"H:\20240729rpe-pcna-y530f+wtrpe-pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slide\0\copy_of_rpe=pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slidend2001_0_dic.tif",
+         pcna=r"H:\20240729rpe-pcna-y530f+wtrpe-pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slide\0\copy_of_rpe=pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slidend2001_0_pcna.tif",
+         output=r'H:\20240729rpe-pcna-y530f+wtrpe-pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slide\0\demo.json')
 
-    # segment(pcna=r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\mcy\copy_of_01.tif',
-    #         bf=r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\dic\copy_of_01.tif',
-    #         output=r'G:\Frozenleaves\20211130-10A-b10-24h-20X-1-10-ctrl-11-20-SR3029\copy_of_01\copy_of_01.json,
-    #         segment_model=None)
-
-    # segment(pcna=r'G:\20x_dataset\copy_of_xy_16\raw\copy_of_1_xy16-mcy.tif',
-    #         bf=r'G:\20x_dataset\copy_of_xy_16\raw\copy_of_1_xy16-dic.tif',
-    #         output=r'G:\20x_dataset\copy_of_xy_16\raw\copy_of_1_xy16_new.json, segment_model=None)
-
-    # segment(pcna='/home/zje/CellClassify/predict_data/dataset/test_pcna.tif',
-    #         bf='/home/zje/CellClassify/predict_data/dataset/test_dic.tif',
-    #         output='/home/zje/CellClassify/predict_data/dataset/test_result.json', segment_model=model)
-
-    # mcy = '/home/zje/CellClassify/predict_data/dataset/60x_test_predict_phase/mcy'
-    # dic = '/home/zje/CellClassify/predict_data/dataset/60x_test_predict_phase/dic'
-    # ann = '/home/zje/CellClassify/predict_data/dataset/60x_test_predict_phase/20200729-RPE-s2_cpd.json'
-    #
-    # p = Predict(mcy=mcy, dic=dic, annotation_json=ann, imagesize=(1200, 1200))
-    # p.predict(frame=None)
 
 
 

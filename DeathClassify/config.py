@@ -12,7 +12,7 @@ LEARNING_RATE   = 1e-6
 TIMES           = 20  # Image magnification
 
 
-SEG_DEV = True  # 是否启用开发版本的segment model
+SEG_DEV = False  # 是否启用开发版本的segment model
 
 segment_model_name_20x = 'segment_20x_model'
 segment_model_saved_dir_20x = './models/segment/20x/'
