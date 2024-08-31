@@ -476,9 +476,9 @@ def run(pcna, bf, output):
 
 
 if __name__ == '__main__':
-    run(bf=r"E:\WJQ\20230315-rpe-pcna-SRC-Y530F\0\copy_of_RPE1-PCNA-Src-Y530F-1-6-Doxy-7-12-control002_0_dic.tif",
-         pcna=r"E:\WJQ\20230315-rpe-pcna-SRC-Y530F\0\copy_of_RPE1-PCNA-Src-Y530F-1-6-Doxy-7-12-control002_0_pcna.tif",
-         output=r'E:\WJQ\20230315-rpe-pcna-SRC-Y530F\0\demo.json')
+    run(bf=r"G:\WJQ\20240101rpe-pcna-y530f+dox-inhibitor\0\copy_of_r-src-y530f-1-5L-6-10DL-11-15DZ-16-20Z-21-25NC-26-30DNC-31-37DF_0_dic.tif",
+         pcna=r"G:\WJQ\20240101rpe-pcna-y530f+dox-inhibitor\0\copy_of_r-src-y530f-1-5L-6-10DL-11-15DZ-16-20Z-21-25NC-26-30DNC-31-37DF_0_pcna.tif",
+         output=r'G:\WJQ\20240101rpe-pcna-y530f+dox-inhibitor\0\demo.json')
 
 
 
