@@ -105,17 +105,22 @@ model = Model()
 path = r"H:\20240729rpe-pcna-y530f+wtrpe-pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slide\0\copy_of_rpe=pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slidend2001_0_pcna.csv"
 path3 = r"H:\20240729rpe-pcna-y530f+wtrpe-pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slide\3\copy_of_rpe=pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slidend2001_3_pcna.csv"
 path5 = r"H:\20240729rpe-pcna-y530f+wtrpe-pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slide\6\copy_of_rpe=pcna-src-y530f-500-30-10-ctrl-wt-50-30-10-ctrl-per3slidend2001_6_pcna.csv"
-# df = pd.read_csv(path)
-# y = df['death_count'] / df['all_count']
-# print(y.values)
-# y = y.values
-# y = np.array(y)
-# xx = list(range(1, len(y) + 1))
-# xx = np.array(xx)
+df = pd.read_csv(path)
+y = df['death_count'] / df['all_count']
+y = y.values
+y = np.array(y)
+xx = list(range(1, len(y) + 1))
+xx = np.array(xx)
+model.fit(xx, y)
 
+new_x, new_y = model.predict(xx)  # 每一组数据，从这里取xy，即表格中的x,y1.y2 y3都i是模拟数据，用真实数据替换
+new_y2 = np.random.normal(new_y, 0.1)
+new_y3 = np.random.normal(new_y, 0.2)
 
-fit([path, path3, path5], ['500ng/ml', '30ng/ml', '10ng/ml'])
-# model.fit(xx, y)
+df = pd.DataFrame({'x': new_x, 'y1': new_y, 'y2': new_y2, 'y3': new_y3})
+df.to_csv(r'C:\Users\wjq\Desktop\test-data.csv', index=False)
 # model.plot(xx, y)
-# # dx = model.derivative(*model.popt)
+# dx = model.derivative(*model.popt)
 # model.calc_derivative(list(range(1, len(y) + 1)), dx)
+
+# fit([path, path3, path5], ['500ng/ml', '30ng/ml', '10ng/ml'])
